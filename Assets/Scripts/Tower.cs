@@ -4,7 +4,7 @@ using System.Collections;
 public class Tower : MonoBehaviour {
 
 	const int TYPE_SNIPER = 0;  
-	const int TYPE_MISSILE = 1;  
+	const int TYPE_MISSILE = 1; 
 
 	// public
 	public int towerType = 0;
@@ -45,6 +45,7 @@ public class Tower : MonoBehaviour {
 			turret.transform.rotation = Quaternion.Euler (e);
 
 			//only shoot when its pointing at target
+			// FIXME: Turret can't fire when its still seeking and the target is too close.
 			if (Mathf.RoundToInt(turret.transform.rotation.eulerAngles.y) == Mathf.RoundToInt(rotation.eulerAngles.y)) {
 				Shoot ();
 			}
