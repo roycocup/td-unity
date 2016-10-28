@@ -8,6 +8,7 @@ public class Tower : MonoBehaviour {
 	public float rotationSpeed = 5f;
 	public float fireCooldown = 2f;
 	public GameObject bulletPrefab; 
+	public int cost = 5; 
 
 	// private 
 	Enemy nearestEnemy;

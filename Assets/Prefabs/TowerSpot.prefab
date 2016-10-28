@@ -22,6 +22,7 @@ GameObject:
   - 33: {fileID: 33000012567500380}
   - 65: {fileID: 65000013413703136}
   - 23: {fileID: 23000012669013390}
+  - 114: {fileID: 114000012964954374}
   m_Layer: 0
   m_Name: TowerSpot
   m_TagString: Untagged
@@ -35,7 +36,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012727772142}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 0.1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -90,3 +91,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114000012964954374
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012727772142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8f09a520a7f49929dc98350ec17026, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sniperTower: {fileID: 1000010911724632, guid: 930ad978ba05c4c72bdc938f469e12d0,
+    type: 2}

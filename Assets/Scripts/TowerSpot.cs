@@ -3,9 +3,11 @@ using System.Collections;
 
 public class TowerSpot : MonoBehaviour {
 
+	public GameObject sniperTower; 
 
 	void OnMouseUp(){
 		GameManager gameManager = GameObject.FindObjectOfType<GameManager> ();
-		Instantiate (gameManager.sniperTowerPrefab, transform.position, transform.rotation);
+
+		gameManager.BuyTower (transform, sniperTower, sniperTower.GetComponent<Tower>().cost); 
 	}
 }

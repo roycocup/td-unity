@@ -10,6 +10,7 @@ public class Enemy : MonoBehaviour {
 	Transform pathNode;
 	float rotation_speed; 
 	int nodeIndex = 0; 
+	int value = 1;
 
 	GameManager gameManager; 
 
@@ -82,14 +83,12 @@ public class Enemy : MonoBehaviour {
 
 	void ReachedGoal(){
 		gameManager.TakeDamage (1);
-		Die();
+		Destroy(gameObject);
 	}
 
 	public void Die() {
 		//GameObject.FindObjectOfType<ScoreManager>().money += moneyValue;
-		Destroy(gameObject);
+		gameManager.AddMoney (this.value);
 	}
-
-
 
 }
