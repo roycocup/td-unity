@@ -29,6 +29,7 @@ public class Tower : MonoBehaviour {
 	}
 		
 	void FixedUpdate(){
+		
 		FindNearestEnemy ();
 
 		if (nearestEnemy != null && turret != null) {

@@ -104,3 +104,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sniperTower: {fileID: 1000010911724632, guid: 930ad978ba05c4c72bdc938f469e12d0,
     type: 2}
+  UI: {fileID: 0}
