@@ -112,9 +112,10 @@ public class GameManager : MonoBehaviour {
 		return true;
 	}
 
-	public void BuyTower (Transform spotTrans, GameObject tower, int towerCost){
+	public void BuyTower (GameObject spotTrans, GameObject tower, int towerCost){
 		if (SubMoney (towerCost) == true) {
-			Instantiate (tower, spotTrans.position, spotTrans.rotation);
+			Instantiate (tower, spotTrans.transform.position, spotTrans.transform.rotation);
+			Destroy (spotTrans);
 		}
 	}
 

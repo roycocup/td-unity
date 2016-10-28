@@ -38,14 +38,14 @@ public class Tower : MonoBehaviour {
 
 			// turret.transform.rotation = Quaternion.Lerp (turret.transform.rotation, rotation, rotationSpeed * Time.deltaTime);
 			// turret.transform.rotation = Quaternion.Euler(0, rotation.eulerAngles.y, 0);
-			Quaternion newRotation = Quaternion.RotateTowards(transform.rotation, rotation, 90f * Time.deltaTime);
+			Quaternion newRotation = Quaternion.RotateTowards(turret.transform.rotation, rotation, 90f * Time.deltaTime);
 			// smoothing the rotation for the turret
 			Vector3 e = newRotation.eulerAngles;
 			e = new Vector3 (0, e.y, 0);
-			transform.rotation = Quaternion.Euler (e);
+			turret.transform.rotation = Quaternion.Euler (e);
 
 			//only shoot when its pointing at target
-			if (Mathf.RoundToInt(transform.rotation.eulerAngles.y) == Mathf.RoundToInt(rotation.eulerAngles.y)) {
+			if (Mathf.RoundToInt(turret.transform.rotation.eulerAngles.y) == Mathf.RoundToInt(rotation.eulerAngles.y)) {
 				Shoot ();
 			}
 		}
