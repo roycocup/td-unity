@@ -82,3 +82,31 @@
 /Users/rdias/unity/Tower Defense/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/rdias/unity/Tower Defense/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/rdias/unity/Tower Defense/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/rodrigo/unity/td/Temp/bin/Debug/Assembly-CSharp-Editor.dll.mdb
+/Users/rodrigo/unity/td/Temp/bin/Debug/Assembly-CSharp-Editor.dll
+/Users/rodrigo/unity/td/obj/Debug/Assembly-CSharp-Editor.dll
+/Users/rodrigo/unity/td/obj/Debug/Assembly-CSharp-Editor.dll.mdb
+/Users/rodrigo/unity/td/Temp/bin/Debug/UnityEngine.dll
+/Users/rodrigo/unity/td/Temp/bin/Debug/UnityEditor.dll
+/Users/rodrigo/unity/td/Temp/bin/Debug/UnityEditor.Advertisements.dll
+/Users/rodrigo/unity/td/Temp/bin/Debug/nunit.framework.dll
+/Users/rodrigo/unity/td/Temp/bin/Debug/UnityEditor.EditorTestsRunner.dll
+/Users/rodrigo/unity/td/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/rodrigo/unity/td/Temp/bin/Debug/UnityEditor.UI.dll
+/Users/rodrigo/unity/td/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/rodrigo/unity/td/Temp/bin/Debug/UnityEditor.Networking.dll
+/Users/rodrigo/unity/td/Temp/bin/Debug/UnityEditor.TreeEditor.dll
+/Users/rodrigo/unity/td/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/rodrigo/unity/td/Temp/bin/Debug/UnityEditor.Graphs.dll
+/Users/rodrigo/unity/td/Temp/bin/Debug/UnityEditor.OSXStandalone.Extensions.dll
+/Users/rodrigo/unity/td/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/rodrigo/unity/td/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/rodrigo/unity/td/Temp/bin/Debug/Mono.Cecil.dll
+/Users/rodrigo/unity/td/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/rodrigo/unity/td/Temp/bin/Debug/Unity.DataContract.dll
+/Users/rodrigo/unity/td/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/rodrigo/unity/td/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/rodrigo/unity/td/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/rodrigo/unity/td/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/rodrigo/unity/td/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/rodrigo/unity/td/Temp/bin/Debug/Mono.Cecil.Mdb.dll

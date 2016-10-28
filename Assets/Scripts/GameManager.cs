@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour {
 	float spawnTimeLeft = 0; 
 	// time to wait between waves
 	public float waveRate = 10f;
-	float waveTimeLeft = 0;
+	float waveTimeLeft = 1f;
 	int numElementsInWave = 0;
 	int numElementsInWaveLeft = 0; 
 	bool spawning = false;
@@ -24,7 +24,6 @@ public class GameManager : MonoBehaviour {
 	Text infoText; 
 
 	void Start(){
-		waveTimeLeft = waveRate;
 		enemySpawn = GameObject.Find ("EnemySpawn").transform;
 		healthText = GameObject.Find ("UI/Canvas/Panel/HealthUIText").GetComponent<Text>(); 
 		infoText = GameObject.Find ("UI/Canvas/Panel/InfoUIText").GetComponent<Text>(); 

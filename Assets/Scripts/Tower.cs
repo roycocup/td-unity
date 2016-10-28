@@ -30,11 +30,18 @@ public class Tower : MonoBehaviour {
 			Vector3 dir = nearestEnemy.transform.position - turret.transform.position;
 			Quaternion rotation = Quaternion.LookRotation (dir);
 
-			// this will make the turret also tilt in the x axis. So we have to pass these in Euler
-			//turret.transform.rotation = Quaternion.Lerp (turret.transform.rotation, rotation, rotationSpeed * Time.deltaTime);
+			// turret.transform.rotation = Quaternion.Lerp (turret.transform.rotation, rotation, rotationSpeed * Time.deltaTime);
 			// turret.transform.rotation = Quaternion.Euler(0, rotation.eulerAngles.y, 0);
-			turret.transform.rotation = Quaternion.Euler(0, rotation.eulerAngles.y, 0);
-			Shoot ();
+			Quaternion newRotation = Quaternion.RotateTowards(transform.rotation, rotation, 90f * Time.deltaTime);
+			// smoothing the rotation for the turret
+			Vector3 e = newRotation.eulerAngles;
+			e = new Vector3 (0, e.y, 0);
+			transform.rotation = Quaternion.Euler (e);
+
+			//only shoot when its pointing at target
+			if (Mathf.RoundToInt(transform.rotation.eulerAngles.y) == Mathf.RoundToInt(rotation.eulerAngles.y)) {
+				Shoot ();
+			}
 		}
 	}
 
@@ -44,7 +51,7 @@ public class Tower : MonoBehaviour {
 			fireCooldownLeft = fireCooldown; 
 
 			if (spawn != null) {
-				GameObject Bullet = (GameObject) Instantiate (bulletPrefab, spawn.transform.position, transform.rotation);
+				GameObject Bullet = (GameObject) Instantiate (bulletPrefab, spawn.transform.position, Quaternion.identity);
 				Bullet bulletScript = Bullet.GetComponent<Bullet> ();
 				bulletScript.target = nearestEnemy.transform; 
 				//PlayShoot ();
