@@ -35,9 +35,7 @@ public class GameManager : MonoBehaviour {
 
 	void FixedUpdate(){
 
-		HealthUpdate ();
-		InfoUpdate ();
-		MoneyUpdate ();
+		UIUpdate ();
 		// dont start another wave if the spawn is not over
 		if (spawning == false) {
 			if (waveTimeLeft <= 0) {
@@ -51,23 +49,6 @@ public class GameManager : MonoBehaviour {
 		}
 
 	}
-
-	void HealthUpdate(){
-		healthText.text = "Health: " + health.ToString ();
-	}
-
-	void InfoUpdate(){
-		float displayTime = waveTimeLeft; 
-		if (spawning == true) {
-			displayTime = waveTimeLeft + (numElementsInWaveLeft * spawnRate); 
-		} 
-		infoText.text = "Next wave in " + displayTime.ToString ("F2") + " seconds";
-	}
-
-	void MoneyUpdate(){
-		moneyText.text = "$ " + money.ToString ();
-	}
-
 
 	IEnumerator SpawnWave(){
 		while (numElementsInWaveLeft > 0) {
@@ -92,6 +73,21 @@ public class GameManager : MonoBehaviour {
 		GameObject.Instantiate (normalEnemyPrefab, enemySpawn.position, enemySpawn.rotation);			
 	}
 
+
+	void UIUpdate(){
+		//health
+		healthText.text = "Health: " + health.ToString ();
+
+		//money
+		moneyText.text = "$ " + money.ToString ();
+
+		// info
+		float displayTime = waveTimeLeft; 
+		if (spawning == true) {
+			displayTime = waveTimeLeft + (numElementsInWaveLeft * spawnRate); 
+		} 
+		infoText.text = "Next wave in " + displayTime.ToString ("F2") + " seconds";
+	}
 
 	public void TakeDamage(int damage){
 		health -= damage; 

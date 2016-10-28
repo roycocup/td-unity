@@ -110,3 +110,4 @@
 /Users/rodrigo/unity/td/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/rodrigo/unity/td/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/rodrigo/unity/td/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/rodrigodias/unity/Tower Defense/Temp/bin/Debug/UnityEditor.Android.Extensions.dll

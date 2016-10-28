@@ -3,7 +3,11 @@ using System.Collections;
 
 public class Tower : MonoBehaviour {
 
+	const int TYPE_SNIPER = 0;  
+	const int TYPE_MISSILE = 1;  
+
 	// public
+	public int towerType = 0;
 	public float range = 50f; 
 	public float rotationSpeed = 5f;
 	public float fireCooldown = 2f;
