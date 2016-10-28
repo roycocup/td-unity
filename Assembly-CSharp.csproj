@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Tower.cs" />
+     <Compile Include="Assets\Scripts\TowerSpot.cs" />
      <None Include="Assets\Retro Pixel\Resources\Shaders\RetroPixel5.shader" />
      <None Include="Assets\Retro Pixel\Resources\Shaders\RetroPixel8.shader" />
      <None Include="Assets\Retro Pixel\Resources\Shaders\RetroPixel4.shader" />

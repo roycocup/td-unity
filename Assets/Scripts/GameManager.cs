@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour {
 	//objects
 	public GameObject normalEnemyPrefab; 
 	public GameObject eliteEnemyPrefab; 
+	public GameObject sniperTowerPrefab; 
 	Transform enemySpawn; 
 	Text healthText; 
 	Text infoText; 
@@ -93,5 +94,9 @@ public class GameManager : MonoBehaviour {
 
 	void GameOver(){
 		//TODO: do something here to stop the game
+	}
+
+	public void BuildTower(){
+		Instantiate(sniperTowerPrefab); 
 	}
 }
