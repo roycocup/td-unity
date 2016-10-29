@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour {
 		// dont start another wave if the spawn is not over
 		if (spawning == false) {
 			if (waveTimeLeft <= 0) {
-				numElementsInWave = Random.Range (10, 30); 
+				numElementsInWave = Random.Range (10, 20); 
 				numElementsInWaveLeft = numElementsInWave;
 				StartCoroutine (SpawnWave ());
 				waveTimeLeft = waveRate;
@@ -54,7 +54,7 @@ public class GameManager : MonoBehaviour {
 		while (numElementsInWaveLeft > 0) {
 			spawning = true;
 			if (spawnTimeLeft < 0) {
-				SpawnEnemy ();
+				SpawnEnemy (Enemy.TYPE_NORMAL);
 				numElementsInWaveLeft--; 
 				spawnTimeLeft = spawnRate; 
 				yield return null;
@@ -64,13 +64,25 @@ public class GameManager : MonoBehaviour {
 			}
 
 		}
+		// always add a random number of elite enemies at the end
+		for (int i = 0; i < Mathf.RoundToInt(Random.Range(1,2)); i++) {
+			SpawnEnemy (Enemy.TYPE_ELITE);
+		}
 		numElementsInWaveLeft = numElementsInWave;
 		spawning = false;
 		yield return null;
 	}
 
-	void SpawnEnemy(){
-		GameObject.Instantiate (normalEnemyPrefab, enemySpawn.position, enemySpawn.rotation);			
+	void SpawnEnemy(int type){
+		GameObject go = null; 
+		if (type == Enemy.TYPE_NORMAL) {
+			go = normalEnemyPrefab; 
+		} else if (type == Enemy.TYPE_ELITE){
+			go = eliteEnemyPrefab; 
+		} 
+
+		if (go != null)
+			GameObject.Instantiate (go, enemySpawn.position, enemySpawn.rotation);			
 	}
 
 

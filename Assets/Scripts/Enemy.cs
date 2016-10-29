@@ -4,7 +4,12 @@ using System.Collections;
 public class Enemy : MonoBehaviour {
 
 	public float speed = 3f; 
-	public float health = 1.5f;
+	public float health = 1f;
+
+	public const int TYPE_NORMAL = 0; 
+	public const int TYPE_ELITE = 1; 
+
+
 
 	GameObject Path; 
 	Transform pathNode;
@@ -74,8 +79,9 @@ public class Enemy : MonoBehaviour {
 	}
 
 	public void TakeDamage(int damage){
+		Debug.Log ("Taking damage. Health:" + health);
 		health -= damage; 
-		if (health < 0) {
+		if (health <= 0) {
 			Die();
 		}
 	}
@@ -89,6 +95,7 @@ public class Enemy : MonoBehaviour {
 	public void Die() {
 		//GameObject.FindObjectOfType<ScoreManager>().money += moneyValue;
 		gameManager.AddMoney (this.value);
+		Destroy(gameObject);
 	}
 
 }

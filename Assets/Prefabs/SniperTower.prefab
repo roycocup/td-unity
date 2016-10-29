@@ -404,8 +404,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa13b5385c28d4996bfde406158a0e84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  towerType: 0
   range: 10
   rotationSpeed: 5
-  fireCooldown: 0.3
+  fireCooldown: 0.2
   bulletPrefab: {fileID: 1000013782904920, guid: 1bda6dda8dceb4515bbc4adcc054bb66,
     type: 2}
+  cost: 5
