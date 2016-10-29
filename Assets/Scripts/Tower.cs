@@ -3,8 +3,8 @@ using System.Collections;
 
 public class Tower : MonoBehaviour {
 
-	const int TYPE_SNIPER = 0;  
-	const int TYPE_MISSILE = 1; 
+	public const int TYPE_SNIPER = 0;  
+	public const int TYPE_MISSILE = 1; 
 
 	// public
 	public int towerType = 0;

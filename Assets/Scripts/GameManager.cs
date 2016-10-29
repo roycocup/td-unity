@@ -2,6 +2,7 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System; 
 
 public class GameManager : MonoBehaviour {
 
@@ -24,7 +25,7 @@ public class GameManager : MonoBehaviour {
 	Transform enemySpawn; 
 	Text healthText; 
 	Text infoText; 
-	Text moneyText; 
+	Text moneyText;
 
 	void Start(){
 		enemySpawn = GameObject.Find ("EnemySpawn").transform;
@@ -32,6 +33,7 @@ public class GameManager : MonoBehaviour {
 		infoText = GameObject.Find ("UI/Canvas/Panel/InfoUIText").GetComponent<Text>(); 
 		moneyText = GameObject.Find ("UI/Canvas/Panel/MoneyUIText").GetComponent<Text>(); 
 
+		// it should be off, but just in case
 		GameObject.Find ("UI/Canvas/TowerMenuUI").SetActive(false);
 	}
 
@@ -41,7 +43,7 @@ public class GameManager : MonoBehaviour {
 		// dont start another wave if the spawn is not over
 		if (spawning == false) {
 			if (waveTimeLeft <= 0) {
-				numElementsInWave = Random.Range (10, 20); 
+				numElementsInWave = UnityEngine.Random.Range (10, 20); 
 				numElementsInWaveLeft = numElementsInWave;
 				StartCoroutine (SpawnWave ());
 				waveTimeLeft = waveRate;
@@ -67,7 +69,7 @@ public class GameManager : MonoBehaviour {
 
 		}
 		// always add a random number of elite enemies at the end
-		for (int i = 0; i < Mathf.RoundToInt(Random.Range(1,3)); i++) {
+		for (int i = 0; i < Mathf.RoundToInt(UnityEngine.Random.Range(1,3)); i++) {
 			yield return new WaitForSeconds(spawnRate);
 			SpawnEnemy (Enemy.TYPE_ELITE);
 		}
@@ -127,17 +129,31 @@ public class GameManager : MonoBehaviour {
 		return true;
 	}
 
-	public void BuyTower (GameObject spotTrans, GameObject tower, int towerCost){
-		if (SubMoney (towerCost) == true) {
-			Instantiate (tower, spotTrans.transform.position, spotTrans.transform.rotation);
-			Destroy (spotTrans);
+
+	// FIXME: Need to have 2 different prefabs which the scripts are extentions from Tower. 
+	// There should be a factory for each one
+	public void BuyTower (int towerType){
+		if (towerType == Tower.TYPE_SNIPER) {
+			
+		} else if (towerType == Tower.TYPE_MISSILE) {
+			
+		} else {
+			return null;
 		}
+
+//		if (SubMoney (towerToBuy.towerCost) == true) {
+//			Instantiate (towerToBuy.tower, towerToBuy.spot.transform.position, towerToBuy.spot.transform.rotation);
+//			Destroy (towerToBuy.spot);
+//		}
 	}
 
-	public void DisplayTowerMenu(){
-		GameObject.Find ("UI/Canvas/TowerMenuUI").SetActive(true);
-		//gameManager.BuyTower (gameObject, sniperTower, sniperTower.GetComponent<Tower>().cost); 
+	// FIXME: need to persist the coors of the spot
+	public void DisplayTowerMenu(GameObject spot){
+		GameObject towerMenuUI  = GameObject.Find ("UI/Canvas/TowerMenuUI");
+		towerMenuUI.SetActive (true); 
 	}
+
+
 
 
 

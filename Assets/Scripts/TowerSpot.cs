@@ -12,7 +12,7 @@ public class TowerSpot : MonoBehaviour {
 	}
 
 	void OnMouseUp(){
-		GameManager gameManager = GameObject.FindObjectOfType<GameManager> ();
-		gm.DisplayTowerMenu();
+		gm.DisplayTowerMenu(gameObject);
+		//gm.BuyTower (gameObject, sniperTower, sniperTower.GetComponent<Tower>().cost); 
 	}
 }
