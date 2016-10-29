@@ -31,6 +31,8 @@ public class GameManager : MonoBehaviour {
 		healthText = GameObject.Find ("UI/Canvas/Panel/HealthUIText").GetComponent<Text>(); 
 		infoText = GameObject.Find ("UI/Canvas/Panel/InfoUIText").GetComponent<Text>(); 
 		moneyText = GameObject.Find ("UI/Canvas/Panel/MoneyUIText").GetComponent<Text>(); 
+
+		GameObject.Find ("UI/Canvas/TowerMenuUI").SetActive(false);
 	}
 
 	void FixedUpdate(){
@@ -65,7 +67,8 @@ public class GameManager : MonoBehaviour {
 
 		}
 		// always add a random number of elite enemies at the end
-		for (int i = 0; i < Mathf.RoundToInt(Random.Range(1,2)); i++) {
+		for (int i = 0; i < Mathf.RoundToInt(Random.Range(1,3)); i++) {
+			yield return new WaitForSeconds(spawnRate);
 			SpawnEnemy (Enemy.TYPE_ELITE);
 		}
 		numElementsInWaveLeft = numElementsInWave;
@@ -130,5 +133,12 @@ public class GameManager : MonoBehaviour {
 			Destroy (spotTrans);
 		}
 	}
+
+	public void DisplayTowerMenu(){
+		GameObject.Find ("UI/Canvas/TowerMenuUI").SetActive(true);
+		//gameManager.BuyTower (gameObject, sniperTower, sniperTower.GetComponent<Tower>().cost); 
+	}
+
+
 
 }
