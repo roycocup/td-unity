@@ -66,9 +66,12 @@ public class Tower : MonoBehaviour {
 			fireCooldownLeft = fireCooldown; 
 
 			if (spawn != null) {
-				GameObject bullet = (GameObject) Instantiate (bulletPrefab, spawn.transform.position, Quaternion.identity);
-				Projectile projectile = bullet.GetComponent<Projectile> ();
-				projectile.target = nearestEnemy.transform; 
+				// instantiate the associated projectile prefab 
+				GameObject projectile = (GameObject) Instantiate (bulletPrefab, spawn.transform.position, Quaternion.identity);
+				// Grab its script and give it a target. 
+				// We grab the base class of the script as we dont know the name of the specific script associated 
+				projectile.GetComponent<Projectile> ().target = nearestEnemy.transform;
+
 				//PlayShoot ();
 			} 
 

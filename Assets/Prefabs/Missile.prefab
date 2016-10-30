@@ -3801,9 +3801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57f0d7b5363f64d3d93222a4e1b62fcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
-  radius: 0.5
+  speed: 5
+  radius: 2
   damage: 5
   target: {fileID: 0}
-  expireIn: 5
-  expire: 20

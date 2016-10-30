@@ -38,7 +38,7 @@ public class Projectile : MonoBehaviour {
 			Destroy (gameObject, _expireIn);
 		} else {
 			// if the target became null but we are already moving
-			transform.Translate (direction.normalized * distThisFrame);
+			Move (direction, distThisFrame);
 			Destroy(gameObject, _expireIn);
 		} 
 	}
