@@ -408,5 +408,6 @@ MonoBehaviour:
   range: 50
   rotationSpeed: 5
   fireCooldown: 2
-  bulletPrefab: {fileID: 0}
+  bulletPrefab: {fileID: 1000013782904920, guid: 1bda6dda8dceb4515bbc4adcc054bb66,
+    type: 2}
   cost: 5

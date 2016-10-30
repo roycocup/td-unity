@@ -144,22 +144,25 @@ public class GameManager : MonoBehaviour {
 			tower = missileTowerPrefab; 
 		}
 
-		Tower towerScript = tower.GetComponent<SniperTower> (); 
+		Tower towerScript = tower.GetComponent<Tower> (); 
 		if (SubMoney (towerScript.cost) == true) {
 			Instantiate (tower, towerSpot.transform.position, towerSpot.transform.rotation);
 			towerScript.towerType = towerType;
 			Destroy (towerSpot);
 		}
-		// hide the UI
-		GameObject towerMenuUI  = GameObject.Find ("UI/Canvas/TowerMenuUI");
-		towerMenuUI.SetActive (false); 
+
+		HideTowerMenu (); 
 	}
 
-	// FIXME: need to persist the coors of the spot
 	public void DisplayTowerMenu(GameObject spot){
 		GameObject towerMenuUI  = GameObject.Find ("UI/Canvas/TowerMenuUI");
 		towerMenuUI.SetActive (true); 
 		towerSpot = spot; 
+	}
+
+	void HideTowerMenu(){
+		GameObject towerMenuUI  = GameObject.Find ("UI/Canvas/TowerMenuUI");
+		towerMenuUI.SetActive (false); 
 	}
 
 

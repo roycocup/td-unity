@@ -45,7 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Retro Pixel\Scripts\RetroPixel.cs" />
+     <Compile Include="Assets\Extras\Retro Pixel\Scripts\RetroPixel.cs" />
      <Compile Include="Assets\Scripts\Bullet.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
@@ -55,14 +55,14 @@
      <Compile Include="Assets\Scripts\SniperTower.cs" />
      <Compile Include="Assets\Scripts\Tower.cs" />
      <Compile Include="Assets\Scripts\TowerSpot.cs" />
-     <None Include="Assets\Retro Pixel\Resources\Shaders\RetroPixel5.shader" />
-     <None Include="Assets\Retro Pixel\Resources\Shaders\RetroPixel8.shader" />
-     <None Include="Assets\Retro Pixel\Resources\Shaders\RetroPixel4.shader" />
-     <None Include="Assets\Retro Pixel\Resources\Shaders\RetroPixel6.shader" />
-     <None Include="Assets\Retro Pixel\Resources\Shaders\RetroPixel3.shader" />
-     <None Include="Assets\Retro Pixel\Resources\Shaders\RetroPixel7.shader" />
-     <None Include="Assets\Retro Pixel\Resources\Shaders\RetroPixel2.shader" />
-     <None Include="Assets\Retro Pixel\Readme.txt" />
+     <None Include="Assets\Extras\Retro Pixel\Resources\Shaders\RetroPixel5.shader" />
+     <None Include="Assets\Extras\Retro Pixel\Resources\Shaders\RetroPixel8.shader" />
+     <None Include="Assets\Extras\Retro Pixel\Resources\Shaders\RetroPixel4.shader" />
+     <None Include="Assets\Extras\Retro Pixel\Resources\Shaders\RetroPixel6.shader" />
+     <None Include="Assets\Extras\Retro Pixel\Resources\Shaders\RetroPixel3.shader" />
+     <None Include="Assets\Extras\Retro Pixel\Resources\Shaders\RetroPixel7.shader" />
+     <None Include="Assets\Extras\Retro Pixel\Resources\Shaders\RetroPixel2.shader" />
+     <None Include="Assets\Extras\Retro Pixel\Readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

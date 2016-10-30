@@ -45,15 +45,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Retro Pixel\Editor\RetroPixelEditor.cs" />
-     <None Include="Assets\Retro Pixel\Resources\Shaders\RetroPixel5.shader" />
-     <None Include="Assets\Retro Pixel\Resources\Shaders\RetroPixel8.shader" />
-     <None Include="Assets\Retro Pixel\Resources\Shaders\RetroPixel4.shader" />
-     <None Include="Assets\Retro Pixel\Resources\Shaders\RetroPixel6.shader" />
-     <None Include="Assets\Retro Pixel\Resources\Shaders\RetroPixel3.shader" />
-     <None Include="Assets\Retro Pixel\Resources\Shaders\RetroPixel7.shader" />
-     <None Include="Assets\Retro Pixel\Resources\Shaders\RetroPixel2.shader" />
-     <None Include="Assets\Retro Pixel\Readme.txt" />
+     <Compile Include="Assets\Extras\Retro Pixel\Editor\RetroPixelEditor.cs" />
+     <None Include="Assets\Extras\Retro Pixel\Resources\Shaders\RetroPixel5.shader" />
+     <None Include="Assets\Extras\Retro Pixel\Resources\Shaders\RetroPixel8.shader" />
+     <None Include="Assets\Extras\Retro Pixel\Resources\Shaders\RetroPixel4.shader" />
+     <None Include="Assets\Extras\Retro Pixel\Resources\Shaders\RetroPixel6.shader" />
+     <None Include="Assets\Extras\Retro Pixel\Resources\Shaders\RetroPixel3.shader" />
+     <None Include="Assets\Extras\Retro Pixel\Resources\Shaders\RetroPixel7.shader" />
+     <None Include="Assets\Extras\Retro Pixel\Resources\Shaders\RetroPixel2.shader" />
+     <None Include="Assets\Extras\Retro Pixel\Readme.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
