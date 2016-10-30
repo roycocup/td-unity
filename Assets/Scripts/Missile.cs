@@ -3,7 +3,12 @@ using System.Collections;
 
 public class Missile : Projectile {
 
-	protected void UseSpecialOrientation(){
+	void Start(){
+		ExpireIn = 20; 
+	}
+
+	protected override void Move(Vector3 direction, float distThisFrame){
+		base.Move (direction, distThisFrame);
 		//transform.rotation = Quaternion.LookRotation (target.position);
 	}
 

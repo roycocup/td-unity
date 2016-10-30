@@ -7,6 +7,16 @@ public class Projectile : MonoBehaviour {
 	public float radius = 0.5f;
 	public int damage = 1;
 	public Transform target = null; 
+	int _expireIn = 5;
+
+	public int ExpireIn {
+		get {
+			return _expireIn;
+		}
+		set {
+			_expireIn = value;
+		}
+	}
 
 	protected Vector3 direction; 
 
@@ -23,15 +33,13 @@ public class Projectile : MonoBehaviour {
 				// reached the target
 				DoBulletHit ();
 			} else {
-				transform.Translate (direction.normalized * distThisFrame);	
-				UseSpecialOrientation ();
+				Move (direction, distThisFrame);
 			}
-
-			Destroy (gameObject, 5);
+			Destroy (gameObject, _expireIn);
 		} else {
 			// if the target became null but we are already moving
 			transform.Translate (direction.normalized * distThisFrame);
-			Destroy(gameObject, 2);
+			Destroy(gameObject, _expireIn);
 		} 
 	}
 
@@ -50,7 +58,7 @@ public class Projectile : MonoBehaviour {
 		Destroy(gameObject);
 	}
 
-	protected void UseSpecialOrientation(){
-		
+	protected virtual void Move(Vector3 direction, float distThisFrame){
+		transform.Translate (direction.normalized * distThisFrame);	
 	}
 }

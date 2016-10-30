@@ -406,7 +406,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   towerType: 1
   range: 20
-  rotationSpeed: 5
+  rotationSpeed: 90
   fireCooldown: 2
   cost: 10
   bulletPrefab: {fileID: 115386, guid: 1d37014fd411c524db3696bba6ff1d21, type: 2}
