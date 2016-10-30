@@ -22,7 +22,7 @@ GameObject:
   - 33: {fileID: 33000012464929892}
   - 135: {fileID: 135000012153223328}
   - 23: {fileID: 23000010205164726}
-  - 114: {fileID: 114000012095211788}
+  - 114: {fileID: 114000013047566634}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -79,7 +79,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013782904920}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &114000012095211788
+--- !u!114 &114000013047566634
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}

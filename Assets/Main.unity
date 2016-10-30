@@ -2801,6 +2801,8 @@ MonoBehaviour:
     type: 2}
   sniperTowerPrefab: {fileID: 1000010911724632, guid: 930ad978ba05c4c72bdc938f469e12d0,
     type: 2}
+  missileTowerPrefab: {fileID: 1000013437609750, guid: 775cedb40b5664545a7402cc15049518,
+    type: 2}
 --- !u!4 &1415532986
 Transform:
   m_ObjectHideFlags: 0

@@ -22,10 +22,14 @@ public class GameManager : MonoBehaviour {
 	public GameObject normalEnemyPrefab; 
 	public GameObject eliteEnemyPrefab; 
 	public GameObject sniperTowerPrefab; 
+	public GameObject missileTowerPrefab; 
 	Transform enemySpawn; 
 	Text healthText; 
 	Text infoText; 
 	Text moneyText;
+
+	// persisting the towerSpot for the new tower to be bought
+	GameObject towerSpot; 
 
 	void Start(){
 		enemySpawn = GameObject.Find ("EnemySpawn").transform;
@@ -85,7 +89,7 @@ public class GameManager : MonoBehaviour {
 		} else if (type == Enemy.TYPE_ELITE){
 			go = eliteEnemyPrefab; 
 		} 
-
+		 
 		if (go != null)
 			GameObject.Instantiate (go, enemySpawn.position, enemySpawn.rotation);			
 	}
@@ -133,24 +137,29 @@ public class GameManager : MonoBehaviour {
 	// FIXME: Need to have 2 different prefabs which the scripts are extentions from Tower. 
 	// There should be a factory for each one
 	public void BuyTower (int towerType){
+		GameObject tower = sniperTowerPrefab;
 		if (towerType == Tower.TYPE_SNIPER) {
-			
-		} else if (towerType == Tower.TYPE_MISSILE) {
-			
-		} else {
-			return null;
+			tower = sniperTowerPrefab; 
+		} else if (towerType == Tower.TYPE_MISSILE){
+			tower = missileTowerPrefab; 
 		}
 
-//		if (SubMoney (towerToBuy.towerCost) == true) {
-//			Instantiate (towerToBuy.tower, towerToBuy.spot.transform.position, towerToBuy.spot.transform.rotation);
-//			Destroy (towerToBuy.spot);
-//		}
+		Tower towerScript = tower.GetComponent<SniperTower> (); 
+		if (SubMoney (towerScript.cost) == true) {
+			Instantiate (tower, towerSpot.transform.position, towerSpot.transform.rotation);
+			towerScript.towerType = towerType;
+			Destroy (towerSpot);
+		}
+		// hide the UI
+		GameObject towerMenuUI  = GameObject.Find ("UI/Canvas/TowerMenuUI");
+		towerMenuUI.SetActive (false); 
 	}
 
 	// FIXME: need to persist the coors of the spot
 	public void DisplayTowerMenu(GameObject spot){
 		GameObject towerMenuUI  = GameObject.Find ("UI/Canvas/TowerMenuUI");
 		towerMenuUI.SetActive (true); 
+		towerSpot = spot; 
 	}
 
 

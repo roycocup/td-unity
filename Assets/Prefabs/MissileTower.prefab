@@ -75,8 +75,8 @@ GameObject:
   - 4: {fileID: 4000013686543714}
   - 33: {fileID: 33000013897785176}
   - 23: {fileID: 23000012547547918}
-  - 114: {fileID: 114000011758499840}
   - 82: {fileID: 82000013415481606}
+  - 114: {fileID: 114000013299916200}
   m_Layer: 0
   m_Name: MissileTower
   m_TagString: Tower
@@ -393,7 +393,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &114000011758499840
+--- !u!114 &114000013299916200
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -401,12 +401,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000013437609750}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa13b5385c28d4996bfde406158a0e84, type: 3}
+  m_Script: {fileID: 11500000, guid: 8451b04a7cae047f2988d64a738ddf34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 10
+  towerType: 1
+  range: 20
   rotationSpeed: 5
-  fireCooldown: 0.3
-  bulletPrefab: {fileID: 1000013782904920, guid: 1bda6dda8dceb4515bbc4adcc054bb66,
+  fireCooldown: 2
+  bulletPrefab: {fileID: 1000011011558590, guid: c05eddc7aa0ed4e658b075be4415836b,
     type: 2}
-  cost: 5
+  cost: 10

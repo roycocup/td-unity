@@ -22,7 +22,7 @@ GameObject:
   - 33: {fileID: 33000011528138196}
   - 135: {fileID: 135000010864228838}
   - 23: {fileID: 23000011880328582}
-  - 114: {fileID: 114000014008366236}
+  - 114: {fileID: 114000012611202212}
   m_Layer: 0
   m_Name: Missile
   m_TagString: Untagged
@@ -79,7 +79,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011011558590}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &114000014008366236
+--- !u!114 &114000012611202212
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -87,10 +87,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000011011558590}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8dcae83878dce4761af27d3b3b97d138, type: 3}
+  m_Script: {fileID: 11500000, guid: 57f0d7b5363f64d3d93222a4e1b62fcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
+  speed: 10
 --- !u!135 &135000010864228838
 SphereCollider:
   m_ObjectHideFlags: 1

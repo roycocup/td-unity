@@ -39,8 +39,8 @@ GameObject:
   - 4: {fileID: 4000014182247018}
   - 33: {fileID: 33000010379252722}
   - 23: {fileID: 23000010657507622}
-  - 114: {fileID: 114000012701625428}
   - 82: {fileID: 82000010831174618}
+  - 114: {fileID: 114000010762682952}
   m_Layer: 0
   m_Name: SniperTower
   m_TagString: Tower
@@ -393,7 +393,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &114000012701625428
+--- !u!114 &114000010762682952
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -401,13 +401,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000010911724632}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa13b5385c28d4996bfde406158a0e84, type: 3}
+  m_Script: {fileID: 11500000, guid: 65429b19fbbb84bc7846f41ac5a816e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   towerType: 0
-  range: 10
+  range: 50
   rotationSpeed: 5
-  fireCooldown: 0.2
-  bulletPrefab: {fileID: 1000013782904920, guid: 1bda6dda8dceb4515bbc4adcc054bb66,
-    type: 2}
+  fireCooldown: 2
+  bulletPrefab: {fileID: 0}
   cost: 5
