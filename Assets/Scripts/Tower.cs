@@ -58,9 +58,9 @@ public class Tower : MonoBehaviour {
 			fireCooldownLeft = fireCooldown; 
 
 			if (spawn != null) {
-				GameObject Bullet = (GameObject) Instantiate (bulletPrefab, spawn.transform.position, Quaternion.identity);
-				Bullet bulletScript = Bullet.GetComponent<Bullet> ();
-				bulletScript.target = nearestEnemy.transform; 
+				GameObject bullet = (GameObject) Instantiate (bulletPrefab, spawn.transform.position, Quaternion.identity);
+				Projectile projectile = bullet.GetComponent<Projectile> ();
+				projectile.target = nearestEnemy.transform; 
 				//PlayShoot ();
 			} 
 
