@@ -11,7 +11,6 @@ public class Missile : Projectile {
 		//base.Move (direction, distThisFrame);
 		if (target != null) {
 			direction = target.transform.position - transform.position;
-			print (direction); 
 			transform.Translate (direction.normalized * speed * Time.deltaTime, Space.World);
 
 			//transform.rotation = Quaternion.LookRotation (target.position, Vector3.up);
