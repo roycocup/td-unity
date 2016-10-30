@@ -4,13 +4,11 @@ using System.Collections;
 public class Projectile : MonoBehaviour {
 
 	public float speed = 15f; 
-
-	[System.NonSerialized]
+	public float radius = 0.5f;
+	public int damage = 1;
 	public Transform target = null; 
 
-	float radius = 0.5f;
-	int damage = 1;
-	Vector3 direction; 
+	protected Vector3 direction; 
 
 	// Update is called once per frame
 	void FixedUpdate () {
@@ -26,9 +24,10 @@ public class Projectile : MonoBehaviour {
 				DoBulletHit ();
 			} else {
 				transform.Translate (direction.normalized * distThisFrame);	
+				UseSpecialOrientation ();
 			}
 
-			Destroy (gameObject, 2);
+			Destroy (gameObject, 5);
 		} else {
 			// if the target became null but we are already moving
 			transform.Translate (direction.normalized * distThisFrame);
@@ -37,7 +36,7 @@ public class Projectile : MonoBehaviour {
 	}
 
 
-	void DoBulletHit() {
+	protected void DoBulletHit() {
 		Collider[] cols = Physics.OverlapSphere(transform.position, radius);
 
 		foreach(Collider c in cols) {
@@ -51,5 +50,7 @@ public class Projectile : MonoBehaviour {
 		Destroy(gameObject);
 	}
 
-
+	protected void UseSpecialOrientation(){
+		
+	}
 }

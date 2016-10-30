@@ -8,11 +8,12 @@ public class Tower : MonoBehaviour {
 
 	// public
 	public int towerType = 0;
-	public float range = 50f; 
-	public float rotationSpeed = 5f;
+	public float range = 50f;
+	public float rotationSpeed = 90f;
 	public float fireCooldown = 2f;
+	public int cost = 5;
 	public GameObject bulletPrefab; 
-	public int cost = 5; 
+
 
 	// private 
 	Enemy nearestEnemy;
@@ -29,8 +30,15 @@ public class Tower : MonoBehaviour {
 	}
 		
 	void FixedUpdate(){
-		
-		FindNearestEnemy ();
+
+		float timeForNewTarget = 0; 
+		if (timeForNewTarget <= 0) {
+			FindNearestEnemy ();
+			timeForNewTarget = 2f; 
+		} else {
+			timeForNewTarget -= Time.deltaTime; 
+		}
+
 
 		if (nearestEnemy != null && turret != null) {
 			Vector3 dir = nearestEnemy.transform.position - turret.transform.position;
@@ -38,7 +46,7 @@ public class Tower : MonoBehaviour {
 
 			// turret.transform.rotation = Quaternion.Lerp (turret.transform.rotation, rotation, rotationSpeed * Time.deltaTime);
 			// turret.transform.rotation = Quaternion.Euler(0, rotation.eulerAngles.y, 0);
-			Quaternion newRotation = Quaternion.RotateTowards(turret.transform.rotation, rotation, 90f * Time.deltaTime);
+			Quaternion newRotation = Quaternion.RotateTowards(turret.transform.rotation, rotation, rotationSpeed * Time.deltaTime);
 			// smoothing the rotation for the turret
 			Vector3 e = newRotation.eulerAngles;
 			e = new Vector3 (0, e.y, 0);
