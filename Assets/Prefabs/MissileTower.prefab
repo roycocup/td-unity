@@ -174,5 +174,5 @@ MonoBehaviour:
   rotationSpeed: 90
   fireCooldown: 2
   cost: 10
-  bulletPrefab: {fileID: 1000010194098312, guid: 0ab425339e9b84dd78a45fcc5a8d383b,
+  projectilePrefab: {fileID: 1000010194098312, guid: 0ab425339e9b84dd78a45fcc5a8d383b,
     type: 2}

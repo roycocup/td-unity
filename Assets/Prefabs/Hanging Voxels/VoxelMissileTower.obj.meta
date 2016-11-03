@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: 842791fe8b5ea4d3f87bd12502ea90e8
+labels:
+- Weapon
 timeCreated: 1478184625
 licenseType: Free
 ModelImporter:
@@ -53,7 +55,7 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 0
+    normalImportMode: 1
     tangentImportMode: 3
   importAnimation: 1
   copyAvatar: 0

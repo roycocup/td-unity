@@ -13,7 +13,8 @@ public class Missile : Projectile {
 			direction = target.transform.position - transform.position;
 			transform.Translate (direction.normalized * speed * Time.deltaTime, Space.World);
 
-			//transform.rotation = Quaternion.LookRotation (target.position, Vector3.up);
+			// transform.rotation = Quaternion.LookRotation (target.position, Vector3.up);
+			// transform.rotation = Quaternion.identity;
 			transform.LookAt (target.position);
 		} else {
 			base.Move (direction, distThisFrame);

@@ -12,68 +12,57 @@ public class Tower : MonoBehaviour {
 	public float rotationSpeed = 90f;
 	public float fireCooldown = 2f;
 	public int cost = 5;
-	public GameObject bulletPrefab; 
+	public GameObject projectilePrefab; 
 
 
 	// private 
-	Enemy nearestEnemy;
+	Enemy _nearestEnemy;
 	public Enemy NearestEnemy {
 		get {
-			return nearestEnemy;
+			return _nearestEnemy;
 		}
 		set {
-			nearestEnemy = value;
+			_nearestEnemy = value;
 		}
 	}
 
-	float fireCooldownLeft = 0;
+	float _fireCooldownLeft = 0;
 	public float FireCooldownLeft {
 		get {
-			return fireCooldownLeft;
+			return _fireCooldownLeft;
 		}
 		set {
-			fireCooldownLeft = value;
+			_fireCooldownLeft = value;
 		}
 	}
 
-	Transform turret;
+	Transform _turret;
 	public Transform Turret {
 		get {
-			return turret;
+			return _turret;
 		}
 		set {
-			turret = value;
+			_turret = value;
 		}
 	}
 
-	Transform spawn;
+	Transform _spawn;
 	public Transform Spawn {
 		get {
-			return spawn;
+			return _spawn;
 		}
 		set {
-			spawn = value;
+			_spawn = value;
 		}
 	}
 
-	AudioSource shootSound;
+	AudioSource _shootSound;
 	public AudioSource ShootSound {
 		get {
-			return shootSound;
+			return _shootSound;
 		}
 		set {
-			shootSound = value;
-		}
-	}
-
-
-	Quaternion projectileRotation = Quaternion.identity; 
-	public Quaternion ProjectileRotation {
-		get {
-			return projectileRotation;
-		}
-		set {
-			projectileRotation = value;
+			_shootSound = value;
 		}
 	}
 
@@ -85,10 +74,10 @@ public class Tower : MonoBehaviour {
 
 
 	public virtual void Start(){
-		nearestEnemy = null; 
-		turret = transform.Find ("Turret");
-		spawn = turret.transform.Find ("Barrel/Spawn_Point"); 
-		shootSound = gameObject.GetComponent<AudioSource> (); 
+		_nearestEnemy = null; 
+		_turret = transform.Find ("Turret");
+		_spawn = _turret.transform.Find ("Barrel/Spawn_Point"); 
+		_shootSound = gameObject.GetComponent<AudioSource> (); 
 	}
 
 
@@ -104,45 +93,45 @@ public class Tower : MonoBehaviour {
 		}
 
 
-		if (nearestEnemy != null && turret != null) {
-			Vector3 dir = nearestEnemy.transform.position - turret.transform.position;
+		if (_nearestEnemy != null && _turret != null) {
+			Vector3 dir = _nearestEnemy.transform.position - _turret.transform.position;
 			Quaternion rotation = Quaternion.LookRotation (dir);
 
 			// turret.transform.rotation = Quaternion.Lerp (turret.transform.rotation, rotation, rotationSpeed * Time.deltaTime);
 			// turret.transform.rotation = Quaternion.Euler(0, rotation.eulerAngles.y, 0);
-			Quaternion newRotation = Quaternion.RotateTowards(turret.transform.rotation, rotation, rotationSpeed * Time.deltaTime);
+			Quaternion newRotation = Quaternion.RotateTowards(_turret.transform.rotation, rotation, rotationSpeed * Time.deltaTime);
 			// smoothing the rotation for the turret
 			Vector3 e = newRotation.eulerAngles;
 			e = new Vector3 (0, e.y, 0);
-			turret.transform.rotation = Quaternion.Euler (e);
+			_turret.transform.rotation = Quaternion.Euler (e);
 
 			//only shoot when its pointing at target
 			// FIXME: Turret can't fire when its still seeking and the target is too close.
-			if (Mathf.RoundToInt(turret.transform.rotation.eulerAngles.y) == Mathf.RoundToInt(rotation.eulerAngles.y)) {
+			if (Mathf.RoundToInt(_turret.transform.rotation.eulerAngles.y) == Mathf.RoundToInt(rotation.eulerAngles.y)) {
 				Shoot ();
 			}
 		}
 	}
 
 	virtual public void Shoot(){
-		if (fireCooldownLeft <= 0) {
+		if (_fireCooldownLeft <= 0) {
 			// reset firecooldown
-			fireCooldownLeft = fireCooldown; 
+			_fireCooldownLeft = fireCooldown; 
 
-			if (spawn != null) {
+			if (_spawn != null) {
 				// instantiate the associated projectile prefab 
-				GameObject projectile = (GameObject) Instantiate (bulletPrefab, spawn.transform.position, projectileRotation);
-				Debug.Log (projectileRotation); 
-				// Grab its script and give it a target. 
+				GameObject projectile = (GameObject) Instantiate (projectilePrefab, _spawn.transform.position, Quaternion.identity);
+
+				// Assign a target to the projectile
 				// We grab the base class of the script as we dont know the name of the specific script associated 
-				projectile.GetComponent<Projectile> ().target = nearestEnemy.transform;
+				projectile.GetComponent<Projectile> ().target = _nearestEnemy.transform;
 
 				//PlayShoot ();
 			} 
 
 		} else {
 			// remove frametime from cooldowntime
-			fireCooldownLeft -= Time.deltaTime; 	
+			_fireCooldownLeft -= Time.deltaTime; 	
 		}
 	}
 
@@ -157,14 +146,14 @@ public class Tower : MonoBehaviour {
 
 			if (d <= range) {
 				// if there is no other enemy OR the distance of this one is smaller than the previous one
-				if (nearestEnemy == null || d < distance) {
+				if (_nearestEnemy == null || d < distance) {
 					distance = d;
-					nearestEnemy = e;
+					_nearestEnemy = e;
 				}
 			}
 		}
 
-		if (nearestEnemy == null) {
+		if (_nearestEnemy == null) {
 			//Debug.Log ("No enemies");
 			return; 
 		}
@@ -173,8 +162,8 @@ public class Tower : MonoBehaviour {
 
 
 	void PlayShoot(){
-		if (!shootSound.isPlaying)
-			shootSound.Play ();
+		if (!_shootSound.isPlaying)
+			_shootSound.Play ();
 	}
 
 }

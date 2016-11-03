@@ -162,3 +162,7 @@
 /Users/rdias/unity/td/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/rdias/unity/td/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/rdias/unity/td/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/rdias/unity/td/Temp/bin/Debug/Assembly-CSharp-Editor.dll.mdb
+/Users/rdias/unity/td/Temp/bin/Debug/Assembly-CSharp-Editor.dll
+/Users/rdias/unity/td/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/rdias/unity/td/Temp/bin/Debug/Assembly-CSharp.dll.mdb
