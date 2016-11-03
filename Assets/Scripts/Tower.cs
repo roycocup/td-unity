@@ -17,12 +17,53 @@ public class Tower : MonoBehaviour {
 
 	// private 
 	Enemy nearestEnemy;
-	float fireCooldownLeft = 0;
-	Transform turret;
-	Transform spawn;
-	AudioSource shootSound; 
 
-	void Start(){
+
+	float fireCooldownLeft = 0;
+	public float FireCooldownLeft {
+		get {
+			return fireCooldownLeft;
+		}
+		set {
+			fireCooldownLeft = value;
+		}
+	}
+
+	Transform turret;
+	public Transform Turret {
+		get {
+			return turret;
+		}
+		set {
+			turret = value;
+		}
+	}
+
+	Transform spawn;
+	public Transform Spawn {
+		get {
+			return spawn;
+		}
+		set {
+			spawn = value;
+		}
+	}
+
+	AudioSource shootSound;
+	public AudioSource ShootSound {
+		get {
+			return shootSound;
+		}
+		set {
+			shootSound = value;
+		}
+	}
+
+
+
+ 
+
+	public virtual void Start(){
 		nearestEnemy = null; 
 		turret = transform.Find ("Turret");
 		spawn = turret.transform.Find ("Barrel/Spawn_Point"); 

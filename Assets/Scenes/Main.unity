@@ -2922,9 +2922,9 @@ MonoBehaviour:
     type: 2}
   eliteEnemyPrefab: {fileID: 1000011561535778, guid: 9216222271ed1455ea99740a2ae55fbc,
     type: 2}
-  sniperTowerPrefab: {fileID: 1000010911724632, guid: 930ad978ba05c4c72bdc938f469e12d0,
+  sniperTowerPrefab: {fileID: 1000010911724632, guid: 8cf98288ad3114b67bb3fc8d3e28d756,
     type: 2}
-  missileTowerPrefab: {fileID: 1000013886765482, guid: 34015a55b83ed4bc99414d9ee59f589d,
+  missileTowerPrefab: {fileID: 1000013886765482, guid: e6a7eec47922040d2ae1cc94ee195ee1,
     type: 2}
 --- !u!4 &1415532986
 Transform:
