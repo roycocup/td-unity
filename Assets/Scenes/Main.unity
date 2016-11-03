@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44326913, g: 0.49248058, b: 0.5721216, a: 1}
+  m_IndirectSpecularColor: {r: 0.44326887, g: 0.49248064, b: 0.5721214, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -2924,7 +2924,7 @@ MonoBehaviour:
     type: 2}
   sniperTowerPrefab: {fileID: 1000010911724632, guid: 930ad978ba05c4c72bdc938f469e12d0,
     type: 2}
-  missileTowerPrefab: {fileID: 1000013437609750, guid: 775cedb40b5664545a7402cc15049518,
+  missileTowerPrefab: {fileID: 1000013886765482, guid: 34015a55b83ed4bc99414d9ee59f589d,
     type: 2}
 --- !u!4 &1415532986
 Transform:

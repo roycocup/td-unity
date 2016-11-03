@@ -46,14 +46,14 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Extras\Retro Pixel\Scripts\RetroPixel.cs" />
-     <Compile Include="Assets\Scripts\Bullet.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
-     <Compile Include="Assets\Scripts\Missile.cs" />
-     <Compile Include="Assets\Scripts\MissileTower.cs" />
      <Compile Include="Assets\Scripts\Projectile.cs" />
-     <Compile Include="Assets\Scripts\SniperTower.cs" />
+     <Compile Include="Assets\Scripts\Projectile\Bullet.cs" />
+     <Compile Include="Assets\Scripts\Projectile\Missile.cs" />
      <Compile Include="Assets\Scripts\Tower.cs" />
+     <Compile Include="Assets\Scripts\Tower\MissileTower.cs" />
+     <Compile Include="Assets\Scripts\Tower\SniperTower.cs" />
      <Compile Include="Assets\Scripts\TowerSpot.cs" />
      <None Include="Assets\Extras\Retro Pixel\Resources\Shaders\RetroPixel5.shader" />
      <None Include="Assets\Extras\Retro Pixel\Resources\Shaders\RetroPixel8.shader" />
