@@ -10,5 +10,12 @@ public class MissileTower : Tower {
 		Spawn = Turret.Find ("SpawnLeft"); 
 	}
 
+
+	override public void Shoot(){
+		//ProjectileRotation = Quaternion.LookRotation (NearestEnemy.transform.position);  
+		ProjectileRotation = Quaternion.Euler (15, 15, 16); 
+		base.Shoot ();
+	}
+
 }
 

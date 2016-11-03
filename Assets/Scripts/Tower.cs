@@ -17,7 +17,14 @@ public class Tower : MonoBehaviour {
 
 	// private 
 	Enemy nearestEnemy;
-
+	public Enemy NearestEnemy {
+		get {
+			return nearestEnemy;
+		}
+		set {
+			nearestEnemy = value;
+		}
+	}
 
 	float fireCooldownLeft = 0;
 	public float FireCooldownLeft {
@@ -60,8 +67,22 @@ public class Tower : MonoBehaviour {
 	}
 
 
+	Quaternion projectileRotation = Quaternion.identity; 
+	public Quaternion ProjectileRotation {
+		get {
+			return projectileRotation;
+		}
+		set {
+			projectileRotation = value;
+		}
+	}
 
  
+
+	/**
+	 * Methods
+	 */
+
 
 	public virtual void Start(){
 		nearestEnemy = null; 
@@ -69,6 +90,8 @@ public class Tower : MonoBehaviour {
 		spawn = turret.transform.Find ("Barrel/Spawn_Point"); 
 		shootSound = gameObject.GetComponent<AudioSource> (); 
 	}
+
+
 		
 	void FixedUpdate(){
 
@@ -101,14 +124,15 @@ public class Tower : MonoBehaviour {
 		}
 	}
 
-	void Shoot(){
+	virtual public void Shoot(){
 		if (fireCooldownLeft <= 0) {
 			// reset firecooldown
 			fireCooldownLeft = fireCooldown; 
 
 			if (spawn != null) {
 				// instantiate the associated projectile prefab 
-				GameObject projectile = (GameObject) Instantiate (bulletPrefab, spawn.transform.position, Quaternion.identity);
+				GameObject projectile = (GameObject) Instantiate (bulletPrefab, spawn.transform.position, projectileRotation);
+				Debug.Log (projectileRotation); 
 				// Grab its script and give it a target. 
 				// We grab the base class of the script as we dont know the name of the specific script associated 
 				projectile.GetComponent<Projectile> ().target = nearestEnemy.transform;
