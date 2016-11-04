@@ -45,12 +45,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Extras\MagicaVoxel\Scripts\Editor\MVEditorUtilities.cs" />
+     <Compile Include="Assets\Extras\MagicaVoxel\Scripts\Editor\MVVoxModelInspector.cs" />
+     <Compile Include="Assets\Extras\MagicaVoxel\Scripts\Editor\MVVoxModelMeshInspector.cs" />
+     <Compile Include="Assets\Extras\MagicaVoxel\Scripts\Editor\MVVoxModelVoxelInspector.cs" />
      <Compile Include="Assets\Extras\Retro Pixel\Editor\RetroPixelEditor.cs" />
      <None Include="Assets\Extras\Retro Pixel\Resources\Shaders\RetroPixel5.shader" />
      <None Include="Assets\Extras\Retro Pixel\Resources\Shaders\RetroPixel8.shader" />
+     <None Include="Assets\Extras\MagicaVoxel\SSAO\SSAOShader.shader" />
+     <None Include="Assets\Extras\MagicaVoxel\Shaders\FlatColor.shader" />
      <None Include="Assets\Extras\Retro Pixel\Resources\Shaders\RetroPixel4.shader" />
      <None Include="Assets\Extras\Retro Pixel\Resources\Shaders\RetroPixel6.shader" />
      <None Include="Assets\Extras\Retro Pixel\Resources\Shaders\RetroPixel3.shader" />
+     <None Include="Assets\Extras\MagicaVoxel\Shaders\StandardVertexTransp.shader" />
      <None Include="Assets\Extras\Retro Pixel\Resources\Shaders\RetroPixel7.shader" />
      <None Include="Assets\Extras\Retro Pixel\Resources\Shaders\RetroPixel2.shader" />
      <None Include="Assets\Extras\Retro Pixel\Readme.txt" />
@@ -83,6 +90,9 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>/Users/rdias/unity/td/Assets/Extras/MagicaVoxel/Scripts/Utilities/SimpleJSON/ICSharpCode.SharpZipLib.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

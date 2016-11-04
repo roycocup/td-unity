@@ -1,10 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Tower/MissileTower.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Projectile/Missile.cs">
     <Files>
-      <File FileName="Assets/Scripts/GameManager.cs" Line="24" Column="26" />
-      <File FileName="Assets/Scripts/Tower.cs" Line="135" Column="37" />
-      <File FileName="Assets/Scripts/Tower/MissileTower.cs" Line="15" Column="60" />
+      <File FileName="Assets/Scripts/Tower.cs" Line="80" Column="115" />
+      <File FileName="Assets/Scripts/Tower/MissileTower.cs" Line="6" Column="31" />
+      <File FileName="Assets/Scripts/Projectile.cs" Line="14" Column="29" />
+      <File FileName="Assets/Scripts/Projectile/Missile.cs" Line="7" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
