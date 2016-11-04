@@ -4,7 +4,8 @@ using System.Collections;
 public class Missile : Projectile {
 
 	void Start(){
-		ExpireIn = 20; 
+		speed = 15f;
+		expireIn = 20; 
 	}
 
 	protected override void Move(Vector3 direction, float distThisFrame){
@@ -15,7 +16,9 @@ public class Missile : Projectile {
 
 			// transform.rotation = Quaternion.LookRotation (target.position, Vector3.up);
 			// transform.rotation = Quaternion.identity;
-			transform.LookAt (target.position);
+			// transform.rotation = Quaternion.Euler (direction);
+			transform.LookAt(target.position);
+			Debug.DrawRay (transform.position, Vector3.forward, Color.blue);
 		} else {
 			base.Move (direction, distThisFrame);
 		}

@@ -3,22 +3,18 @@ using System.Collections;
 
 public class Projectile : MonoBehaviour {
 
-	public float speed = 15f; 
+	// Public 
 	public float radius = 0.5f;
 	public int damage = 1;
 	public Transform target = null; 
-	int _expireIn = 5;
 
-	public int ExpireIn {
-		get {
-			return _expireIn;
-		}
-		set {
-			_expireIn = value;
-		}
-	}
-
+	// Protected
+	protected float speed = 15f; 
+	protected int expireIn = 5;
 	protected Vector3 direction; 
+
+
+	// Methods
 
 	// Update is called once per frame
 	void FixedUpdate () {
@@ -35,11 +31,11 @@ public class Projectile : MonoBehaviour {
 			} else {
 				Move (direction, distThisFrame);
 			}
-			Destroy (gameObject, _expireIn);
+			Destroy (gameObject, expireIn);
 		} else {
 			// if the target became null but we are already moving
 			Move (direction, distThisFrame);
-			Destroy(gameObject, _expireIn);
+			Destroy(gameObject, expireIn);
 		} 
 	}
 
