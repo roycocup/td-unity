@@ -22,7 +22,7 @@ GameObject:
   - 33: {fileID: 33000010802598698}
   - 23: {fileID: 23000011719902770}
   m_Layer: 0
-  m_Name: default
+  m_Name: mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -86,7 +86,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: a31ca67d62e134b16850c4516f9b2fd4, type: 2}
+  - {fileID: 2100000, guid: 44d8a656d945c46fe89e4ff433f04e4f, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -108,7 +108,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012851875956}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
@@ -156,7 +156,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57f0d7b5363f64d3d93222a4e1b62fcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
   radius: 0.5
   damage: 1
   target: {fileID: 0}
