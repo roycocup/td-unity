@@ -20,9 +20,10 @@ public class Missile : Projectile {
 			// transform.rotation = Quaternion.identity;
 			// transform.rotation = Quaternion.Euler (direction);
 			transform.LookAt(target.position);
-			Debug.DrawRay (transform.position, Vector3.forward, Color.blue);
 		} else {
-			base.Move (direction, distThisFrame);
+			// if you lose your target, just keep going forward
+			// TODO: if it still crosses any enemy, explode and damage
+			base.Move (Vector3.forward, distThisFrame);
 		}
 	}
 
