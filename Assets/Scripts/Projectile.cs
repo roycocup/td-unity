@@ -14,6 +14,11 @@ public class Projectile : MonoBehaviour {
 	protected Vector3 direction; 
 
 
+	virtual protected void Start(){
+		
+	}
+
+
 	// Methods
 
 	// Update is called once per frame
