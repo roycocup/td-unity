@@ -2922,7 +2922,7 @@ MonoBehaviour:
     type: 2}
   eliteEnemyPrefab: {fileID: 1000011561535778, guid: 9216222271ed1455ea99740a2ae55fbc,
     type: 2}
-  sniperTowerPrefab: {fileID: 1000010911724632, guid: 8cf98288ad3114b67bb3fc8d3e28d756,
+  sniperTowerPrefab: {fileID: 1000010887640250, guid: e61d97f28b2c2418b958e7f8224b4485,
     type: 2}
   missileTowerPrefab: {fileID: 1000011951670016, guid: 8eb04e6b5a9804f57956edc4ddbdb810,
     type: 2}

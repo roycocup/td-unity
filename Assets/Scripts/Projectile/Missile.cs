@@ -4,8 +4,10 @@ using System.Collections;
 public class Missile : Projectile {
 
 	void Start(){
-		speed = 15f;
-		expireIn = 20; 
+		radius = 3f;
+		damage = 5;
+		speed = 4f;
+		expireIn = 20;
 	}
 
 	protected override void Move(Vector3 direction, float distThisFrame){

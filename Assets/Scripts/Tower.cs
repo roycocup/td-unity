@@ -29,7 +29,7 @@ public class Tower : MonoBehaviour {
 	 * Methods
 	 */
 
-	public virtual void Start(){
+	virtual public void Start(){
 		nearestEnemy = null; 
 		turret = transform.Find ("Turret");
 		spawn = turret.transform.Find ("Barrel/Spawn_Point"); 
