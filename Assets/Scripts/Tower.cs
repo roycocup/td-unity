@@ -13,6 +13,7 @@ public class Tower : MonoBehaviour {
 	public float fireCooldown = 2f;
 	public int cost = 5;
 	public GameObject projectilePrefab; 
+	public GameObject smoke; 
 
 
 	// private 

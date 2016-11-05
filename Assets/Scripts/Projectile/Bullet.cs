@@ -10,9 +10,9 @@ public class Bullet : Projectile
 	}
 
 	override protected void Die(){
-		GameObject p = (GameObject) GameObject.Instantiate (particlesDie01, transform.position, Quaternion.identity);
+		GameObject explosion = (GameObject) GameObject.Instantiate (particlesDie01, transform.position, Quaternion.identity);
 		Destroy(gameObject);
-		Destroy (p, 1); 
+		Destroy (explosion, 1); 
 	}
 	
 }

@@ -205,3 +205,4 @@ MonoBehaviour:
   cost: 5
   projectilePrefab: {fileID: 1000013782904920, guid: 1bda6dda8dceb4515bbc4adcc054bb66,
     type: 2}
+  smoke: {fileID: 1000013226627560, guid: 96e344388834940bcac1c1d17a1fa1df, type: 2}

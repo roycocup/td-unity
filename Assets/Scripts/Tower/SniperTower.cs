@@ -10,5 +10,13 @@ public class SniperTower : Tower {
 		spawn = turret.transform.Find ("spawn_point"); 
 	}
 
+	override public void Shoot(){
+		base.Shoot ();
+		if (smoke != null) {
+			GameObject s = (GameObject) Instantiate (smoke, spawn.transform.position, transform.rotation);
+			Destroy (s, 1); 
+		}
+
+	}
 
 }
