@@ -3,9 +3,16 @@ using System.Collections;
 
 public class Bullet : Projectile
 {
+	public GameObject particlesDie01;
 
-	override protected void Start(){
+	void Start(){
 		damage = 1;
+	}
+
+	override protected void Die(){
+		GameObject p = (GameObject) GameObject.Instantiate (particlesDie01, transform.position, Quaternion.identity);
+		Destroy(gameObject);
+		Destroy (p, 1); 
 	}
 	
 }

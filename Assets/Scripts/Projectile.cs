@@ -14,11 +14,6 @@ public class Projectile : MonoBehaviour {
 	protected Vector3 direction; 
 
 
-	virtual protected void Start(){
-		
-	}
-
-
 	// Methods
 
 	// Update is called once per frame
@@ -55,7 +50,10 @@ public class Projectile : MonoBehaviour {
 				e.GetComponent<Enemy>().TakeDamage(damage);
 			}
 		}
-		// TODO: Maybe spawn a cool "explosion" object here?
+		Die ();
+	}
+
+	virtual protected void Die(){
 		Destroy(gameObject);
 	}
 

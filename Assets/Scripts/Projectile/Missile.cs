@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Missile : Projectile {
 
-	override protected void Start(){
+	void Start(){
 		radius = 3f;
 		damage = 5;
 		speed = 4f;
