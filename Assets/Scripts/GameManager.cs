@@ -23,10 +23,13 @@ public class GameManager : MonoBehaviour {
 	public GameObject eliteEnemyPrefab; 
 	public GameObject sniperTowerPrefab; 
 	public GameObject missileTowerPrefab; 
+
+	//private
 	Transform enemySpawn; 
 	Text healthText; 
 	Text infoText; 
 	Text moneyText;
+	int numWaves = 0;
 
 	// persisting the towerSpot for the new tower to be bought
 	GameObject towerSpot; 
@@ -49,6 +52,7 @@ public class GameManager : MonoBehaviour {
 			if (waveTimeLeft <= 0) {
 				numElementsInWave = UnityEngine.Random.Range (10, 20); 
 				numElementsInWaveLeft = numElementsInWave;
+				numWaves++;
 				StartCoroutine (SpawnWave ());
 				waveTimeLeft = waveRate;
 			} else {
@@ -90,8 +94,13 @@ public class GameManager : MonoBehaviour {
 			go = eliteEnemyPrefab; 
 		} 
 		 
-		if (go != null)
-			GameObject.Instantiate (go, enemySpawn.position, enemySpawn.rotation);			
+		if (go != null) {
+			GameObject enemy = (GameObject) GameObject.Instantiate (go, enemySpawn.position, enemySpawn.rotation);
+			int enemyHealth = enemy.GetComponent<Enemy> ().health;
+			// adding strength to the wave
+			enemy.GetComponent<Enemy> ().health = enemyHealth + (numWaves * 2);
+		}
+			
 	}
 
 

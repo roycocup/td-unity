@@ -3,14 +3,14 @@ using System.Collections;
 
 public class Enemy : MonoBehaviour {
 
-	public float speed = 3f; 
-	public float health = 1f;
-
+	//public
+	public float speed = 2f; 
+	public int health = 10;
 	public const int TYPE_NORMAL = 0; 
 	public const int TYPE_ELITE = 1; 
 
 
-
+	//private
 	GameObject Path; 
 	Transform pathNode;
 	float rotation_speed; 
