@@ -210,7 +210,7 @@ GameObject:
   - 114: {fileID: 627045926}
   - 114: {fileID: 627045925}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: Credits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -437,9 +437,9 @@ RectTransform:
   m_Father: {fileID: 837547297}
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 320, y: -188}
-  m_SizeDelta: {x: 823, y: 376}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.000030010939, y: -200}
+  m_SizeDelta: {x: 0.000059992075, y: 371}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &860104401
 MonoBehaviour:
@@ -833,7 +833,7 @@ GameObject:
   - 114: {fileID: 1837908237}
   - 114: {fileID: 1837908236}
   m_Layer: 5
-  m_Name: Button
+  m_Name: New
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1042,7 +1042,7 @@ GameObject:
   - 114: {fileID: 1991696729}
   - 114: {fileID: 1991696728}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Quit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1105,7 +1105,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1991696729}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 58894563}
+        m_MethodName: OnQuit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1991696729

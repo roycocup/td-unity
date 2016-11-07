@@ -522,6 +522,6 @@ PlayerSettings:
   iOS::VR::enabledDevices: []
   tvOS::VR::enabledDevices: []
   cloudProjectId: e819af1f-dd92-4185-86b0-4ceaa806852b
-  projectName: TDVoxel
-  organizationId: roycocup
+  projectName: We Shall Fight On The Beaches
+  organizationId: softroad
   cloudEnabled: 0
