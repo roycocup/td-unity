@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour {
 	public GameObject eliteEnemyPrefab; 
 	public GameObject sniperTowerPrefab; 
 	public GameObject missileTowerPrefab; 
+	public GameObject towerSpotConstructionSmoke; 
 
 	//private
 	Transform enemySpawn; 
@@ -157,7 +158,9 @@ public class GameManager : MonoBehaviour {
 		if (SubMoney (towerScript.cost) == true) {
 			Instantiate (tower, towerSpot.transform.position, towerSpot.transform.rotation);
 			towerScript.towerType = towerType;
+			GameObject animation = (GameObject) Instantiate (towerSpotConstructionSmoke, towerSpot.transform.position, Quaternion.Euler(new Vector3(-90f, 0, 0)));
 			Destroy (towerSpot);
+			Destroy (animation, 5);
 		}
 
 		HideTowerMenu (); 
