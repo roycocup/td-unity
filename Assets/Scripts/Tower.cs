@@ -30,7 +30,7 @@ public class Tower : MonoBehaviour {
 	 * Methods
 	 */
 
-	virtual public void Start(){
+	public virtual void Start(){
 		nearestEnemy = null; 
 		turret = transform.Find ("Turret");
 		spawn = turret.transform.Find ("Barrel/Spawn_Point"); 
@@ -71,7 +71,7 @@ public class Tower : MonoBehaviour {
 		}
 	}
 
-	virtual public void Shoot(){
+	public virtual void Shoot(){
 		if (fireCooldownLeft <= 0) {
 			// reset firecooldown
 			fireCooldownLeft = fireCooldown; 
@@ -83,8 +83,7 @@ public class Tower : MonoBehaviour {
 				// Assign a target to the projectile
 				// We grab the base class of the script as we dont know the name of the specific script associated 
 				projectile.GetComponent<Projectile> ().target = nearestEnemy.transform;
-
-				//PlayShoot ();
+				PlayShoot ();
 			} 
 
 		} else {
@@ -119,7 +118,7 @@ public class Tower : MonoBehaviour {
 
 
 
-	void PlayShoot(){
+	protected virtual void PlayShoot(){
 		if (!shootSound.isPlaying)
 			shootSound.Play ();
 	}
