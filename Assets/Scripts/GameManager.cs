@@ -179,10 +179,9 @@ public class GameManager : MonoBehaviour {
 
 
 	void PlayConstructTower (){
-		AudioSource constructionSound = GameObject.Find("AudioManager").GetComponent<AudioManager>().GetAudio("construction-01");
-		Debug.Log (constructionSound); 
-		if (constructionSound != null && !constructionSound.isPlaying)
-			constructionSound.Play ();
+//		AudioSource constructionSound = GameObject.Find("AudioManager").GetComponent<AudioManager>().GetAudio("construction-01");
+//		if (constructionSound != null && !constructionSound.isPlaying)
+//			constructionSound.Play ();
 	}
 
 

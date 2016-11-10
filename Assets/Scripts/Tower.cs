@@ -14,6 +14,7 @@ public class Tower : MonoBehaviour {
 	public int cost = 5;
 	public GameObject projectilePrefab; 
 	public GameObject smoke; 
+	public AudioClip shot; 
 
 
 	// private 
@@ -22,7 +23,7 @@ public class Tower : MonoBehaviour {
 	protected Transform turret;
 	protected Transform spawn;
 	protected Quaternion spawningRotation;
-	protected AudioSource shootSound;
+	protected AudioSource audioSource;
 
 
 
@@ -32,9 +33,7 @@ public class Tower : MonoBehaviour {
 
 	public virtual void Start(){
 		nearestEnemy = null; 
-		turret = transform.Find ("Turret");
-		spawn = turret.transform.Find ("Barrel/Spawn_Point"); 
-		shootSound = gameObject.GetComponent<AudioSource> (); 
+		audioSource = gameObject.GetComponent<AudioSource> (); 
 		spawningRotation = Quaternion.identity;
 	}
 
@@ -83,7 +82,7 @@ public class Tower : MonoBehaviour {
 				// Assign a target to the projectile
 				// We grab the base class of the script as we dont know the name of the specific script associated 
 				projectile.GetComponent<Projectile> ().target = nearestEnemy.transform;
-				PlayShoot ();
+				PlayShot ();
 			} 
 
 		} else {
@@ -118,9 +117,6 @@ public class Tower : MonoBehaviour {
 
 
 
-	protected virtual void PlayShoot(){
-		if (!shootSound.isPlaying)
-			shootSound.Play ();
-	}
+	protected virtual void PlayShot(){}
 
 }
