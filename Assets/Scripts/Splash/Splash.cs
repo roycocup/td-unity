@@ -20,15 +20,14 @@ public class Splash : MonoBehaviour {
 
 		// animation time
 		if (timeToWait < timeWaited) {
-			Quaternion rotation =  Quaternion.Lerp(transform.rotation, Quaternion.Euler(Vector3.forward * 90f), 1f);
-			transform.rotation = rotation;
+			logo.transform.rotation = Quaternion.Lerp (logo.transform.rotation, Quaternion.Euler (Vector3.forward * 10f), 1);
+
 			if (timeToChangeScene < timeWaited ){
 				SceneManager.LoadScene("MMenu");
 			}
 		}
 
 		timeWaited += Time.deltaTime;
-
 	}
 
 }
