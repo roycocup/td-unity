@@ -9,6 +9,6 @@ public class MMenu : MonoBehaviour {
 	}
 
 	public void OnQuit(){
-		Application.Quit ();
+		SceneManager.LoadScene ("Credits");
 	}
 }
