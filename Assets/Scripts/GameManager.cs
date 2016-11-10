@@ -24,7 +24,6 @@ public class GameManager : MonoBehaviour {
 	public GameObject sniperTowerPrefab; 
 	public GameObject missileTowerPrefab; 
 	public GameObject towerSpotConstructionSmoke; 
-	public AudioSource constructionSound; 
 
 	//private
 	Transform enemySpawn; 
@@ -41,7 +40,6 @@ public class GameManager : MonoBehaviour {
 		healthText = GameObject.Find ("UI/Canvas/Panel/HealthUIText").GetComponent<Text>(); 
 		infoText = GameObject.Find ("UI/Canvas/Panel/InfoUIText").GetComponent<Text>(); 
 		moneyText = GameObject.Find ("UI/Canvas/Panel/MoneyUIText").GetComponent<Text>(); 
-		constructionSound = GetComponent<AudioSource> ();
 		// it should be off, but just in case
 		GameObject.Find ("UI/Canvas/TowerMenuUI").SetActive(false);
 	}
@@ -181,7 +179,9 @@ public class GameManager : MonoBehaviour {
 
 
 	void PlayConstructTower (){
-		if (!constructionSound.isPlaying)
+		AudioSource constructionSound = GameObject.Find("AudioManager").GetComponent<AudioManager>().GetAudio("construction-01");
+		Debug.Log (constructionSound); 
+		if (constructionSound != null && !constructionSound.isPlaying)
 			constructionSound.Play ();
 	}
 
