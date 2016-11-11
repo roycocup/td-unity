@@ -197,7 +197,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: f74c0004372a14abfaf9e4e087a3e27d, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
@@ -281,3 +281,4 @@ MonoBehaviour:
   projectilePrefab: {fileID: 1000013782904920, guid: 1bda6dda8dceb4515bbc4adcc054bb66,
     type: 2}
   smoke: {fileID: 1000013226627560, guid: 96e344388834940bcac1c1d17a1fa1df, type: 2}
+  shot: {fileID: 8300000, guid: f74c0004372a14abfaf9e4e087a3e27d, type: 3}
