@@ -85,12 +85,15 @@
      <Compile Include="Assets\Extras\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
      <Compile Include="Assets\Extras\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
-     <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\MMenu\MMenu.cs" />
+     <Compile Include="Assets\Scripts\Managers\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\CreditsManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\Game.cs" />
+     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\Splash.cs" />
      <Compile Include="Assets\Scripts\Projectile.cs" />
      <Compile Include="Assets\Scripts\Projectile\Bullet.cs" />
      <Compile Include="Assets\Scripts\Projectile\Missile.cs" />
-     <Compile Include="Assets\Scripts\Splash\Splash.cs" />
      <Compile Include="Assets\Scripts\Tower.cs" />
      <Compile Include="Assets\Scripts\Tower\MissileTower.cs" />
      <Compile Include="Assets\Scripts\Tower\SniperTower.cs" />

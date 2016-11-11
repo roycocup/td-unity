@@ -12,9 +12,14 @@ public class Projectile : MonoBehaviour {
 	protected float speed = 15f; 
 	protected int expireIn = 5;
 	protected Vector3 direction; 
+	protected AudioSource shootSound;
 
 
 	// Methods
+
+	void Start(){
+		shootSound = gameObject.GetComponent<AudioSource> (); 
+	}
 
 	// Update is called once per frame
 	void FixedUpdate () {
@@ -40,7 +45,7 @@ public class Projectile : MonoBehaviour {
 	}
 
 
-	protected void DoBulletHit() {
+	protected virtual void DoBulletHit() {
 		Collider[] cols = Physics.OverlapSphere(transform.position, radius);
 
 		foreach(Collider c in cols) {
@@ -53,8 +58,13 @@ public class Projectile : MonoBehaviour {
 		Die ();
 	}
 
-	virtual protected void Die(){
+	protected virtual void Die(){
 		Destroy(gameObject);
+	}
+
+	protected virtual void PlayDead(){
+		if (!shootSound.isPlaying)
+			shootSound.Play ();
 	}
 
 	protected virtual void Move(Vector3 direction, float distThisFrame){

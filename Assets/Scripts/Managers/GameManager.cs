@@ -40,7 +40,6 @@ public class GameManager : MonoBehaviour {
 		healthText = GameObject.Find ("UI/Canvas/Panel/HealthUIText").GetComponent<Text>(); 
 		infoText = GameObject.Find ("UI/Canvas/Panel/InfoUIText").GetComponent<Text>(); 
 		moneyText = GameObject.Find ("UI/Canvas/Panel/MoneyUIText").GetComponent<Text>(); 
-
 		// it should be off, but just in case
 		GameObject.Find ("UI/Canvas/TowerMenuUI").SetActive(false);
 	}
@@ -158,6 +157,7 @@ public class GameManager : MonoBehaviour {
 		if (SubMoney (towerScript.cost) == true) {
 			Instantiate (tower, towerSpot.transform.position, towerSpot.transform.rotation);
 			towerScript.towerType = towerType;
+			PlayConstructTower ();
 			GameObject animation = (GameObject) Instantiate (towerSpotConstructionSmoke, towerSpot.transform.position, Quaternion.Euler(new Vector3(-90f, 0, 0)));
 			Destroy (towerSpot);
 			Destroy (animation, 5);
@@ -178,7 +178,11 @@ public class GameManager : MonoBehaviour {
 	}
 
 
-
+	void PlayConstructTower (){
+//		AudioSource constructionSound = GameObject.Find("AudioManager").GetComponent<AudioManager>().GetAudio("construction-01");
+//		if (constructionSound != null && !constructionSound.isPlaying)
+//			constructionSound.Play ();
+	}
 
 
 }
