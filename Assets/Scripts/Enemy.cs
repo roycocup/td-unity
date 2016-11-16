@@ -11,11 +11,11 @@ public class Enemy : MonoBehaviour {
 
 
 	//private
-	GameObject Path; 
-	Transform pathNode;
-	float rotation_speed; 
-	int nodeIndex = 0; 
-	int value = 1;
+	protected GameObject Path; 
+	protected Transform pathNode;
+	protected float rotation_speed; 
+	protected int nodeIndex = 0; 
+	protected int value = 1; // money value of this enemy
 
 	GameManager gameManager; 
 
@@ -86,7 +86,7 @@ public class Enemy : MonoBehaviour {
 	}
 		
 
-	void ReachedGoal(){
+	protected void ReachedGoal(){
 		gameManager.TakeDamage (1);
 		Destroy(gameObject);
 	}

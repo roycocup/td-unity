@@ -51,6 +51,7 @@ public class Projectile : MonoBehaviour {
 		foreach(Collider c in cols) {
 			Enemy e = c.GetComponent<Enemy>();
 			if(e != null) {
+				print ("Hit" + e.name);
 				// TODO: You COULD do a falloff of damage based on distance, but that's rare for TD games
 				e.GetComponent<Enemy>().TakeDamage(damage);
 			}
