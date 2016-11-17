@@ -12,6 +12,8 @@ public class Enemy : MonoBehaviour {
 
 
 	//private
+	protected enum Status {SPAWNED, ALIVE, TAKINGFIRE, DYING};
+	protected Status _status;
 	protected GameObject Path; 
 	protected Transform pathNode;
 	protected float rotation_speed; 
@@ -26,6 +28,7 @@ public class Enemy : MonoBehaviour {
 		pathNode = Path.transform.GetChild (nodeIndex); 
 		rotation_speed = speed * 2f;
 		gameManager = GameObject.Find ("GameManager").GetComponent<GameManager>();
+		_status = Status.SPAWNED;
 	}
 
 	void GetNextNode(){
@@ -39,6 +42,12 @@ public class Enemy : MonoBehaviour {
 	}
 
 	void FixedUpdate(){
+		if (_status != Status.DYING) {
+			Move ();
+		}
+	}
+
+	public void Move(){
 		// get direction to the node and go to it
 		Vector3 direction = pathNode.transform.position - this.transform.position; 
 		// get the distance the object is going to go this frame
@@ -77,11 +86,11 @@ public class Enemy : MonoBehaviour {
 			// or this.transform.lookAt(pathNode);
 			// or this.transform.rotation = Quaternion.LookRotation (direction); 
 		}
-			
 	}
 
 	public void TakeDamage(int damage){
 		health -= damage; 
+		_status = Status.TAKINGFIRE;
 		if (health <= 0) {
 			Die();
 		}
@@ -95,6 +104,7 @@ public class Enemy : MonoBehaviour {
 
 	public void Die() {
 		//GameObject.FindObjectOfType<ScoreManager>().money += moneyValue;
+		_status = Status.DYING;
 		gameManager.AddMoney (this.value);
 		animator.Play ("Dying", -1);
 		Destroy(gameObject, 4);
