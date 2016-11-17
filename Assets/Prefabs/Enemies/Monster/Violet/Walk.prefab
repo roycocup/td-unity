@@ -325,8 +325,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 461256}
   - 95: {fileID: 9578862}
-  - 114: {fileID: 114000010857872582}
   - 65: {fileID: 65000013227497132}
+  - 114: {fileID: 114000013674222328}
   m_Layer: 0
   m_Name: Walk
   m_TagString: Untagged
@@ -1723,7 +1723,7 @@ Animator:
   m_GameObject: {fileID: 132824}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: c76ca452aed8be049a7ffb4b2da9404e, type: 3}
-  m_Controller: {fileID: 9100000, guid: acbeac7b8951d4a57a47b90fdb876277, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1aa735ab4685a48c29c2f9c255d074cf, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1841,7 +1841,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.8854265, z: 1}
   m_Center: {x: 0, y: 0.7, z: 0}
---- !u!114 &114000010857872582
+--- !u!114 &114000013674222328
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1849,8 +1849,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 132824}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb168f26af9f74b43832b68c137a7fe2, type: 3}
+  m_Script: {fileID: 11500000, guid: 7c7f1424c604e435dbbd7d05ae9c36b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 2
   health: 10
+  animator: {fileID: 0}

@@ -2457,9 +2457,8 @@ MonoBehaviour:
   waveRate: 10
   health: 10
   money: 999
-  normalEnemyPrefab: {fileID: 132824, guid: 0d2672fd4b8baea4ea3bfc09f4194349, type: 2}
-  eliteEnemyPrefab: {fileID: 1000011561535778, guid: 9216222271ed1455ea99740a2ae55fbc,
-    type: 2}
+  normalEnemyPrefab: {fileID: 165674, guid: ebcbf0a78a044764db5fff00a0f21741, type: 2}
+  eliteEnemyPrefab: {fileID: 132824, guid: 0d2672fd4b8baea4ea3bfc09f4194349, type: 2}
   sniperTowerPrefab: {fileID: 1000010887640250, guid: e61d97f28b2c2418b958e7f8224b4485,
     type: 2}
   missileTowerPrefab: {fileID: 1000011951670016, guid: 8eb04e6b5a9804f57956edc4ddbdb810,
@@ -2477,8 +2476,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 1684678930}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
 --- !u!114 &1415532987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2743,35 +2742,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4000013721208968, guid: 7c90d69d63bb94ed4a76ff273aecd766,
     type: 2}
   m_PrefabInternal: {fileID: 1611541738}
---- !u!1 &1684678929
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1684678930}
-  m_Layer: 0
-  m_Name: Managers
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1684678930
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1684678929}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children:
-  - {fileID: 1415532986}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
 --- !u!1 &1752230209
 GameObject:
   m_ObjectHideFlags: 0
