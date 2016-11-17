@@ -84,6 +84,8 @@
      <Compile Include="Assets\Extras\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
      <Compile Include="Assets\Extras\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
      <Compile Include="Assets\Extras\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+     <Compile Include="Assets\Scripts\Enemies\EliteEnemy.cs" />
+     <Compile Include="Assets\Scripts\Enemies\NormalEnemy.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\MMenu\MMenu.cs" />
      <Compile Include="Assets\Scripts\Managers\AudioManager.cs" />

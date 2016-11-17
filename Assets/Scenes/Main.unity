@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44326913, g: 0.49248058, b: 0.5721216, a: 1}
+  m_IndirectSpecularColor: {r: 0.44326887, g: 0.49248064, b: 0.5721214, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -2453,12 +2453,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eed14b8f936424bc49643e9a3920ef60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnRate: 0.5
+  spawnRate: 1
   waveRate: 10
   health: 10
   money: 999
-  normalEnemyPrefab: {fileID: 1000010313749696, guid: 4fb326f92c13d4c9089d040dd8fb8811,
-    type: 2}
+  normalEnemyPrefab: {fileID: 132824, guid: 0d2672fd4b8baea4ea3bfc09f4194349, type: 2}
   eliteEnemyPrefab: {fileID: 1000011561535778, guid: 9216222271ed1455ea99740a2ae55fbc,
     type: 2}
   sniperTowerPrefab: {fileID: 1000010887640250, guid: e61d97f28b2c2418b958e7f8224b4485,
