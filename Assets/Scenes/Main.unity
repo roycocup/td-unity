@@ -703,7 +703,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013721208968, guid: 7c90d69d63bb94ed4a76ff273aecd766, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -1.13
       objectReference: {fileID: 0}
     - target: {fileID: 4000013721208968, guid: 7c90d69d63bb94ed4a76ff273aecd766, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1398,7 +1398,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013721208968, guid: 7c90d69d63bb94ed4a76ff273aecd766, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -1.8
       objectReference: {fileID: 0}
     - target: {fileID: 4000013721208968, guid: 7c90d69d63bb94ed4a76ff273aecd766, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1427,6 +1427,11 @@ Prefab:
     - target: {fileID: 1000012163933404, guid: 7c90d69d63bb94ed4a76ff273aecd766, type: 2}
       propertyPath: m_Name
       value: PathNode (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000013228003606, guid: 7c90d69d63bb94ed4a76ff273aecd766,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7c90d69d63bb94ed4a76ff273aecd766, type: 2}
@@ -2844,10 +2849,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eed14b8f936424bc49643e9a3920ef60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnRate: 1
-  waveRate: 10
+  spawnRate: 1.5
+  waveRate: 20
   health: 10
-  money: 999
+  money: 10
   normalEnemyPrefab: {fileID: 165674, guid: ebcbf0a78a044764db5fff00a0f21741, type: 2}
   eliteEnemyPrefab: {fileID: 132824, guid: 0d2672fd4b8baea4ea3bfc09f4194349, type: 2}
   sniperTowerPrefab: {fileID: 1000010887640250, guid: e61d97f28b2c2418b958e7f8224b4485,
