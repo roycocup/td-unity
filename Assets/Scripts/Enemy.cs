@@ -19,16 +19,19 @@ public class Enemy : MonoBehaviour {
 	protected float rotation_speed; 
 	protected int nodeIndex = 0; 
 	protected int value = 1; // money value of this enemy
+	float _randomZ, _randomX;
 
 	GameManager gameManager; 
 
 	void Start (){
 		animator = gameObject.GetComponent<Animator> ();
+		animator.SetInteger ("Health", health);
 		Path = GameObject.Find ("Path");
 		pathNode = Path.transform.GetChild (nodeIndex); 
 		rotation_speed = speed * 2f;
 		gameManager = GameObject.Find ("GameManager").GetComponent<GameManager>();
 		_status = Status.SPAWNED;
+		GetDestinationRandomization ();
 	}
 
 	void GetNextNode(){
@@ -48,8 +51,11 @@ public class Enemy : MonoBehaviour {
 	}
 
 	public void Move(){
+		//FIXME: Enemies are goitn through the tower spots. The new randomization needs to take the direction line into account and recalculate if this happens.
+		//base the direction roughly on the path
+		Vector3 directionPoint = new Vector3 (pathNode.transform.position.x + _randomX, pathNode.transform.position.y, pathNode.transform.position.z + _randomZ);
 		// get direction to the node and go to it
-		Vector3 direction = pathNode.transform.position - this.transform.position; 
+		Vector3 direction = directionPoint - this.transform.position; 
 		// get the distance the object is going to go this frame
 		float distThisFrame = speed * Time.deltaTime;
 		// maginiture will give us a simple float of the vector distance
@@ -91,6 +97,7 @@ public class Enemy : MonoBehaviour {
 	public void TakeDamage(int damage){
 		health -= damage; 
 		_status = Status.TAKINGFIRE;
+		animator.SetInteger ("Health", health);
 		if (health <= 0) {
 			Die();
 		}
@@ -106,8 +113,13 @@ public class Enemy : MonoBehaviour {
 		//GameObject.FindObjectOfType<ScoreManager>().money += moneyValue;
 		_status = Status.DYING;
 		gameManager.AddMoney (this.value);
-		animator.Play ("Dying", -1);
-		Destroy(gameObject, 4);
+		float dyingAnimationTime = 3.1f;
+		Destroy(gameObject, dyingAnimationTime);
+	}
+
+	protected void GetDestinationRandomization(){
+		_randomZ = UnityEngine.Random.Range(-3, 3); 
+		_randomX = UnityEngine.Random.Range(-3, 3);
 	}
 
 }

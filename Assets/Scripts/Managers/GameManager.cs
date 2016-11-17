@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using System; 
+using System;
 
 public class GameManager : MonoBehaviour {
 
@@ -37,9 +37,9 @@ public class GameManager : MonoBehaviour {
 
 	void Start(){
 		enemySpawn = GameObject.Find ("EnemySpawn").transform;
-		healthText = GameObject.Find ("UI/Canvas/Panel/HealthUIText").GetComponent<Text>(); 
-		infoText = GameObject.Find ("UI/Canvas/Panel/InfoUIText").GetComponent<Text>(); 
-		moneyText = GameObject.Find ("UI/Canvas/Panel/MoneyUIText").GetComponent<Text>(); 
+		healthText = GameObject.Find ("UI/Canvas/InGamePanel/HealthUIText").GetComponent<Text>(); 
+		infoText = GameObject.Find ("UI/Canvas/InGamePanel/InfoUIText").GetComponent<Text>(); 
+		moneyText = GameObject.Find ("UI/Canvas/InGamePanel/MoneyUIText").GetComponent<Text>(); 
 		// it should be off, but just in case
 		GameObject.Find ("UI/Canvas/TowerMenuUI").SetActive(false);
 	}
@@ -95,7 +95,9 @@ public class GameManager : MonoBehaviour {
 		} 
 		 
 		if (go != null) {
-			GameObject enemy = (GameObject) GameObject.Instantiate (go, enemySpawn.position, enemySpawn.rotation);
+			float randomZ = UnityEngine.Random.Range (-5, 5);
+			Vector3 rdmSpawnPoint = new Vector3(enemySpawn.position.x, enemySpawn.position.y,  enemySpawn.position.z + randomZ); 
+			GameObject enemy = (GameObject) GameObject.Instantiate (go, rdmSpawnPoint, enemySpawn.rotation);
 			int enemyHealth = enemy.GetComponent<Enemy> ().health;
 			// adding strength to the wave
 			enemy.GetComponent<Enemy> ().health = enemyHealth + (numWaves * 2);
@@ -127,7 +129,7 @@ public class GameManager : MonoBehaviour {
 	}
 
 	void GameOver(){
-		//TODO: do something here to stop the game
+		gameObject.GetComponent<Game> ().GameOver ();
 	}
 
 	public void AddMoney(int money){
@@ -183,6 +185,6 @@ public class GameManager : MonoBehaviour {
 //		if (constructionSound != null && !constructionSound.isPlaying)
 //			constructionSound.Play ();
 	}
-
+		
 
 }

@@ -4,10 +4,14 @@ using UnityEngine.SceneManagement;
 public class Game : MonoBehaviour {
 
 	public bool gamePaused = false;
-	public GameObject IMenu; 
+
+	GameObject IMenu; 
+	GameObject GameOverMenu; 
 
 	void Start(){
 		IMenu  = GameObject.Find ("UI/Canvas/IMenu");
+		GameOverMenu = GameObject.Find ("UI/Canvas/GameOverMenu");
+		UnpauseGame ();
 	}
 
 	void Update () {
@@ -30,6 +34,7 @@ public class Game : MonoBehaviour {
 		UnpauseGame ();
 		IMenu.SetActive (false);
 	}
+		
 
 	public void GoToMMenu(){
 		SceneManager.LoadScene ("MMenu");
@@ -43,6 +48,15 @@ public class Game : MonoBehaviour {
 	public void UnpauseGame(){
 		Time.timeScale = 1f;
 		gamePaused = false;
+	}
+
+	public void GameOver(){
+		PauseGame ();
+		GameOverMenu.SetActive(true);
+	}
+
+	public void RestartGame(){
+		SceneManager.LoadScene ("Main");
 	}
 
 }
