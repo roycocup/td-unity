@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public enum Statuses {SPAWNED, ALIVE, TAKINGFIRE, DYING};
 
@@ -11,16 +12,18 @@ public class Enemy : MonoBehaviour {
 	public const int TYPE_NORMAL = 0; 
 	public const int TYPE_ELITE = 1; 
 	public Animator animator; 
+	public Image healthUI;
 
 	//private
-	protected  Statuses _status;
-	protected GameObject Path; 
-	protected Transform pathNode;
-	protected float rotation_speed; 
-	protected int nodeIndex = 0; 
-	protected int value = 1; // money value of this enemy
+	protected float _maxHealth;
+	protected Statuses _status;
+	protected GameObject _path; 
+	protected Transform _pathNode;
+	protected float _rotation_speed; 
+	protected int _nodeIndex = 0; 
+	protected int _value = 1; // money value of this enemy
 	protected float _randomZ, _randomX;
-	protected GameManager gameManager;
+	protected GameManager _gameManager; 
 
 	public Statuses Status {
 		get {
@@ -32,23 +35,24 @@ public class Enemy : MonoBehaviour {
 	}
 
 	void Start (){
+		_maxHealth = health;
 		animator = gameObject.GetComponent<Animator> ();
 		animator.SetInteger ("Health", health);
-		Path = GameObject.Find ("Path");
-		pathNode = Path.transform.GetChild (nodeIndex); 
-		rotation_speed = speed * 2f;
-		gameManager = GameObject.Find ("GameManager").GetComponent<GameManager>();
+		_path = GameObject.Find ("Path");
+		_pathNode = _path.transform.GetChild (_nodeIndex); 
+		_rotation_speed = speed * 2f;
+		_gameManager = GameObject.Find ("GameManager").GetComponent<GameManager>();
 		_status = Statuses.SPAWNED;
 		GetDestinationRandomization ();
 	}
 
 	void GetNextNode(){
 		// if we have reached the last node, set it to null, and we assume we reached goal.
-		if (nodeIndex > (Path.transform.childCount - 1)) {
-			pathNode = null;
+		if (_nodeIndex > (_path.transform.childCount - 1)) {
+			_pathNode = null;
 		} else {
-			pathNode = Path.transform.GetChild (nodeIndex);
-			nodeIndex++;	
+			_pathNode = _path.transform.GetChild (_nodeIndex);
+			_nodeIndex++;	
 		}
 	}
 
@@ -61,7 +65,7 @@ public class Enemy : MonoBehaviour {
 	public void Move(){
 		//FIXME: Enemies are goitn through the tower spots. The new randomization needs to take the direction line into account and recalculate if this happens.
 		//base the direction roughly on the path
-		Vector3 directionPoint = new Vector3 (pathNode.transform.position.x + _randomX, pathNode.transform.position.y, pathNode.transform.position.z + _randomZ);
+		Vector3 directionPoint = new Vector3 (_pathNode.transform.position.x + _randomX, _pathNode.transform.position.y, _pathNode.transform.position.z + _randomZ);
 		// get direction to the node and go to it
 		Vector3 direction = directionPoint - this.transform.position; 
 		// get the distance the object is going to go this frame
@@ -69,7 +73,7 @@ public class Enemy : MonoBehaviour {
 		// maginiture will give us a simple float of the vector distance
 		if (direction.magnitude <= distThisFrame) {
 			GetNextNode ();
-			if (pathNode == null) {
+			if (_pathNode == null) {
 				// no more nodes. We reached goal
 				ReachedGoal();
 			}
@@ -96,14 +100,24 @@ public class Enemy : MonoBehaviour {
 			// apply a linear interpolation (ease in and out) between where you are facing and the new rotation position 
 			// and the speed at which we should rotate.
 			Quaternion rotation = Quaternion.LookRotation (direction); 
-			this.transform.rotation = Quaternion.Lerp (transform.rotation, rotation, rotation_speed * Time.deltaTime);
+			this.transform.rotation = Quaternion.Lerp (transform.rotation, rotation, _rotation_speed * Time.deltaTime);
 			// or this.transform.lookAt(pathNode);
 			// or this.transform.rotation = Quaternion.LookRotation (direction); 
 		}
 	}
 
+	void HealthUIDamage(int damage){
+		float max = 0.1f;
+		float z = healthUI.rectTransform.localScale.z;
+		float y = healthUI.rectTransform.localScale.y;
+		float x = Mathf.Clamp(((float) (health - damage ) * max) / _maxHealth, 0, max); 
+
+		healthUI.rectTransform.localScale = new Vector3 (x, y, z);
+	}
+
 	public void TakeDamage(int damage){
-		health -= damage; 
+		health -= damage;
+		HealthUIDamage (damage);
 		_status = Statuses.TAKINGFIRE;
 		animator.SetInteger ("Health", health);
 		if (health <= 0) {
@@ -113,14 +127,14 @@ public class Enemy : MonoBehaviour {
 		
 
 	protected void ReachedGoal(){
-		gameManager.TakeDamage (1);
+		_gameManager.TakeDamage (1);
 		Destroy(gameObject);
 	}
 
 	public void Die() {
 		//GameObject.FindObjectOfType<ScoreManager>().money += moneyValue;
 		_status = Statuses.DYING;
-		gameManager.AddMoney (this.value);
+		_gameManager.AddMoney (this._value);
 		float dyingAnimationTime = 3.1f;
 		Destroy(gameObject, dyingAnimationTime);
 	}
