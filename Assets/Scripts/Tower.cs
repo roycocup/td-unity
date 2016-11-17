@@ -64,7 +64,7 @@ public class Tower : MonoBehaviour {
 
 			//only shoot when its pointing at target
 			// FIXME: Turret can't fire when its still seeking and the target is too close.
-			if (Mathf.RoundToInt(turret.transform.rotation.eulerAngles.y) == Mathf.RoundToInt(rotation.eulerAngles.y)) {
+			if (Mathf.RoundToInt(turret.transform.rotation.eulerAngles.y) == Mathf.RoundToInt(rotation.eulerAngles.y) && nearestEnemy.Status != Statuses.DYING) {
 				Shoot ();
 			}
 		}

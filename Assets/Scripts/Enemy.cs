@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+public enum Statuses {SPAWNED, ALIVE, TAKINGFIRE, DYING};
+
 public class Enemy : MonoBehaviour {
 
 	//public
@@ -10,18 +12,24 @@ public class Enemy : MonoBehaviour {
 	public const int TYPE_ELITE = 1; 
 	public Animator animator; 
 
-
 	//private
-	protected enum Status {SPAWNED, ALIVE, TAKINGFIRE, DYING};
-	protected Status _status;
+	protected  Statuses _status;
 	protected GameObject Path; 
 	protected Transform pathNode;
 	protected float rotation_speed; 
 	protected int nodeIndex = 0; 
 	protected int value = 1; // money value of this enemy
-	float _randomZ, _randomX;
+	protected float _randomZ, _randomX;
+	protected GameManager gameManager;
 
-	GameManager gameManager; 
+	public Statuses Status {
+		get {
+			return _status;
+		}
+		set {
+			_status = value;
+		}
+	}
 
 	void Start (){
 		animator = gameObject.GetComponent<Animator> ();
@@ -30,7 +38,7 @@ public class Enemy : MonoBehaviour {
 		pathNode = Path.transform.GetChild (nodeIndex); 
 		rotation_speed = speed * 2f;
 		gameManager = GameObject.Find ("GameManager").GetComponent<GameManager>();
-		_status = Status.SPAWNED;
+		_status = Statuses.SPAWNED;
 		GetDestinationRandomization ();
 	}
 
@@ -45,7 +53,7 @@ public class Enemy : MonoBehaviour {
 	}
 
 	void FixedUpdate(){
-		if (_status != Status.DYING) {
+		if (_status != Statuses.DYING) {
 			Move ();
 		}
 	}
@@ -96,7 +104,7 @@ public class Enemy : MonoBehaviour {
 
 	public void TakeDamage(int damage){
 		health -= damage; 
-		_status = Status.TAKINGFIRE;
+		_status = Statuses.TAKINGFIRE;
 		animator.SetInteger ("Health", health);
 		if (health <= 0) {
 			Die();
@@ -111,7 +119,7 @@ public class Enemy : MonoBehaviour {
 
 	public void Die() {
 		//GameObject.FindObjectOfType<ScoreManager>().money += moneyValue;
-		_status = Status.DYING;
+		_status = Statuses.DYING;
 		gameManager.AddMoney (this.value);
 		float dyingAnimationTime = 3.1f;
 		Destroy(gameObject, dyingAnimationTime);
