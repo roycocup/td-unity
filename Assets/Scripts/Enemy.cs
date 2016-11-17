@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour {
 	public int health = 10;
 	public const int TYPE_NORMAL = 0; 
 	public const int TYPE_ELITE = 1; 
+	public Animator animator; 
 
 
 	//private
@@ -20,6 +21,7 @@ public class Enemy : MonoBehaviour {
 	GameManager gameManager; 
 
 	void Start (){
+		animator = gameObject.GetComponent<Animator> ();
 		Path = GameObject.Find ("Path");
 		pathNode = Path.transform.GetChild (nodeIndex); 
 		rotation_speed = speed * 2f;
@@ -94,7 +96,8 @@ public class Enemy : MonoBehaviour {
 	public void Die() {
 		//GameObject.FindObjectOfType<ScoreManager>().money += moneyValue;
 		gameManager.AddMoney (this.value);
-		Destroy(gameObject);
+		animator.Play ("Dying", -1);
+		Destroy(gameObject, 4);
 	}
 
 }
