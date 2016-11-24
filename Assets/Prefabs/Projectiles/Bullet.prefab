@@ -168,7 +168,7 @@ MonoBehaviour:
   radius: 0.5
   damage: 1
   target: {fileID: 0}
-  particlesDie01: {fileID: 1000014115362074, guid: 306a14d8cc57b45b7b67c7101eb3d1ef,
+  explosionParticles: {fileID: 1000014115362074, guid: 306a14d8cc57b45b7b67c7101eb3d1ef,
     type: 2}
 --- !u!135 &135000012153223328
 SphereCollider:

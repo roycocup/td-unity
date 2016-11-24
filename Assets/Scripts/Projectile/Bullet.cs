@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Bullet : Projectile
 {
-	public GameObject particlesDie01;
+	public GameObject explosionParticles;
 
 	void Start(){
 		shootSound = gameObject.GetComponent<AudioSource> ();
@@ -11,7 +11,7 @@ public class Bullet : Projectile
 	}
 
 	protected override void Die(){
-		GameObject explosion = (GameObject) GameObject.Instantiate (particlesDie01, transform.position, Quaternion.identity);
+		GameObject explosion = (GameObject) GameObject.Instantiate (explosionParticles, transform.position, Quaternion.identity);
 		// PlayDead ();
 		Destroy(gameObject);
 		Destroy (explosion, 1); 
