@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour {
 	public GameObject eliteEnemyPrefab; 
 	public GameObject sniperTowerPrefab; 
 	public GameObject missileTowerPrefab; 
+	public GameObject dualTurretPrefab; 
 	public GameObject towerSpotConstructionSmoke; 
 
 	//private
@@ -149,10 +150,17 @@ public class GameManager : MonoBehaviour {
 	// There should be a factory for each one
 	public void BuyTower (int towerType){
 		GameObject tower = sniperTowerPrefab;
-		if (towerType == Tower.TYPE_SNIPER) {
+
+		switch (towerType) {
+		case Tower.TYPE_SNIPER:
 			tower = sniperTowerPrefab; 
-		} else if (towerType == Tower.TYPE_MISSILE){
+			break;
+		case Tower.TYPE_MISSILE:
 			tower = missileTowerPrefab; 
+			break;
+		case Tower.TYPE_DUAL:
+			tower = dualTurretPrefab; 
+			break;
 		}
 
 		Tower towerScript = tower.GetComponent<Tower> (); 

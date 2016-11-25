@@ -97,6 +97,7 @@
      <Compile Include="Assets\Scripts\Projectile\Bullet.cs" />
      <Compile Include="Assets\Scripts\Projectile\Missile.cs" />
      <Compile Include="Assets\Scripts\Tower.cs" />
+     <Compile Include="Assets\Scripts\Tower\DualTurret.cs" />
      <Compile Include="Assets\Scripts\Tower\MissileTower.cs" />
      <Compile Include="Assets\Scripts\Tower\SniperTower.cs" />
      <Compile Include="Assets\Scripts\TowerSpot.cs" />
