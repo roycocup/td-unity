@@ -5,6 +5,7 @@ public class Tower : MonoBehaviour {
 
 	public const int TYPE_SNIPER = 0;  
 	public const int TYPE_MISSILE = 1; 
+	public const int TYPE_DUAL = 2; 
 
 	// public
 	public int towerType = 0;
