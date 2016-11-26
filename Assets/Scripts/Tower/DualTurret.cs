@@ -5,6 +5,7 @@ public class DualTurret : Tower {
 
 	protected Transform spawn_2;
 
+	GameObject[] bulletPool; 
 	byte lastShotFrom = 2;
 
 	public override void Start(){
@@ -14,6 +15,16 @@ public class DualTurret : Tower {
 		turret = gameObject.transform.Find("Head");
 		spawn_1 = turret.transform.Find ("Cannon_1/BulletSpawn_1"); 
 		spawn_2 = turret.transform.Find ("Cannon_2/BulletSpawn_2"); 
+		//CreateBulletPool ();
+	}
+
+
+	void CreateBulletPool (){
+		for (int i = 0; i <= 20; i++) {
+			GameObject projectile = (GameObject)Instantiate (projectilePrefab, spawn_1.transform.position, spawningRotation);
+			projectile.SetActive (false);
+			bulletPool[i] = projectile;
+		}	
 	}
 
 
@@ -26,7 +37,7 @@ public class DualTurret : Tower {
 			pipe = spawn_2.transform.position;
 			lastShotFrom = 2;
 		}
-
+			
 		GameObject projectile = (GameObject)Instantiate (projectilePrefab, pipe, spawningRotation);
 
 		projectile.GetComponent<Projectile> ().target = nearestEnemy.transform;
