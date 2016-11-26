@@ -22,7 +22,7 @@ public class Tower : MonoBehaviour {
 	protected Enemy nearestEnemy;
 	protected float fireCooldownLeft = 0;
 	protected Transform turret;
-	protected Transform spawn;
+	protected Transform spawn_1;
 	protected Quaternion spawningRotation;
 	protected AudioSource audioSource;
 
@@ -76,20 +76,24 @@ public class Tower : MonoBehaviour {
 			// reset firecooldown
 			fireCooldownLeft = fireCooldown; 
 
-			if (spawn != null) {
-				// instantiate the associated projectile prefab 
-				GameObject projectile = (GameObject) Instantiate (projectilePrefab, spawn.transform.position, spawningRotation);
-
-				// Assign a target to the projectile
-				// We grab the base class of the script as we dont know the name of the specific script associated 
-				projectile.GetComponent<Projectile> ().target = nearestEnemy.transform;
-				PlayShot ();
+			if (spawn_1 != null) {
+				ShootingSystem ();
 			} 
 
 		} else {
 			// remove frametime from cooldowntime
 			fireCooldownLeft -= Time.deltaTime; 	
 		}
+	}
+
+	protected virtual void ShootingSystem(){
+		// instantiate the associated projectile prefab 
+		GameObject projectile = (GameObject) Instantiate (projectilePrefab, spawn_1.transform.position, spawningRotation);
+
+		// Assign a target to the projectile
+		// We grab the base class of the script as we dont know the name of the specific script associated 
+		projectile.GetComponent<Projectile> ().target = nearestEnemy.transform;
+		PlayShot ();
 	}
 
 

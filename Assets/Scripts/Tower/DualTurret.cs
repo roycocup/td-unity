@@ -3,18 +3,37 @@ using System.Collections;
 
 public class DualTurret : Tower {
 
+	protected Transform spawn_2;
+
+	byte lastShotFrom = 2;
+
 	public override void Start(){
 		base.Start ();
 		range = 10f;
 		fireCooldown = 0.1f;
 		turret = gameObject.transform.Find("Head");
-		spawn = turret.transform.Find ("BulletSpawn_1"); 
+		spawn_1 = turret.transform.Find ("Cannon_1/BulletSpawn_1"); 
+		spawn_2 = turret.transform.Find ("Cannon_2/BulletSpawn_2"); 
 	}
 
-	public override void Shoot(){
-		base.Shoot ();
+
+	protected override void ShootingSystem(){
+		Vector3 pipe;
+		if (lastShotFrom == 2) {
+			pipe = spawn_1.transform.position;
+			lastShotFrom = 1;
+		} else {
+			pipe = spawn_2.transform.position;
+			lastShotFrom = 2;
+		}
+
+		GameObject projectile = (GameObject)Instantiate (projectilePrefab, pipe, spawningRotation);
+
+		projectile.GetComponent<Projectile> ().target = nearestEnemy.transform;
+		PlayShot ();
+
 		if (smoke != null) {
-			GameObject s = (GameObject) Instantiate (smoke, spawn.transform.position, transform.rotation);
+			GameObject s = (GameObject) Instantiate (smoke, pipe, transform.rotation);
 			Destroy (s, 1); 
 		}
 	}

@@ -5,7 +5,7 @@ public class MissileTower : Tower {
 
 	override public void Start(){
 		turret = transform;
-		spawn = turret.Find ("SpawnLeft");
+		spawn_1 = turret.Find ("SpawnLeft");
 	}
 
 
