@@ -168,9 +168,12 @@ public class GameManager : MonoBehaviour {
 			Instantiate (tower, towerSpot.transform.position, towerSpot.transform.rotation);
 			towerScript.towerType = towerType;
 			PlayConstructTower ();
-			GameObject animation = (GameObject) Instantiate (towerSpotConstructionSmoke, towerSpot.transform.position, Quaternion.Euler(new Vector3(-90f, 0, 0)));
+			GameObject animation = (GameObject)Instantiate (towerSpotConstructionSmoke, towerSpot.transform.position, Quaternion.Euler (new Vector3 (-90f, 0, 0)));
 			Destroy (towerSpot);
 			Destroy (animation, 5);
+		} else {
+			FlashMessages f = gameObject.GetComponent<FlashMessages> ();
+			f.Message = "Not enough money!"; 
 		}
 
 		HideTowerMenu (); 

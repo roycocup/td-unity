@@ -1975,7 +1975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c7f1424c604e435dbbd7d05ae9c36b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 1
   health: 10
   animator: {fileID: 0}
   healthUI: {fileID: 114000011731159628}

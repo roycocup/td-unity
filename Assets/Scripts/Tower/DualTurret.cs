@@ -15,7 +15,7 @@ public class DualTurret : Tower {
 		turret = gameObject.transform.Find("Head");
 		spawn_1 = turret.transform.Find ("Cannon_1/BulletSpawn_1"); 
 		spawn_2 = turret.transform.Find ("Cannon_2/BulletSpawn_2"); 
-		//CreateBulletPool ();
+		CreateBulletPool ();
 	}
 
 

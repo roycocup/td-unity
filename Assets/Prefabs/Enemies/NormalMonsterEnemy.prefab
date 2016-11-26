@@ -1921,7 +1921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb168f26af9f74b43832b68c137a7fe2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 1
   health: 2
   animator: {fileID: 0}
   healthUI: {fileID: 114000011725071592}

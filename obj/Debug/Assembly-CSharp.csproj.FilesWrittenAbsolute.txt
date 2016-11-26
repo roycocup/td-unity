@@ -106,3 +106,5 @@
 /Users/rdias/unity/td/Temp/bin/Debug/Mono.Cecil.Mdb.dll
 /Users/rdias/unity/td/Temp/bin/Debug/ICSharpCode.SharpZipLib.dll
 /Users/rodrigodias/unity/td/Temp/bin/Debug/ICSharpCode.SharpZipLib.dll
+/Users/rodrigodias/unity/td/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/rodrigodias/unity/td/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
