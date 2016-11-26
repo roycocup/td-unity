@@ -36,10 +36,10 @@ public class MissileTower : Tower {
 	}
 
 	protected override void PlayShot(){
-//		if (shot != null) {
-//			audioSource.volume = .1f;
-//			audioSource.PlayOneShot (shot);
-//		}
+		if (shot != null) {
+			audioSource.volume = .1f;
+			audioSource.PlayOneShot (shot);
+		}
 	}
 
 

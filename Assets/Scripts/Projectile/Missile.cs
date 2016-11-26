@@ -6,7 +6,7 @@ public class Missile : Projectile {
 	void Start(){
 		radius = 3f;
 		damage = 5;
-		speed = 4f;
+		speed = 10f;
 		expireIn = 20;
 	}
 
