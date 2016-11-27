@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class DualTurret : Tower {
 
 	protected Transform spawn_2;
 
-	GameObject[] bulletPool; 
+	List<GameObject> bulletPool; 
 	byte lastShotFrom = 2;
 
 	public override void Start(){
@@ -20,10 +21,11 @@ public class DualTurret : Tower {
 
 
 	void CreateBulletPool (){
+		bulletPool = new List<GameObject> ();
 		for (int i = 0; i <= 20; i++) {
 			GameObject projectile = (GameObject)Instantiate (projectilePrefab, spawn_1.transform.position, spawningRotation);
 			projectile.SetActive (false);
-			bulletPool[i] = projectile;
+			bulletPool.Add(projectile);
 		}	
 	}
 
