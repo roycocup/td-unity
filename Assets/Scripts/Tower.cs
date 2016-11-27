@@ -8,11 +8,11 @@ public class Tower : MonoBehaviour {
 	public const int TYPE_DUAL = 2; 
 
 	// public
+	public int cost = 5;
 	public int towerType = 0;
 	public float range = 50f;
 	public float rotationSpeed = 90f;
 	public float fireCooldown = 2f;
-	public int cost = 5;
 	public GameObject projectilePrefab; 
 	public GameObject smoke; 
 	public AudioClip shot; 
@@ -25,7 +25,6 @@ public class Tower : MonoBehaviour {
 	protected Transform spawn_1;
 	protected Quaternion spawningRotation;
 	protected AudioSource audioSource;
-
 
 
 	/**

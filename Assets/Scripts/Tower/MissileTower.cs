@@ -8,6 +8,7 @@ public class MissileTower : Tower {
 
 	override public void Start(){
 		base.Start ();
+		cost = 5; 
 		turret = transform;
 		spawn_1 = turret.Find ("SpawnLeft");
 		spawn_2 = turret.Find ("SpawnRight"); 

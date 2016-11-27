@@ -7,18 +7,20 @@ public class Projectile : MonoBehaviour {
 	public float radius = 0.5f;
 	public int damage = 1;
 	public Transform target = null; 
+	public AudioClip explosion;
+
 
 	// Protected
 	protected float speed = 15f; 
 	protected int expireIn = 5;
 	protected Vector3 direction; 
-	protected AudioSource shootSound;
+	protected AudioSource audioSource;
 
 
 	// Methods
 
-	void Start(){
-		shootSound = gameObject.GetComponent<AudioSource> (); 
+	protected void Start(){
+		audioSource = gameObject.GetComponent<AudioSource> (); 
 	}
 
 	// Update is called once per frame
@@ -62,9 +64,12 @@ public class Projectile : MonoBehaviour {
 		Destroy(gameObject);
 	}
 
-	protected virtual void PlayDead(){
-		if (!shootSound.isPlaying)
-			shootSound.Play ();
+	protected virtual void PlayExplosion(){
+		if (explosion != null) {
+			print ("playing!");
+			audioSource.volume = .1f;
+			audioSource.PlayOneShot (explosion);
+		}
 	}
 
 	protected virtual void Move(Vector3 direction, float distThisFrame){

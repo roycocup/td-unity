@@ -3,7 +3,10 @@ using System.Collections;
 
 public class Missile : Projectile {
 
-	void Start(){
+	public GameObject explosionSystem;
+
+	protected void Start(){
+		base.Start();
 		radius = 3f;
 		damage = 5;
 		speed = 10f;
@@ -25,6 +28,15 @@ public class Missile : Projectile {
 			// TODO: if it still crosses any enemy, explode and damage
 			base.Move (Vector3.forward, distThisFrame);
 		}
+	}
+
+	protected override void Die(){
+		// lift the explosion off the ground a little
+		Vector3 p = new Vector3(transform.position.x, transform.position.y + 1, transform.position.z);
+		GameObject explosion = (GameObject) GameObject.Instantiate (explosionSystem, p, Quaternion.identity);
+		PlayExplosion ();
+		Destroy(gameObject);
+		Destroy (explosion, 1); 
 	}
 
 }

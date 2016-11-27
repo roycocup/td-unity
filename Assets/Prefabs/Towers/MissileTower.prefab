@@ -316,7 +316,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a55930a1090fa45598d13594cdc06d41, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -391,12 +391,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8451b04a7cae047f2988d64a738ddf34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cost: 5
   towerType: 1
   range: 50
   rotationSpeed: 90
   fireCooldown: 2
-  cost: 5
   projectilePrefab: {fileID: 1000012851875956, guid: 0ab425339e9b84dd78a45fcc5a8d383b,
     type: 2}
   smoke: {fileID: 1000013226627560, guid: 96e344388834940bcac1c1d17a1fa1df, type: 2}
-  shot: {fileID: 0}
+  shot: {fileID: 8300000, guid: 881b7132c6e924345b5b3910217f1cb1, type: 3}

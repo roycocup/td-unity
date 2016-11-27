@@ -22,7 +22,7 @@ GameObject:
   - 199: {fileID: 199000011927103014}
   - 198: {fileID: 198000012175936838}
   m_Layer: 0
-  m_Name: Die01
+  m_Name: BulletDie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
