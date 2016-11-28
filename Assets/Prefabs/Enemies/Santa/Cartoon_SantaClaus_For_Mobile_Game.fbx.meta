@@ -1,0 +1,2057 @@
+fileFormatVersion: 2
+guid: 576a046d6c7f3584481d79b00cebbf26
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cartoon_Character_Rig_blendShapes01
+    100002: Cartoon_Character_Rig_c_spline_01
+    100004: Cartoon_Character_Rig_controlObjects01
+    100006: Cartoon_Character_Rig_ctrl_elbow_L01
+    100008: Cartoon_Character_Rig_ctrl_elbow_R01
+    100010: Cartoon_Character_Rig_ctrl_fingers_L01
+    100012: Cartoon_Character_Rig_ctrl_fingers_R01
+    100014: Cartoon_Character_Rig_ctrl_foot_L01
+    100016: Cartoon_Character_Rig_ctrl_foot_R01
+    100018: Cartoon_Character_Rig_ctrl_head_01
+    100020: Cartoon_Character_Rig_ctrl_inch_L01
+    100022: Cartoon_Character_Rig_ctrl_inch_R01
+    100024: Cartoon_Character_Rig_ctrl_knee_L01
+    100026: Cartoon_Character_Rig_ctrl_knee_R01
+    100028: Cartoon_Character_Rig_ctrl_main_01
+    100030: Cartoon_Character_Rig_ctrl_shoulder_L01
+    100032: Cartoon_Character_Rig_ctrl_shoulder_R01
+    100034: Cartoon_Character_Rig_ctrl_spine_A01
+    100036: Cartoon_Character_Rig_ctrl_spine_B01
+    100038: Cartoon_Character_Rig_ctrl_wrist_L01
+    100040: Cartoon_Character_Rig_ctrl_wrist_R01
+    100042: Cartoon_Character_Rig_extraNodes01
+    100044: Cartoon_Character_Rig_globalMove01
+    100046: Cartoon_Character_Rig_grp_fingers_L01
+    100048: Cartoon_Character_Rig_grp_fingers_R01
+    100050: Cartoon_Character_Rig_grp_inch_L01
+    100052: Cartoon_Character_Rig_grp_inch_R01
+    100054: Cartoon_Character_Rig_ik_elbow_L01
+    100056: Cartoon_Character_Rig_ik_elbow_R01
+    100058: Cartoon_Character_Rig_ik_knee_L01
+    100060: Cartoon_Character_Rig_ik_knee_R01
+    100062: Cartoon_Character_Rig_ik_spline_01
+    100064: Cartoon_Character_Rig_iks01
+    100066: Cartoon_Character_Rig_joints01
+    100068: Cartoon_Character_Rig_jt_ankle_L01
+    100070: Cartoon_Character_Rig_jt_ankle_R01
+    100072: Cartoon_Character_Rig_jt_arm_L01
+    100074: Cartoon_Character_Rig_jt_arm_R01
+    100076: Cartoon_Character_Rig_jt_ctrl_spine_A01
+    100078: Cartoon_Character_Rig_jt_ctrl_spine_B01
+    100080: Cartoon_Character_Rig_jt_drive_neck_01
+    100082: Cartoon_Character_Rig_jt_drive_spine_A01
+    100084: Cartoon_Character_Rig_jt_drive_spine_B01
+    100086: Cartoon_Character_Rig_jt_driver
+    100088: Cartoon_Character_Rig_jt_elbow_L01
+    100090: Cartoon_Character_Rig_jt_elbow_R01
+    100092: Cartoon_Character_Rig_jt_fingers_L01
+    100094: Cartoon_Character_Rig_jt_fingers_R01
+    100096: Cartoon_Character_Rig_jt_fingersEnd_L01
+    100098: Cartoon_Character_Rig_jt_fingersEnd_R01
+    100100: Cartoon_Character_Rig_jt_footEnd_L01
+    100102: Cartoon_Character_Rig_jt_footEnd_R01
+    100104: Cartoon_Character_Rig_jt_headEnd_01
+    100106: Cartoon_Character_Rig_jt_hip_L01
+    100108: Cartoon_Character_Rig_jt_hip_R01
+    100110: Cartoon_Character_Rig_jt_inch_L01
+    100112: Cartoon_Character_Rig_jt_inch_R01
+    100114: Cartoon_Character_Rig_jt_inchEnd_L01
+    100116: Cartoon_Character_Rig_jt_inchEnd_R01
+    100118: Cartoon_Character_Rig_jt_knee_L01
+    100120: Cartoon_Character_Rig_jt_knee_R01
+    100122: Cartoon_Character_Rig_jt_main_01
+    100124: Cartoon_Character_Rig_jt_neck_01
+    100126: Cartoon_Character_Rig_jt_shoulder_L01
+    100128: Cartoon_Character_Rig_jt_shoulder_R01
+    100130: Cartoon_Character_Rig_jt_spine_A01
+    100132: Cartoon_Character_Rig_jt_spine_B01
+    100134: Cartoon_Character_Rig_jt_wrist_L01
+    100136: Cartoon_Character_Rig_jt_wrist_R01
+    100138: Cartoon_Character_Rig_model01
+    100140: Cartoon_Character_Rig_to_transform01
+    100142: Cartoon_Character_Rig_trns_toHide01
+    100144: Cartoon_Character_Rig_trns_toShow01
+    100146: Cartoon_Character_Rig_xtra_toHide01
+    100148: Cartoon_Character_Rig_xtra_toShow01
+    100150: //RootNode
+    100152: Cartoon_SantaClaus_For_Mobile_Game_uv_Mesh
+    400000: Cartoon_Character_Rig_blendShapes01
+    400002: Cartoon_Character_Rig_c_spline_01
+    400004: Cartoon_Character_Rig_controlObjects01
+    400006: Cartoon_Character_Rig_ctrl_elbow_L01
+    400008: Cartoon_Character_Rig_ctrl_elbow_R01
+    400010: Cartoon_Character_Rig_ctrl_fingers_L01
+    400012: Cartoon_Character_Rig_ctrl_fingers_R01
+    400014: Cartoon_Character_Rig_ctrl_foot_L01
+    400016: Cartoon_Character_Rig_ctrl_foot_R01
+    400018: Cartoon_Character_Rig_ctrl_head_01
+    400020: Cartoon_Character_Rig_ctrl_inch_L01
+    400022: Cartoon_Character_Rig_ctrl_inch_R01
+    400024: Cartoon_Character_Rig_ctrl_knee_L01
+    400026: Cartoon_Character_Rig_ctrl_knee_R01
+    400028: Cartoon_Character_Rig_ctrl_main_01
+    400030: Cartoon_Character_Rig_ctrl_shoulder_L01
+    400032: Cartoon_Character_Rig_ctrl_shoulder_R01
+    400034: Cartoon_Character_Rig_ctrl_spine_A01
+    400036: Cartoon_Character_Rig_ctrl_spine_B01
+    400038: Cartoon_Character_Rig_ctrl_wrist_L01
+    400040: Cartoon_Character_Rig_ctrl_wrist_R01
+    400042: Cartoon_Character_Rig_extraNodes01
+    400044: Cartoon_Character_Rig_globalMove01
+    400046: Cartoon_Character_Rig_grp_fingers_L01
+    400048: Cartoon_Character_Rig_grp_fingers_R01
+    400050: Cartoon_Character_Rig_grp_inch_L01
+    400052: Cartoon_Character_Rig_grp_inch_R01
+    400054: Cartoon_Character_Rig_ik_elbow_L01
+    400056: Cartoon_Character_Rig_ik_elbow_R01
+    400058: Cartoon_Character_Rig_ik_knee_L01
+    400060: Cartoon_Character_Rig_ik_knee_R01
+    400062: Cartoon_Character_Rig_ik_spline_01
+    400064: Cartoon_Character_Rig_iks01
+    400066: Cartoon_Character_Rig_joints01
+    400068: Cartoon_Character_Rig_jt_ankle_L01
+    400070: Cartoon_Character_Rig_jt_ankle_R01
+    400072: Cartoon_Character_Rig_jt_arm_L01
+    400074: Cartoon_Character_Rig_jt_arm_R01
+    400076: Cartoon_Character_Rig_jt_ctrl_spine_A01
+    400078: Cartoon_Character_Rig_jt_ctrl_spine_B01
+    400080: Cartoon_Character_Rig_jt_drive_neck_01
+    400082: Cartoon_Character_Rig_jt_drive_spine_A01
+    400084: Cartoon_Character_Rig_jt_drive_spine_B01
+    400086: Cartoon_Character_Rig_jt_driver
+    400088: Cartoon_Character_Rig_jt_elbow_L01
+    400090: Cartoon_Character_Rig_jt_elbow_R01
+    400092: Cartoon_Character_Rig_jt_fingers_L01
+    400094: Cartoon_Character_Rig_jt_fingers_R01
+    400096: Cartoon_Character_Rig_jt_fingersEnd_L01
+    400098: Cartoon_Character_Rig_jt_fingersEnd_R01
+    400100: Cartoon_Character_Rig_jt_footEnd_L01
+    400102: Cartoon_Character_Rig_jt_footEnd_R01
+    400104: Cartoon_Character_Rig_jt_headEnd_01
+    400106: Cartoon_Character_Rig_jt_hip_L01
+    400108: Cartoon_Character_Rig_jt_hip_R01
+    400110: Cartoon_Character_Rig_jt_inch_L01
+    400112: Cartoon_Character_Rig_jt_inch_R01
+    400114: Cartoon_Character_Rig_jt_inchEnd_L01
+    400116: Cartoon_Character_Rig_jt_inchEnd_R01
+    400118: Cartoon_Character_Rig_jt_knee_L01
+    400120: Cartoon_Character_Rig_jt_knee_R01
+    400122: Cartoon_Character_Rig_jt_main_01
+    400124: Cartoon_Character_Rig_jt_neck_01
+    400126: Cartoon_Character_Rig_jt_shoulder_L01
+    400128: Cartoon_Character_Rig_jt_shoulder_R01
+    400130: Cartoon_Character_Rig_jt_spine_A01
+    400132: Cartoon_Character_Rig_jt_spine_B01
+    400134: Cartoon_Character_Rig_jt_wrist_L01
+    400136: Cartoon_Character_Rig_jt_wrist_R01
+    400138: Cartoon_Character_Rig_model01
+    400140: Cartoon_Character_Rig_to_transform01
+    400142: Cartoon_Character_Rig_trns_toHide01
+    400144: Cartoon_Character_Rig_trns_toShow01
+    400146: Cartoon_Character_Rig_xtra_toHide01
+    400148: Cartoon_Character_Rig_xtra_toShow01
+    400150: //RootNode
+    400152: Cartoon_SantaClaus_For_Mobile_Game_uv_Mesh
+    4300000: Cartoon_SantaClaus_For_Mobile_Game_uv_Mesh
+    7400000: idle
+    7400002: walk
+    7400004: run
+    7400006: walkback
+    7400008: runback
+    7400010: left
+    7400012: right
+    7400014: jump
+    7400016: swim
+    7400018: slide
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Cartoon_SantaClaus_For_Mobile_Game_uv_Mesh
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cartoon_Character_Rig_blendShapes01
+        weight: 1
+      - path: Cartoon_Character_Rig_ctrl_main_01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toHide01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toHide01/Cartoon_Character_Rig_c_spline_01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toShow01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_foot_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_foot_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_head_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_shoulder_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_shoulder_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_wrist_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_wrist_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_L01/Cartoon_Character_Rig_ctrl_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_R01/Cartoon_Character_Rig_ctrl_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_L01/Cartoon_Character_Rig_ctrl_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_R01/Cartoon_Character_Rig_ctrl_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_spline_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_ctrl_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_ctrl_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01/Cartoon_Character_Rig_jt_drive_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01/Cartoon_Character_Rig_jt_drive_spine_B01/Cartoon_Character_Rig_jt_drive_neck_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01/Cartoon_Character_Rig_jt_ankle_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01/Cartoon_Character_Rig_jt_ankle_L01/Cartoon_Character_Rig_jt_footEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01/Cartoon_Character_Rig_jt_ankle_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01/Cartoon_Character_Rig_jt_ankle_R01/Cartoon_Character_Rig_jt_footEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_neck_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_neck_01/Cartoon_Character_Rig_jt_headEnd_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_fingers_L01/Cartoon_Character_Rig_jt_fingersEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_inch_L01/Cartoon_Character_Rig_jt_inchEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_fingers_R01/Cartoon_Character_Rig_jt_fingersEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_inch_R01/Cartoon_Character_Rig_jt_inchEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01/Cartoon_Character_Rig_trns_toHide01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01/Cartoon_Character_Rig_trns_toShow01
+        weight: 1
+      - path: Cartoon_Character_Rig_model01
+        weight: 1
+      - path: Cartoon_Character_Rig_model01/Cartoon_SantaClaus_For_Mobile_Game_uv_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 34
+      lastFrame: 66
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cartoon_Character_Rig_blendShapes01
+        weight: 1
+      - path: Cartoon_Character_Rig_ctrl_main_01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toHide01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toHide01/Cartoon_Character_Rig_c_spline_01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toShow01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_foot_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_foot_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_head_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_shoulder_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_shoulder_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_wrist_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_wrist_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_L01/Cartoon_Character_Rig_ctrl_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_R01/Cartoon_Character_Rig_ctrl_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_L01/Cartoon_Character_Rig_ctrl_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_R01/Cartoon_Character_Rig_ctrl_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_spline_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_ctrl_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_ctrl_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01/Cartoon_Character_Rig_jt_drive_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01/Cartoon_Character_Rig_jt_drive_spine_B01/Cartoon_Character_Rig_jt_drive_neck_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01/Cartoon_Character_Rig_jt_ankle_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01/Cartoon_Character_Rig_jt_ankle_L01/Cartoon_Character_Rig_jt_footEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01/Cartoon_Character_Rig_jt_ankle_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01/Cartoon_Character_Rig_jt_ankle_R01/Cartoon_Character_Rig_jt_footEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_neck_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_neck_01/Cartoon_Character_Rig_jt_headEnd_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_fingers_L01/Cartoon_Character_Rig_jt_fingersEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_inch_L01/Cartoon_Character_Rig_jt_inchEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_fingers_R01/Cartoon_Character_Rig_jt_fingersEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_inch_R01/Cartoon_Character_Rig_jt_inchEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01/Cartoon_Character_Rig_trns_toHide01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01/Cartoon_Character_Rig_trns_toShow01
+        weight: 1
+      - path: Cartoon_Character_Rig_model01
+        weight: 1
+      - path: Cartoon_Character_Rig_model01/Cartoon_SantaClaus_For_Mobile_Game_uv_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run
+      takeName: Take 001
+      firstFrame: 68
+      lastFrame: 84
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cartoon_Character_Rig_blendShapes01
+        weight: 1
+      - path: Cartoon_Character_Rig_ctrl_main_01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toHide01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toHide01/Cartoon_Character_Rig_c_spline_01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toShow01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_foot_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_foot_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_head_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_shoulder_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_shoulder_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_wrist_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_wrist_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_L01/Cartoon_Character_Rig_ctrl_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_R01/Cartoon_Character_Rig_ctrl_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_L01/Cartoon_Character_Rig_ctrl_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_R01/Cartoon_Character_Rig_ctrl_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_spline_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_ctrl_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_ctrl_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01/Cartoon_Character_Rig_jt_drive_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01/Cartoon_Character_Rig_jt_drive_spine_B01/Cartoon_Character_Rig_jt_drive_neck_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01/Cartoon_Character_Rig_jt_ankle_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01/Cartoon_Character_Rig_jt_ankle_L01/Cartoon_Character_Rig_jt_footEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01/Cartoon_Character_Rig_jt_ankle_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01/Cartoon_Character_Rig_jt_ankle_R01/Cartoon_Character_Rig_jt_footEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_neck_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_neck_01/Cartoon_Character_Rig_jt_headEnd_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_fingers_L01/Cartoon_Character_Rig_jt_fingersEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_inch_L01/Cartoon_Character_Rig_jt_inchEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_fingers_R01/Cartoon_Character_Rig_jt_fingersEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_inch_R01/Cartoon_Character_Rig_jt_inchEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01/Cartoon_Character_Rig_trns_toHide01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01/Cartoon_Character_Rig_trns_toShow01
+        weight: 1
+      - path: Cartoon_Character_Rig_model01
+        weight: 1
+      - path: Cartoon_Character_Rig_model01/Cartoon_SantaClaus_For_Mobile_Game_uv_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walkback
+      takeName: Take 001
+      firstFrame: 86
+      lastFrame: 118
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cartoon_Character_Rig_blendShapes01
+        weight: 1
+      - path: Cartoon_Character_Rig_ctrl_main_01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toHide01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toHide01/Cartoon_Character_Rig_c_spline_01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toShow01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_foot_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_foot_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_head_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_shoulder_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_shoulder_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_wrist_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_wrist_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_L01/Cartoon_Character_Rig_ctrl_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_R01/Cartoon_Character_Rig_ctrl_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_L01/Cartoon_Character_Rig_ctrl_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_R01/Cartoon_Character_Rig_ctrl_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_spline_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_ctrl_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_ctrl_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01/Cartoon_Character_Rig_jt_drive_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01/Cartoon_Character_Rig_jt_drive_spine_B01/Cartoon_Character_Rig_jt_drive_neck_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01/Cartoon_Character_Rig_jt_ankle_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01/Cartoon_Character_Rig_jt_ankle_L01/Cartoon_Character_Rig_jt_footEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01/Cartoon_Character_Rig_jt_ankle_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01/Cartoon_Character_Rig_jt_ankle_R01/Cartoon_Character_Rig_jt_footEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_neck_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_neck_01/Cartoon_Character_Rig_jt_headEnd_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_fingers_L01/Cartoon_Character_Rig_jt_fingersEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_inch_L01/Cartoon_Character_Rig_jt_inchEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_fingers_R01/Cartoon_Character_Rig_jt_fingersEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_inch_R01/Cartoon_Character_Rig_jt_inchEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01/Cartoon_Character_Rig_trns_toHide01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01/Cartoon_Character_Rig_trns_toShow01
+        weight: 1
+      - path: Cartoon_Character_Rig_model01
+        weight: 1
+      - path: Cartoon_Character_Rig_model01/Cartoon_SantaClaus_For_Mobile_Game_uv_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: runback
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 140
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cartoon_Character_Rig_blendShapes01
+        weight: 1
+      - path: Cartoon_Character_Rig_ctrl_main_01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toHide01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toHide01/Cartoon_Character_Rig_c_spline_01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toShow01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_foot_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_foot_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_head_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_shoulder_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_shoulder_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_wrist_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_wrist_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_L01/Cartoon_Character_Rig_ctrl_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_R01/Cartoon_Character_Rig_ctrl_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_L01/Cartoon_Character_Rig_ctrl_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_R01/Cartoon_Character_Rig_ctrl_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_spline_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_ctrl_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_ctrl_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01/Cartoon_Character_Rig_jt_drive_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01/Cartoon_Character_Rig_jt_drive_spine_B01/Cartoon_Character_Rig_jt_drive_neck_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01/Cartoon_Character_Rig_jt_ankle_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01/Cartoon_Character_Rig_jt_ankle_L01/Cartoon_Character_Rig_jt_footEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01/Cartoon_Character_Rig_jt_ankle_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01/Cartoon_Character_Rig_jt_ankle_R01/Cartoon_Character_Rig_jt_footEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_neck_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_neck_01/Cartoon_Character_Rig_jt_headEnd_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_fingers_L01/Cartoon_Character_Rig_jt_fingersEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_inch_L01/Cartoon_Character_Rig_jt_inchEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_fingers_R01/Cartoon_Character_Rig_jt_fingersEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_inch_R01/Cartoon_Character_Rig_jt_inchEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01/Cartoon_Character_Rig_trns_toHide01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01/Cartoon_Character_Rig_trns_toShow01
+        weight: 1
+      - path: Cartoon_Character_Rig_model01
+        weight: 1
+      - path: Cartoon_Character_Rig_model01/Cartoon_SantaClaus_For_Mobile_Game_uv_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: left
+      takeName: Take 001
+      firstFrame: 142
+      lastFrame: 166
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cartoon_Character_Rig_blendShapes01
+        weight: 1
+      - path: Cartoon_Character_Rig_ctrl_main_01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toHide01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toHide01/Cartoon_Character_Rig_c_spline_01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toShow01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_foot_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_foot_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_head_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_shoulder_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_shoulder_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_wrist_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_wrist_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_L01/Cartoon_Character_Rig_ctrl_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_R01/Cartoon_Character_Rig_ctrl_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_L01/Cartoon_Character_Rig_ctrl_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_R01/Cartoon_Character_Rig_ctrl_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_spline_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_ctrl_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_ctrl_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01/Cartoon_Character_Rig_jt_drive_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01/Cartoon_Character_Rig_jt_drive_spine_B01/Cartoon_Character_Rig_jt_drive_neck_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01/Cartoon_Character_Rig_jt_ankle_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01/Cartoon_Character_Rig_jt_ankle_L01/Cartoon_Character_Rig_jt_footEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01/Cartoon_Character_Rig_jt_ankle_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01/Cartoon_Character_Rig_jt_ankle_R01/Cartoon_Character_Rig_jt_footEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_neck_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_neck_01/Cartoon_Character_Rig_jt_headEnd_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_fingers_L01/Cartoon_Character_Rig_jt_fingersEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_inch_L01/Cartoon_Character_Rig_jt_inchEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_fingers_R01/Cartoon_Character_Rig_jt_fingersEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_inch_R01/Cartoon_Character_Rig_jt_inchEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01/Cartoon_Character_Rig_trns_toHide01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01/Cartoon_Character_Rig_trns_toShow01
+        weight: 1
+      - path: Cartoon_Character_Rig_model01
+        weight: 1
+      - path: Cartoon_Character_Rig_model01/Cartoon_SantaClaus_For_Mobile_Game_uv_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: right
+      takeName: Take 001
+      firstFrame: 168
+      lastFrame: 192
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cartoon_Character_Rig_blendShapes01
+        weight: 1
+      - path: Cartoon_Character_Rig_ctrl_main_01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toHide01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toHide01/Cartoon_Character_Rig_c_spline_01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toShow01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_foot_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_foot_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_head_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_shoulder_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_shoulder_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_wrist_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_wrist_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_L01/Cartoon_Character_Rig_ctrl_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_R01/Cartoon_Character_Rig_ctrl_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_L01/Cartoon_Character_Rig_ctrl_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_R01/Cartoon_Character_Rig_ctrl_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_spline_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_ctrl_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_ctrl_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01/Cartoon_Character_Rig_jt_drive_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01/Cartoon_Character_Rig_jt_drive_spine_B01/Cartoon_Character_Rig_jt_drive_neck_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01/Cartoon_Character_Rig_jt_ankle_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01/Cartoon_Character_Rig_jt_ankle_L01/Cartoon_Character_Rig_jt_footEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01/Cartoon_Character_Rig_jt_ankle_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01/Cartoon_Character_Rig_jt_ankle_R01/Cartoon_Character_Rig_jt_footEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_neck_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_neck_01/Cartoon_Character_Rig_jt_headEnd_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_fingers_L01/Cartoon_Character_Rig_jt_fingersEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_inch_L01/Cartoon_Character_Rig_jt_inchEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_fingers_R01/Cartoon_Character_Rig_jt_fingersEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_inch_R01/Cartoon_Character_Rig_jt_inchEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01/Cartoon_Character_Rig_trns_toHide01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01/Cartoon_Character_Rig_trns_toShow01
+        weight: 1
+      - path: Cartoon_Character_Rig_model01
+        weight: 1
+      - path: Cartoon_Character_Rig_model01/Cartoon_SantaClaus_For_Mobile_Game_uv_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jump
+      takeName: Take 001
+      firstFrame: 194
+      lastFrame: 220
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cartoon_Character_Rig_blendShapes01
+        weight: 1
+      - path: Cartoon_Character_Rig_ctrl_main_01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toHide01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toHide01/Cartoon_Character_Rig_c_spline_01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toShow01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_foot_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_foot_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_head_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_shoulder_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_shoulder_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_wrist_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_wrist_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_L01/Cartoon_Character_Rig_ctrl_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_R01/Cartoon_Character_Rig_ctrl_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_L01/Cartoon_Character_Rig_ctrl_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_R01/Cartoon_Character_Rig_ctrl_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_spline_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_ctrl_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_ctrl_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01/Cartoon_Character_Rig_jt_drive_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01/Cartoon_Character_Rig_jt_drive_spine_B01/Cartoon_Character_Rig_jt_drive_neck_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01/Cartoon_Character_Rig_jt_ankle_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01/Cartoon_Character_Rig_jt_ankle_L01/Cartoon_Character_Rig_jt_footEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01/Cartoon_Character_Rig_jt_ankle_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01/Cartoon_Character_Rig_jt_ankle_R01/Cartoon_Character_Rig_jt_footEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_neck_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_neck_01/Cartoon_Character_Rig_jt_headEnd_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_fingers_L01/Cartoon_Character_Rig_jt_fingersEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_inch_L01/Cartoon_Character_Rig_jt_inchEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_fingers_R01/Cartoon_Character_Rig_jt_fingersEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_inch_R01/Cartoon_Character_Rig_jt_inchEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01/Cartoon_Character_Rig_trns_toHide01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01/Cartoon_Character_Rig_trns_toShow01
+        weight: 1
+      - path: Cartoon_Character_Rig_model01
+        weight: 1
+      - path: Cartoon_Character_Rig_model01/Cartoon_SantaClaus_For_Mobile_Game_uv_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: slide
+      takeName: Take 001
+      firstFrame: 222
+      lastFrame: 246
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cartoon_Character_Rig_blendShapes01
+        weight: 1
+      - path: Cartoon_Character_Rig_ctrl_main_01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toHide01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toHide01/Cartoon_Character_Rig_c_spline_01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toShow01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_foot_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_foot_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_head_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_shoulder_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_shoulder_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_wrist_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_wrist_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_L01/Cartoon_Character_Rig_ctrl_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_R01/Cartoon_Character_Rig_ctrl_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_L01/Cartoon_Character_Rig_ctrl_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_R01/Cartoon_Character_Rig_ctrl_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_spline_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_ctrl_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_ctrl_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01/Cartoon_Character_Rig_jt_drive_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01/Cartoon_Character_Rig_jt_drive_spine_B01/Cartoon_Character_Rig_jt_drive_neck_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01/Cartoon_Character_Rig_jt_ankle_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01/Cartoon_Character_Rig_jt_ankle_L01/Cartoon_Character_Rig_jt_footEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01/Cartoon_Character_Rig_jt_ankle_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01/Cartoon_Character_Rig_jt_ankle_R01/Cartoon_Character_Rig_jt_footEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_neck_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_neck_01/Cartoon_Character_Rig_jt_headEnd_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_fingers_L01/Cartoon_Character_Rig_jt_fingersEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_inch_L01/Cartoon_Character_Rig_jt_inchEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_fingers_R01/Cartoon_Character_Rig_jt_fingersEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_inch_R01/Cartoon_Character_Rig_jt_inchEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01/Cartoon_Character_Rig_trns_toHide01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01/Cartoon_Character_Rig_trns_toShow01
+        weight: 1
+      - path: Cartoon_Character_Rig_model01
+        weight: 1
+      - path: Cartoon_Character_Rig_model01/Cartoon_SantaClaus_For_Mobile_Game_uv_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: swim
+      takeName: Take 001
+      firstFrame: 249
+      lastFrame: 280
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cartoon_Character_Rig_blendShapes01
+        weight: 1
+      - path: Cartoon_Character_Rig_ctrl_main_01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toHide01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toHide01/Cartoon_Character_Rig_c_spline_01
+        weight: 1
+      - path: Cartoon_Character_Rig_extraNodes01/Cartoon_Character_Rig_xtra_toShow01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_foot_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_foot_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_head_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_shoulder_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_shoulder_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_wrist_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_ctrl_wrist_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_L01/Cartoon_Character_Rig_ctrl_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_fingers_R01/Cartoon_Character_Rig_ctrl_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_L01/Cartoon_Character_Rig_ctrl_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_controlObjects01/Cartoon_Character_Rig_grp_inch_R01/Cartoon_Character_Rig_ctrl_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_iks01/Cartoon_Character_Rig_ik_spline_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_ctrl_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_ctrl_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01/Cartoon_Character_Rig_jt_drive_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_driver/Cartoon_Character_Rig_jt_drive_spine_A01/Cartoon_Character_Rig_jt_drive_spine_B01/Cartoon_Character_Rig_jt_drive_neck_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01/Cartoon_Character_Rig_jt_ankle_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_L01/Cartoon_Character_Rig_jt_knee_L01/Cartoon_Character_Rig_jt_ankle_L01/Cartoon_Character_Rig_jt_footEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01/Cartoon_Character_Rig_jt_ankle_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_hip_R01/Cartoon_Character_Rig_jt_knee_R01/Cartoon_Character_Rig_jt_ankle_R01/Cartoon_Character_Rig_jt_footEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_neck_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_neck_01/Cartoon_Character_Rig_jt_headEnd_01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_fingers_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_fingers_L01/Cartoon_Character_Rig_jt_fingersEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_inch_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_L01/Cartoon_Character_Rig_jt_arm_L01/Cartoon_Character_Rig_jt_elbow_L01/Cartoon_Character_Rig_jt_wrist_L01/Cartoon_Character_Rig_jt_inch_L01/Cartoon_Character_Rig_jt_inchEnd_L01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_fingers_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_fingers_R01/Cartoon_Character_Rig_jt_fingersEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_inch_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_joints01/Cartoon_Character_Rig_jt_main_01/Cartoon_Character_Rig_jt_spine_A01/Cartoon_Character_Rig_jt_spine_B01/Cartoon_Character_Rig_jt_shoulder_R01/Cartoon_Character_Rig_jt_arm_R01/Cartoon_Character_Rig_jt_elbow_R01/Cartoon_Character_Rig_jt_wrist_R01/Cartoon_Character_Rig_jt_inch_R01/Cartoon_Character_Rig_jt_inchEnd_R01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01/Cartoon_Character_Rig_trns_toHide01
+        weight: 1
+      - path: Cartoon_Character_Rig_globalMove01/Cartoon_Character_Rig_to_transform01/Cartoon_Character_Rig_trns_toShow01
+        weight: 1
+      - path: Cartoon_Character_Rig_model01
+        weight: 1
+      - path: Cartoon_Character_Rig_model01/Cartoon_SantaClaus_For_Mobile_Game_uv_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
