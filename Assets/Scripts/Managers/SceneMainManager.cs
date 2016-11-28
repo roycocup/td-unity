@@ -165,7 +165,8 @@ public class SceneMainManager : MonoBehaviour {
 
 		Tower towerScript = tower.GetComponent<Tower> (); 
 		if (SubMoney (towerScript.cost) == true) {
-			Instantiate (tower, towerSpot.transform.position, towerSpot.transform.rotation);
+			GameObject newTower = Instantiate (tower, towerSpot.transform.position, towerSpot.transform.rotation) as GameObject;
+			newTower.transform.Translate (Vector3.zero); // This is so that the physics engine can update the existance of this tower and we get hovering on it.
 			towerScript.towerType = towerType;
 			PlayConstructTower ();
 			GameObject animation = (GameObject)Instantiate (towerSpotConstructionSmoke, towerSpot.transform.position, Quaternion.Euler (new Vector3 (-90f, 0, 0)));

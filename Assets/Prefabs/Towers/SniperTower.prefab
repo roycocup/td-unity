@@ -21,6 +21,7 @@ GameObject:
   - 4: {fileID: 4000013706808926}
   - 114: {fileID: 114000010504929938}
   - 82: {fileID: 82000011086945498}
+  - 65: {fileID: 65000012485462322}
   m_Layer: 0
   m_Name: SniperTower
   m_TagString: Clickable
@@ -38,9 +39,10 @@ GameObject:
   - 4: {fileID: 4000014007814492}
   - 33: {fileID: 33000012658963000}
   - 23: {fileID: 23000013753776416}
+  - 65: {fileID: 65000013515932630}
   m_Layer: 0
   m_Name: mesh
-  m_TagString: Untagged
+  m_TagString: Clickable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70,7 +72,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010887640250}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.491621, y: 0.92, z: 4.45}
+  m_LocalPosition: {x: -5.120017, y: 0.5163086, z: -4.2513456}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -176,6 +178,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010933276736}
   m_Mesh: {fileID: 4300000, guid: e640fcde24b85420e923aa0de6fb4b42, type: 3}
+--- !u!65 &65000012485462322
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010887640250}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &65000012541520276
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -188,6 +202,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65000013515932630
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010933276736}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.4, y: 1.16, z: 1.8}
+  m_Center: {x: 0, y: 0.58, z: 0}
 --- !u!82 &82000011086945498
 AudioSource:
   m_ObjectHideFlags: 1

@@ -8,9 +8,14 @@ public class SelectManager : MonoBehaviour {
 
 	GameObject _go; 
 	Material _goOriginalMaterial; 
+	int _layerMask = 8;
+
+	void Start(){
+		Debug.Log (_layerMask); 
+	}
 
 
-	void Update () {
+	void FixedUpdate () {
 		_go = getHoveringObject ();
 		if (_go != null) {
 			Select (_go);
@@ -20,12 +25,16 @@ public class SelectManager : MonoBehaviour {
 
 	GameObject getHoveringObject(){
 		Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
-		RaycastHit[] hits = Physics.RaycastAll (ray);
+		RaycastHit[] hits = Physics.RaycastAll(ray);
+		//RaycastHit[] hits = Physics.RaycastAll (Input.mousePosition, Vector3.forward, Mathf.Infinity);
 		// TODO: only execute if UI is not enabled
 		if (hits.Length > 0){
-			if (hits[0].collider.gameObject.tag == "Clickable") {
-				return hits[0].collider.gameObject;
+			foreach (RaycastHit h in hits) {
+				if (h.collider.gameObject.layer.Equals(8)){
+					return h.collider.gameObject;	
+				}
 			}
+
 		}
 		return null;
 	}
@@ -39,8 +48,7 @@ public class SelectManager : MonoBehaviour {
 
 	void Unselect(GameObject go){
 		MeshRenderer mr = go.GetComponent<MeshRenderer> ();
-		_goOriginalMaterial = mr.material; 
-		mr.material = _red; 
+		mr.material = _goOriginalMaterial; 
 	}
 
 }
