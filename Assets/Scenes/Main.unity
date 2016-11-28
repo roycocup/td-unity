@@ -446,6 +446,10 @@ Prefab:
       propertyPath: m_Name
       value: TowerSpot (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012727772142, guid: 95934d7e99e6449619d1817e17c9a00a, type: 2}
+      propertyPath: m_TagString
+      value: Clickable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 95934d7e99e6449619d1817e17c9a00a, type: 2}
   m_IsPrefabParent: 0
@@ -1017,7 +1021,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1415532987}
+      - m_Target: {fileID: 0}
         m_MethodName: HideIMenu
         m_Mode: 1
         m_Arguments:
@@ -1272,6 +1276,10 @@ Prefab:
       propertyPath: m_Name
       value: TowerSpot (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012727772142, guid: 95934d7e99e6449619d1817e17c9a00a, type: 2}
+      propertyPath: m_TagString
+      value: Clickable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 95934d7e99e6449619d1817e17c9a00a, type: 2}
   m_IsPrefabParent: 0
@@ -1431,6 +1439,10 @@ Prefab:
     - target: {fileID: 1000012727772142, guid: 95934d7e99e6449619d1817e17c9a00a, type: 2}
       propertyPath: m_Name
       value: TowerSpot (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012727772142, guid: 95934d7e99e6449619d1817e17c9a00a, type: 2}
+      propertyPath: m_TagString
+      value: Clickable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 95934d7e99e6449619d1817e17c9a00a, type: 2}
@@ -1905,6 +1917,10 @@ Prefab:
       propertyPath: m_Name
       value: TowerSpot (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000012727772142, guid: 95934d7e99e6449619d1817e17c9a00a, type: 2}
+      propertyPath: m_TagString
+      value: Clickable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 95934d7e99e6449619d1817e17c9a00a, type: 2}
   m_IsPrefabParent: 0
@@ -1951,6 +1967,10 @@ Prefab:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1882450604}
+    - target: {fileID: 1000012727772142, guid: 95934d7e99e6449619d1817e17c9a00a, type: 2}
+      propertyPath: m_TagString
+      value: Clickable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 95934d7e99e6449619d1817e17c9a00a, type: 2}
   m_IsPrefabParent: 0
@@ -2000,6 +2020,10 @@ Prefab:
     - target: {fileID: 1000012727772142, guid: 95934d7e99e6449619d1817e17c9a00a, type: 2}
       propertyPath: m_Name
       value: TowerSpot (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012727772142, guid: 95934d7e99e6449619d1817e17c9a00a, type: 2}
+      propertyPath: m_TagString
+      value: Clickable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 95934d7e99e6449619d1817e17c9a00a, type: 2}
@@ -2296,7 +2320,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1415532987}
+      - m_Target: {fileID: 0}
         m_MethodName: RestartGame
         m_Mode: 1
         m_Arguments:
@@ -2565,7 +2589,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1415532987}
+      - m_Target: {fileID: 0}
         m_MethodName: GoToMMenu
         m_Mode: 1
         m_Arguments:
@@ -3006,9 +3030,10 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1415532986}
-  - 114: {fileID: 1415532985}
-  - 114: {fileID: 1415532987}
   - 114: {fileID: 1415532988}
+  - 114: {fileID: 1415532987}
+  - 114: {fileID: 1415532985}
+  - 114: {fileID: 1415532989}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -3027,8 +3052,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eed14b8f936424bc49643e9a3920ef60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnRate: 1.5
-  waveRate: 20
+  spawnRate: 5
+  waveRate: 10
   health: 10
   money: 10
   normalEnemyPrefab: {fileID: 165674, guid: ebcbf0a78a044764db5fff00a0f21741, type: 2}
@@ -3077,6 +3102,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c6b16874bcb34037ba00808a9c64e6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1415532989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1415532984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98ca56d51daaa481c9c0aa26cc7b2d42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _red: {fileID: 2100000, guid: 227ec08dfb03b44fbbc296c3f0a72017, type: 2}
 --- !u!1 &1431356822
 GameObject:
   m_ObjectHideFlags: 0
@@ -3330,6 +3367,10 @@ Prefab:
     - target: {fileID: 1000012727772142, guid: 95934d7e99e6449619d1817e17c9a00a, type: 2}
       propertyPath: m_Name
       value: TowerSpot (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012727772142, guid: 95934d7e99e6449619d1817e17c9a00a, type: 2}
+      propertyPath: m_TagString
+      value: Clickable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 95934d7e99e6449619d1817e17c9a00a, type: 2}
@@ -3902,7 +3943,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1415532987}
+      - m_Target: {fileID: 0}
         m_MethodName: RestartGame
         m_Mode: 1
         m_Arguments:
@@ -4260,7 +4301,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1415532987}
+      - m_Target: {fileID: 0}
         m_MethodName: GoToMMenu
         m_Mode: 1
         m_Arguments:
@@ -4426,6 +4467,10 @@ Prefab:
     - target: {fileID: 1000012727772142, guid: 95934d7e99e6449619d1817e17c9a00a, type: 2}
       propertyPath: m_Name
       value: TowerSpot (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012727772142, guid: 95934d7e99e6449619d1817e17c9a00a, type: 2}
+      propertyPath: m_TagString
+      value: Clickable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 95934d7e99e6449619d1817e17c9a00a, type: 2}

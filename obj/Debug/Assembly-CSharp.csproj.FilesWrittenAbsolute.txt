@@ -127,3 +127,5 @@
 /Users/rodrigodias/unity/wsfob/Temp/bin/Debug/Mono.Cecil.Mdb.dll
 /Users/rodrigodias/unity/wsfob/Temp/bin/Debug/Assembly-CSharp.dll.mdb
 /Users/rodrigodias/unity/wsfob/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/rodrigodias/unity/wsfob/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/rodrigodias/unity/wsfob/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb

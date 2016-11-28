@@ -92,10 +92,12 @@
      <Compile Include="Assets\Scripts\Managers\AudioManager.cs" />
      <Compile Include="Assets\Scripts\Managers\CreditsManager.cs" />
      <Compile Include="Assets\Scripts\Managers\FlashMessages.cs" />
-     <Compile Include="Assets\Scripts\Managers\Game.cs" />
      <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
-     <Compile Include="Assets\Scripts\Managers\Sea.cs" />
+     <Compile Include="Assets\Scripts\Managers\SceneMainManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\SeaManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\SelectManager.cs" />
      <Compile Include="Assets\Scripts\Managers\Splash.cs" />
+     <Compile Include="Assets\Scripts\Managers\UIManager.cs" />
      <Compile Include="Assets\Scripts\Projectile.cs" />
      <Compile Include="Assets\Scripts\Projectile\Bullet.cs" />
      <Compile Include="Assets\Scripts\Projectile\Missile.cs" />

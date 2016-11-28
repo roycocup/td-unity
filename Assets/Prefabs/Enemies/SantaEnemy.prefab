@@ -681,8 +681,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000014067140502}
   - 111: {fileID: 111000011659291346}
+  - 114: {fileID: 114000011809802544}
   m_Layer: 0
-  m_Name: Santa
+  m_Name: SantaEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2269,6 +2270,21 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 1
+--- !u!114 &114000011809802544
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012774473602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7f1424c604e435dbbd7d05ae9c36b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  health: 10
+  animator: {fileID: 0}
+  healthUI: {fileID: 114000011731159628, guid: 0d2672fd4b8baea4ea3bfc09f4194349, type: 2}
 --- !u!137 &137000012698688014
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

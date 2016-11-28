@@ -41,7 +41,7 @@ GameObject:
   - 82: {fileID: 82000012790762704}
   m_Layer: 0
   m_Name: DualTurret
-  m_TagString: Untagged
+  m_TagString: Clickable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

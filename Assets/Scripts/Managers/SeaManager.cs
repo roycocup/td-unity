@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Sea : MonoBehaviour {
+public class SeaManager : MonoBehaviour {
 
 	public float scrollSpeed = 0.5F;
 	public Renderer rend;

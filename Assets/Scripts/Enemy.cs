@@ -23,7 +23,7 @@ public class Enemy : MonoBehaviour {
 	protected int _nodeIndex = 0; 
 	protected int _value = 1; // money value of this enemy
 	protected float _randomZ, _randomX;
-	protected GameManager _gameManager; 
+	protected SceneMainManager _sceneMainManager; 
 
 	public Statuses Status {
 		get {
@@ -41,7 +41,7 @@ public class Enemy : MonoBehaviour {
 		_path = GameObject.Find ("Path");
 		_pathNode = _path.transform.GetChild (_nodeIndex); 
 		_rotation_speed = speed * 2f;
-		_gameManager = GameObject.Find ("GameManager").GetComponent<GameManager>();
+		_sceneMainManager = GameObject.Find ("GameManager").GetComponent<SceneMainManager>();
 		_status = Statuses.SPAWNED;
 		GetDestinationRandomization ();
 	}
@@ -127,14 +127,14 @@ public class Enemy : MonoBehaviour {
 		
 
 	protected void ReachedGoal(){
-		_gameManager.TakeDamage (1);
+		_sceneMainManager.TakeDamage (1);
 		Destroy(gameObject);
 	}
 
 	public void Die() {
 		//GameObject.FindObjectOfType<ScoreManager>().money += moneyValue;
 		_status = Statuses.DYING;
-		_gameManager.AddMoney (this._value);
+		_sceneMainManager.AddMoney (this._value);
 		float dyingAnimationTime = 3.1f;
 		Destroy(gameObject, dyingAnimationTime);
 	}

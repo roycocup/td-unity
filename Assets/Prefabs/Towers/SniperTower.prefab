@@ -23,7 +23,7 @@ GameObject:
   - 82: {fileID: 82000011086945498}
   m_Layer: 0
   m_Name: SniperTower
-  m_TagString: Untagged
+  m_TagString: Clickable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -273,11 +273,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65429b19fbbb84bc7846f41ac5a816e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cost: 5
   towerType: 0
   range: 50
   rotationSpeed: 90
   fireCooldown: 2
-  cost: 5
   projectilePrefab: {fileID: 1000013782904920, guid: 1bda6dda8dceb4515bbc4adcc054bb66,
     type: 2}
   smoke: {fileID: 1000013226627560, guid: 96e344388834940bcac1c1d17a1fa1df, type: 2}
