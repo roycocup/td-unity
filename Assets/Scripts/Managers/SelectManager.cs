@@ -1,25 +1,29 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System; 
 
 public class SelectManager : MonoBehaviour {
 
 	public Material _red;
 
-	GameObject _go; 
+	GameObject _go;
+	GameObject _previousObject; 
 	Material _goOriginalMaterial; 
 	int _layerMask = 8;
-
-	void Start(){
-		Debug.Log (_layerMask); 
-	}
-
+	bool _selected = false;
 
 	void FixedUpdate () {
 		_go = getHoveringObject ();
 		if (_go != null) {
+			_previousObject = _go;
 			Select (_go);
+		} else {
+			if (_previousObject != null) {
+				UnselectPrevious ();
+			}
 		}
+
 	}
 
 
@@ -34,7 +38,6 @@ public class SelectManager : MonoBehaviour {
 					return h.collider.gameObject;	
 				}
 			}
-
 		}
 		return null;
 	}
@@ -43,12 +46,16 @@ public class SelectManager : MonoBehaviour {
 		MeshRenderer mr = go.GetComponent<MeshRenderer> ();
 		_goOriginalMaterial = mr.material; 
 		mr.material = _red; 
+		_selected = true;
 	}
 
 
-	void Unselect(GameObject go){
-		MeshRenderer mr = go.GetComponent<MeshRenderer> ();
+	void UnselectPrevious(){
+		Debug.Log (_goOriginalMaterial.mainTexture.name);
+		MeshRenderer mr = _previousObject.GetComponent<MeshRenderer> ();
 		mr.material = _goOriginalMaterial; 
+		_previousObject = null;
+		_selected = false;
 	}
 
 }

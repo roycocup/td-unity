@@ -21,7 +21,7 @@ GameObject:
   - 4: {fileID: 4000013091325372}
   - 33: {fileID: 33000013597333928}
   - 23: {fileID: 23000012072832182}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
