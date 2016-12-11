@@ -43,7 +43,7 @@ GameObject:
   - 65: {fileID: 65000011189312380}
   m_Layer: 0
   m_Name: MissileTower
-  m_TagString: Clickable
+  m_TagString: Tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

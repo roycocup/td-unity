@@ -3138,6 +3138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _red: {fileID: 2100000, guid: 227ec08dfb03b44fbbc296c3f0a72017, type: 2}
+  _white: {fileID: 2100000, guid: a31ca67d62e134b16850c4516f9b2fd4, type: 2}
 --- !u!1 &1431356822
 GameObject:
   m_ObjectHideFlags: 0
