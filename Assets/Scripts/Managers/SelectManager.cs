@@ -28,11 +28,15 @@ public class SelectManager : MonoBehaviour {
 		if (_go != null) {
 			// set the record for the previous object
 			_previousObject = _go;
-			if (_go.tag == "Tower") {
-				//TODO: do somehting with towers
-			} else {
-				// if this is clickable and its not a tower
-				Highlight (_go);
+			string t = GetTagForGO (_go);
+			if (t != null) {
+				if (t == "Tower") {
+					//TODO: do somehting with towers
+				} else {
+					// if this is clickable and its not a tower
+					Debug.Log(_go.tag); 
+					Highlight (_go);
+				}
 			}
 
 		} else {
@@ -42,6 +46,21 @@ public class SelectManager : MonoBehaviour {
 		}
 	}
 
+
+	string GetTagForGO (GameObject _go){
+		
+		if (_go.tag != "Untagged") {
+			return _go.tag;
+		} else {
+			if (null != _go.transform.parent) {
+
+				//FIXME: This is so terrible I cannot begin.... but I cant find an answer and have to move on.
+				return _go.transform.parent.tag;
+				//return GetTagForGO (_go.transform.parent.gameObject);
+			} 
+			return null;
+		}
+	}
 
 	GameObject getHoveringObject(){
 		Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);

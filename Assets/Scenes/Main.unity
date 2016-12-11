@@ -3055,9 +3055,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 1415532986}
   - 114: {fileID: 1415532988}
-  - 114: {fileID: 1415532987}
   - 114: {fileID: 1415532985}
   - 114: {fileID: 1415532989}
+  - 114: {fileID: 1415532987}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
