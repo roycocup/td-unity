@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
-using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System;
+using System.Collections;
+using System.Collections.Generic;
 
 public class SceneMainManager : MonoBehaviour {
 
@@ -18,6 +19,8 @@ public class SceneMainManager : MonoBehaviour {
 	public int health = 10; 
 	public int money = 10; 
 
+	UIManager _uiManager; 
+
 	//objects
 	public GameObject normalEnemyPrefab; 
 	public GameObject eliteEnemyPrefab; 
@@ -28,9 +31,6 @@ public class SceneMainManager : MonoBehaviour {
 
 	//private
 	Transform enemySpawn; 
-	Text healthText; 
-	Text infoText; 
-	Text moneyText;
 	int numWaves = 0;
 
 	// persisting the towerSpot for the new tower to be bought
@@ -38,15 +38,11 @@ public class SceneMainManager : MonoBehaviour {
 
 	void Start(){
 		enemySpawn = GameObject.Find ("EnemySpawn").transform;
-		healthText = GameObject.Find ("UI/Canvas/InGamePanel/HealthUIText").GetComponent<Text>(); 
-		infoText = GameObject.Find ("UI/Canvas/InGamePanel/InfoUIText").GetComponent<Text>(); 
-		moneyText = GameObject.Find ("UI/Canvas/InGamePanel/MoneyUIText").GetComponent<Text>(); 
-		// it should be off, but just in case
-		GameObject.Find ("UI/Canvas/TowerMenuUI").SetActive(false);
+		_uiManager = gameObject.GetComponent<UIManager> ();
 	}
 
 	void FixedUpdate(){
-
+		
 		UIUpdate ();
 		// dont start another wave if the spawn is not over
 		if (spawning == false) {
@@ -61,6 +57,18 @@ public class SceneMainManager : MonoBehaviour {
 			}
 		}
 
+	}
+
+	void UIUpdate(){
+		float displayTime = waveTimeLeft; 
+		if (spawning == true) {
+			displayTime = waveTimeLeft + (numElementsInWaveLeft * spawnRate); 
+		} 
+		Dictionary<string,string> info = new Dictionary<string,string> ();
+		info.Add("health", health.ToString());
+		info.Add ("money", money.ToString ());
+		info.Add("displayTime", displayTime.ToString("F2"));
+		_uiManager.MainUIUpdate (info);
 	}
 
 	IEnumerator SpawnWave(){
@@ -106,21 +114,6 @@ public class SceneMainManager : MonoBehaviour {
 			
 	}
 
-
-	void UIUpdate(){
-		//health
-		healthText.text = "Health: " + health.ToString ();
-
-		//money
-		moneyText.text = "$ " + money.ToString ();
-
-		// info
-		float displayTime = waveTimeLeft; 
-		if (spawning == true) {
-			displayTime = waveTimeLeft + (numElementsInWaveLeft * spawnRate); 
-		} 
-		infoText.text = "Next wave in " + displayTime.ToString ("F2") + " seconds";
-	}
 
 	public void TakeDamage(int damage){
 		health -= damage; 
@@ -181,14 +174,12 @@ public class SceneMainManager : MonoBehaviour {
 	}
 
 	public void DisplayTowerMenu(GameObject spot){
-		GameObject towerMenuUI  = GameObject.Find ("UI/Canvas/TowerMenuUI");
-		towerMenuUI.SetActive (true); 
+		_uiManager.DisplayTowerMenu ();
 		towerSpot = spot; 
 	}
 
 	void HideTowerMenu(){
-		GameObject towerMenuUI  = GameObject.Find ("UI/Canvas/TowerMenuUI");
-		towerMenuUI.SetActive (false); 
+		_uiManager.HideTowerMenu ();
 	}
 
 

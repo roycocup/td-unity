@@ -5,17 +5,24 @@ using System;
 
 public class SelectManager : MonoBehaviour {
 
-	public Material _red;
-	public Material _white;
+	public Material red;
+	public Material white;
+
 
 	GameObject _go;
 	GameObject _previousObject; 
 	Material _goOriginalMaterial; 
 	int _layerMask = 8;
 	bool _selected = false;
+	UIManager _uiManager; 
 
 	struct MaterialRegistry{
 		public Material material; 
+	}
+
+
+	void Start(){
+		_uiManager = gameObject.GetComponent<UIManager> ();
 	}
 
 	void FixedUpdate () {
@@ -32,6 +39,7 @@ public class SelectManager : MonoBehaviour {
 			if (t != null) {
 				if (t == "Tower") {
 					//TODO: do somehting with towers
+					ShowTowerUI(_go); 
 				} else {
 					// if this is clickable and its not a tower
 					Debug.Log(_go.tag); 
@@ -44,6 +52,10 @@ public class SelectManager : MonoBehaviour {
 				RemoveHighlight ();
 			}
 		}
+	}
+
+	void ShowTowerUI(GameObject go){
+		//uiManager
 	}
 
 
@@ -82,14 +94,14 @@ public class SelectManager : MonoBehaviour {
 	void Highlight(GameObject go){
 		MeshRenderer mr = go.GetComponent<MeshRenderer> ();
 //		_matReg.material = mr.material;
-		mr.material = _red; 
+		mr.material = red; 
 		_selected = true;
 	}
 
 
 	void RemoveHighlight(){
 		MeshRenderer mr = _previousObject.GetComponent<MeshRenderer> ();
-		mr.material = _white; 
+		mr.material = white; 
 		_previousObject = null;
 		_selected = false;
 	}
