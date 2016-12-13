@@ -35,26 +35,13 @@ public class SelectManager : MonoBehaviour {
 		if (_go != null) {
 			// set the record for the previous object
 			_previousObject = _go;
-			string t = GetTagForGO (_go);
-			if (t != null) {
-				if (t == "Tower") {
-					ShowTowerUI(_go); 
-				} else {
-					// if this is clickable and its not a tower
-					Highlight (_go);
-				}
+			string tag = GetTagForGO (_go);
+			if (tag != null) {
+				Highlight (_go, tag);
 			}
-
 		} else {
 			if (_previousObject != null) {
-				string t = GetTagForGO (_previousObject);
-				switch (t) {
-					case "Tower":
-						break;
-					case "Spots":
-						RemoveHighlight ();
-						break;
-				}
+				RemoveHighlight ();
 			}
 		}
 	}
@@ -96,17 +83,35 @@ public class SelectManager : MonoBehaviour {
 		return null;
 	}
 
-	void Highlight(GameObject go){
-		MeshRenderer mr = go.GetComponent<MeshRenderer> ();
-//		_matReg.material = mr.material;
-		mr.material = red; 
+	void Highlight(GameObject go, string tag){
+		
+		switch (tag) {
+		case "Tower":
+			Debug.Log (go.name); 
+			break;
+		case "Spots":
+			MeshRenderer mr = go.GetComponent<MeshRenderer> ();
+			mr.material = red;
+			break;
+		}
+			
+		// set the selected
 		_selected = true;
 	}
 
 
 	void RemoveHighlight(){
-		MeshRenderer mr = _previousObject.GetComponent<MeshRenderer> ();
-		mr.material = white; 
+		string t = GetTagForGO (_previousObject);
+		switch (t) {
+		case "Tower":
+			break;
+		case "Spots":
+			MeshRenderer mr = _previousObject.GetComponent<MeshRenderer> ();
+			mr.material = white; 
+			break;
+		}
+
+		// and then nullify the register
 		_previousObject = null;
 		_selected = false;
 	}

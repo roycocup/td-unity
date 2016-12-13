@@ -30,7 +30,6 @@ public class FlashMessages : MonoBehaviour {
 		if (_messageSet == true) {
 			if (_timeElapsed < _flashtime) {
 				if (_messageUI.activeSelf == false) {
-					Debug.Log (_timeElapsed); 
 					_messageUI.SetActive (true); 
 					_textUI.text = _message;
 				}

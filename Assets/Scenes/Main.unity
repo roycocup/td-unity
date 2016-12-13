@@ -3071,10 +3071,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eed14b8f936424bc49643e9a3920ef60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnRate: 5
-  waveRate: 10
-  health: 10
-  money: 10
   normalEnemyPrefab: {fileID: 165674, guid: ebcbf0a78a044764db5fff00a0f21741, type: 2}
   eliteEnemyPrefab: {fileID: 132824, guid: 0d2672fd4b8baea4ea3bfc09f4194349, type: 2}
   sniperTowerPrefab: {fileID: 1000010887640250, guid: e61d97f28b2c2418b958e7f8224b4485,
@@ -3085,6 +3081,10 @@ MonoBehaviour:
     type: 2}
   towerSpotConstructionSmoke: {fileID: 1000012727772142, guid: 95934d7e99e6449619d1817e17c9a00a,
     type: 2}
+  spawnRate: 5
+  waveRate: 10
+  health: 10
+  money: 10
 --- !u!4 &1415532986
 Transform:
   m_ObjectHideFlags: 0

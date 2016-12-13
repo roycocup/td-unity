@@ -7,20 +7,6 @@ using System.Collections.Generic;
 
 public class SceneMainManager : MonoBehaviour {
 
-	// time between elements in a wave
-	public float spawnRate = 5f;
-	float spawnTimeLeft = 0; 
-	// time to wait between waves
-	public float waveRate = 10f;
-	float waveTimeLeft = 1f;
-	int numElementsInWave = 0;
-	int numElementsInWaveLeft = 0; 
-	bool spawning = false;
-	public int health = 10; 
-	public int money = 10; 
-
-	UIManager _uiManager; 
-
 	//objects
 	public GameObject normalEnemyPrefab; 
 	public GameObject eliteEnemyPrefab; 
@@ -28,16 +14,31 @@ public class SceneMainManager : MonoBehaviour {
 	public GameObject missileTowerPrefab; 
 	public GameObject dualTurretPrefab; 
 	public GameObject towerSpotConstructionSmoke; 
+	public float spawnRate = 5f; // time between elements in a wave
+	public float waveRate = 10f; // time to wait between waves
+	public int health = 10; 
+	public int money = 10; 
+
 
 	//private
-	Transform enemySpawn; 
+	float _spawnTimeLeft = 0; 
+	float _waveTimeLeft = 1f;
+	int _numElementsInWave = 0;
+	int _numElementsInWaveLeft = 0; 
+	bool _spawning = false;
+	UIManager _uiManager; 
+	Transform _enemySpawn; 
 	int numWaves = 0;
+
+
+
+
 
 	// persisting the towerSpot for the new tower to be bought
 	GameObject towerSpot; 
 
 	void Start(){
-		enemySpawn = GameObject.Find ("EnemySpawn").transform;
+		_enemySpawn = GameObject.Find ("EnemySpawn").transform;
 		_uiManager = gameObject.GetComponent<UIManager> ();
 	}
 
@@ -45,24 +46,24 @@ public class SceneMainManager : MonoBehaviour {
 		
 		UIUpdate ();
 		// dont start another wave if the spawn is not over
-		if (spawning == false) {
-			if (waveTimeLeft <= 0) {
-				numElementsInWave = UnityEngine.Random.Range (10, 20); 
-				numElementsInWaveLeft = numElementsInWave;
+		if (_spawning == false) {
+			if (_waveTimeLeft <= 0) {
+				_numElementsInWave = UnityEngine.Random.Range (10, 20); 
+				_numElementsInWaveLeft = _numElementsInWave;
 				numWaves++;
 				StartCoroutine (SpawnWave ());
-				waveTimeLeft = waveRate;
+				_waveTimeLeft = waveRate;
 			} else {
-				waveTimeLeft -= Time.deltaTime; 
+				_waveTimeLeft -= Time.deltaTime; 
 			}
 		}
 
 	}
 
 	void UIUpdate(){
-		float displayTime = waveTimeLeft; 
-		if (spawning == true) {
-			displayTime = waveTimeLeft + (numElementsInWaveLeft * spawnRate); 
+		float displayTime = _waveTimeLeft; 
+		if (_spawning == true) {
+			displayTime = _waveTimeLeft + (_numElementsInWaveLeft * spawnRate); 
 		} 
 		Dictionary<string,string> info = new Dictionary<string,string> ();
 		info.Add("health", health.ToString());
@@ -72,15 +73,15 @@ public class SceneMainManager : MonoBehaviour {
 	}
 
 	IEnumerator SpawnWave(){
-		while (numElementsInWaveLeft > 0) {
-			spawning = true;
-			if (spawnTimeLeft < 0) {
+		while (_numElementsInWaveLeft > 0) {
+			_spawning = true;
+			if (_spawnTimeLeft < 0) {
 				SpawnEnemy (Enemy.TYPE_NORMAL);
-				numElementsInWaveLeft--; 
-				spawnTimeLeft = spawnRate; 
+				_numElementsInWaveLeft--; 
+				_spawnTimeLeft = spawnRate; 
 				yield return null;
 			} else {
-				spawnTimeLeft -= Time.deltaTime;
+				_spawnTimeLeft -= Time.deltaTime;
 				yield return null;
 			}
 
@@ -90,8 +91,8 @@ public class SceneMainManager : MonoBehaviour {
 			yield return new WaitForSeconds(spawnRate);
 			SpawnEnemy (Enemy.TYPE_ELITE);
 		}
-		numElementsInWaveLeft = numElementsInWave;
-		spawning = false;
+		_numElementsInWaveLeft = _numElementsInWave;
+		_spawning = false;
 		yield return null;
 	}
 
@@ -105,8 +106,8 @@ public class SceneMainManager : MonoBehaviour {
 		 
 		if (go != null) {
 			float randomZ = UnityEngine.Random.Range (-5, 5);
-			Vector3 rdmSpawnPoint = new Vector3(enemySpawn.position.x, enemySpawn.position.y,  enemySpawn.position.z + randomZ); 
-			GameObject enemy = (GameObject) GameObject.Instantiate (go, rdmSpawnPoint, enemySpawn.rotation);
+			Vector3 rdmSpawnPoint = new Vector3(_enemySpawn.position.x, _enemySpawn.position.y,  _enemySpawn.position.z + randomZ); 
+			GameObject enemy = (GameObject) GameObject.Instantiate (go, rdmSpawnPoint, _enemySpawn.rotation);
 			int enemyHealth = enemy.GetComponent<Enemy> ().health;
 			// adding strength to the wave
 			enemy.GetComponent<Enemy> ().health = enemyHealth + (numWaves * 2);
