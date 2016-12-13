@@ -46,25 +46,6 @@ public class SelectManager : MonoBehaviour {
 		}
 	}
 
-	void ShowTowerUI(GameObject go){
-		_uiManager.HoveringTower (go);
-	}
-
-
-	string GetTagForGO (GameObject _go){
-		
-		if (_go.tag != "Untagged") {
-			return _go.tag;
-		} else {
-			if (null != _go.transform.parent) {
-
-				//FIXME: This is so terrible I cannot begin.... but I cant find an answer and have to move on.
-				return _go.transform.parent.tag;
-				//return GetTagForGO (_go.transform.parent.gameObject);
-			} 
-			return null;
-		}
-	}
 
 	GameObject getHoveringObject(){
 		Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
@@ -83,11 +64,27 @@ public class SelectManager : MonoBehaviour {
 		return null;
 	}
 
+	string GetTagForGO (GameObject _go){
+
+		if (_go.tag != "Untagged") {
+			return _go.tag;
+		} else {
+			if (null != _go.transform.parent) {
+
+				//FIXME: This is so terrible I cannot begin.... but I cant find an answer and have to move on.
+				return _go.transform.parent.tag;
+				//return GetTagForGO (_go.transform.parent.gameObject);
+			} 
+			return null;
+		}
+	}
+
 	void Highlight(GameObject go, string tag){
 		
 		switch (tag) {
 		case "Tower":
-			Debug.Log (go.name); 
+			GameObject select = go.transform.Find ("select").gameObject;
+			select.SetActive (true);
 			break;
 		case "Spots":
 			MeshRenderer mr = go.GetComponent<MeshRenderer> ();
@@ -104,6 +101,8 @@ public class SelectManager : MonoBehaviour {
 		string t = GetTagForGO (_previousObject);
 		switch (t) {
 		case "Tower":
+			GameObject select = _previousObject.transform.Find ("select").gameObject;
+			select.SetActive (false);
 			break;
 		case "Spots":
 			MeshRenderer mr = _previousObject.GetComponent<MeshRenderer> ();
