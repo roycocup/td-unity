@@ -29,10 +29,14 @@ public class Drag : MonoBehaviour {
 	}
 
 	void OnMouseDrag() {
-		float deltaMove = Input.mousePosition.x - _mouseFirstPoint.x; 
-		float cameraMove = _camera.position.z + (deltaMove * Time.deltaTime * 0.1f);
-		cameraMove = Mathf.Clamp (cameraMove, -5f, 4f);
-		_camera.position = new Vector3(_camera.position.x, _camera.position.y, cameraMove);
+		float deltaZ = Input.mousePosition.x - _mouseFirstPoint.x; 
+		float deltaX = Input.mousePosition.y - _mouseFirstPoint.y;
+		float camMoveZ = _camera.position.z + (deltaZ * Time.deltaTime * 0.1f);
+		float camMoveX = _camera.position.x + (deltaX * Time.deltaTime * 0.1f);
+		camMoveZ = Mathf.Clamp (camMoveZ, -5f, 4f);
+		camMoveX = Mathf.Clamp (camMoveX, -5f, 4f);
+
+		_camera.position = new Vector3(camMoveX, _camera.position.y, camMoveZ);
 	}
 
 	// for mobile
