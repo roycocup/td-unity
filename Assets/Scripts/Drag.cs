@@ -3,16 +3,12 @@ using System.Collections;
 
 public class Drag : MonoBehaviour {
 
-	float _maxLeft = 12f;
-	float _maxRight = 12f;
 	Transform _camera; 
-	Vector3 _originalCameraPoint; 
 	Vector3 _mouseFirstPoint; 
 	int _layerMask = 9;
 
 	void Start(){
 		_camera = GameObject.Find ("Main Camera").transform;
-		_originalCameraPoint = _camera.transform.position; 
 	}
 
 
@@ -41,17 +37,17 @@ public class Drag : MonoBehaviour {
 
 	// for mobile
 	void OnTouchDrag(){
-		if (Input.touchCount > 0) 
-		{
-			Touch touch = Input.GetTouch(0);
-			Ray ray = Camera.main.ScreenPointToRay(touch.position);
-
-			if (touch.phase == TouchPhase.Moved) 
-			{
-				MoveCamera (); 
-			}        
-
-		}
+//		if (Input.touchCount > 0) 
+//		{
+//			Touch touch = Input.GetTouch(0);
+//			Ray ray = Camera.main.ScreenPointToRay(touch.position);
+//
+//			if (touch.phase == TouchPhase.Moved) 
+//			{
+//				MoveCamera (); 
+//			}        
+//
+//		}
 	}
 
 	void MoveCamera(){

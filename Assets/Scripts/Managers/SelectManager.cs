@@ -13,16 +13,9 @@ public class SelectManager : MonoBehaviour {
 	GameObject _previousObject; 
 	Material _goOriginalMaterial; 
 	int _layerMask = 8;
-	bool _selected = false;
-	UIManager _uiManager; 
 
 	struct MaterialRegistry{
 		public Material material; 
-	}
-
-
-	void Start(){
-		_uiManager = gameObject.GetComponent<UIManager> ();
 	}
 
 	void FixedUpdate () {
@@ -91,9 +84,7 @@ public class SelectManager : MonoBehaviour {
 			mr.material = red;
 			break;
 		}
-			
-		// set the selected
-		_selected = true;
+
 	}
 
 
@@ -112,7 +103,7 @@ public class SelectManager : MonoBehaviour {
 
 		// and then nullify the register
 		_previousObject = null;
-		_selected = false;
+
 	}
 
 }
