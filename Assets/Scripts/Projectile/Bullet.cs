@@ -5,7 +5,7 @@ public class Bullet : Projectile
 {
 	public GameObject explosionParticles;
 
-	protected void Start(){
+	protected new void Start(){
 		audioSource = gameObject.GetComponent<AudioSource> ();
 		damage = 1;
 	}

@@ -5,7 +5,7 @@ public class Missile : Projectile {
 
 	public GameObject explosionSystem;
 
-	protected void Start(){
+	protected new void Start(){
 		base.Start();
 		radius = 3f;
 		damage = 5;
