@@ -34,4 +34,8 @@ public class UIManager : MonoBehaviour {
 		GameObject towerMenuUI  = GameObject.Find ("UI/Canvas/TowerMenuUI");
 		towerMenuUI.SetActive (false); 
 	}
+
+	public void HoveringTower(GameObject tower){
+		//tower.GetComponent<>
+	}
 }

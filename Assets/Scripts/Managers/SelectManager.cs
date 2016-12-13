@@ -38,24 +38,29 @@ public class SelectManager : MonoBehaviour {
 			string t = GetTagForGO (_go);
 			if (t != null) {
 				if (t == "Tower") {
-					//TODO: do somehting with towers
 					ShowTowerUI(_go); 
 				} else {
 					// if this is clickable and its not a tower
-					Debug.Log(_go.tag); 
 					Highlight (_go);
 				}
 			}
 
 		} else {
 			if (_previousObject != null) {
-				RemoveHighlight ();
+				string t = GetTagForGO (_previousObject);
+				switch (t) {
+					case "Tower":
+						break;
+					case "Spots":
+						RemoveHighlight ();
+						break;
+				}
 			}
 		}
 	}
 
 	void ShowTowerUI(GameObject go){
-		//uiManager
+		_uiManager.HoveringTower (go);
 	}
 
 

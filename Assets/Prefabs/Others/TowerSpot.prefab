@@ -24,9 +24,9 @@ GameObject:
   - 23: {fileID: 23000012669013390}
   - 114: {fileID: 114000012964954374}
   - 82: {fileID: 82000011494377524}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TowerSpot
-  m_TagString: Untagged
+  m_TagString: Spots
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -177,5 +177,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b8f09a520a7f49929dc98350ec17026, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sniperTower: {fileID: 1000010911724632, guid: 930ad978ba05c4c72bdc938f469e12d0,
-    type: 2}
+  sniperTower: {fileID: 0}
