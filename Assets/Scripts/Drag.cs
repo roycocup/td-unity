@@ -34,7 +34,6 @@ public class Drag : MonoBehaviour {
 	}
 
 	void MoveCamera(char direction, float movingSpeed){
-		print (movingSpeed); 
 		float camMove = 0;
 		if (direction.Equals('z')) {
 			camMove = _camera.position.z + (movingSpeed * Time.deltaTime);
@@ -42,14 +41,10 @@ public class Drag : MonoBehaviour {
 			_camera.position = new Vector3(_camera.position.x, _camera.position.y, camMove);
 		} 
 		if (direction.Equals('x')) {
-			print (camMove); 
 			camMove = _camera.position.x + (movingSpeed * Time.deltaTime);
 			camMove = Mathf.Clamp (camMove, maxBottom, maxTop);
 			_camera.position = new Vector3(camMove, _camera.position.y, _camera.position.z);
 		}
-			
-
-
 	}
 
 //	void OnMouseDown(){
