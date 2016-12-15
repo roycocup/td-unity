@@ -6,34 +6,68 @@ public class Drag : MonoBehaviour {
 	Transform _camera; 
 	Vector3 _mouseFirstPoint; 
 	int _layerMask = 9;
+	float movingSpeed = 0.1f;
 
 	void Start(){
 		_camera = GameObject.Find ("Main Camera").transform;
 	}
 
 
-	void OnMouseDown(){
-		Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
-		RaycastHit[] hits = Physics.RaycastAll (ray);
-		foreach (RaycastHit hit in hits) {
-			if (hit.collider.gameObject.layer.Equals(_layerMask)){
-				// we are at movable layer and the mouse is down
-				_mouseFirstPoint = Input.mousePosition; 
-			}
+	void FixedUpdate(){
+		if (Input.mousePosition.x > Screen.width - 50) {
+			//[move char right];
+			//MoveCamera("z")
 		}
+		if (Input.mousePosition.x < 0 + 50) {
+			//[move char left];
+		}
+		if (Input.mousePosition.y > Screen.height - 50) {
+			//[move char down];
+		}
+		if (Input.mousePosition.y < 0 + 50) {
+			//[move char up];
+		} 
+	}
+
+	void MoveCamera(char direction){
+		float camMove = 0;
+		if (direction.Equals("z")) {
+			camMove = _camera.position.z + (movingSpeed * Time.deltaTime);
+			camMove = Mathf.Clamp (camMove, -5f, 4f);
+			_camera.position = new Vector3(_camera.position.x, _camera.position.y, camMove);
+		} 
+		if (direction.Equals("x")) {
+			camMove = _camera.position.x + (movingSpeed * Time.deltaTime);
+			camMove = Mathf.Clamp (camMove, -5f, 4f);
+			_camera.position = new Vector3(camMove, _camera.position.y, _camera.position.z);
+		}
+			
+
 
 	}
 
-	void OnMouseDrag() {
-		float deltaZ = Input.mousePosition.x - _mouseFirstPoint.x; 
-		float deltaX = Input.mousePosition.y - _mouseFirstPoint.y;
-		float camMoveZ = _camera.position.z + (deltaZ * Time.deltaTime * 0.1f);
-		float camMoveX = _camera.position.x + (deltaX * Time.deltaTime * 0.1f);
-		camMoveZ = Mathf.Clamp (camMoveZ, -5f, 4f);
-		camMoveX = Mathf.Clamp (camMoveX, -5f, 4f);
+//	void OnMouseDown(){
+//		Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
+//		RaycastHit[] hits = Physics.RaycastAll (ray);
+//		foreach (RaycastHit hit in hits) {
+//			if (hit.collider.gameObject.layer.Equals(_layerMask)){
+//				// we are at movable layer and the mouse is down
+//				_mouseFirstPoint = Input.mousePosition; 
+//			}
+//		}
+//
+//	}
 
-		_camera.position = new Vector3(camMoveX, _camera.position.y, camMoveZ);
-	}
+//	void OnMouseDrag() {
+//		float deltaZ = Input.mousePosition.x - _mouseFirstPoint.x; 
+//		float deltaX = Input.mousePosition.y - _mouseFirstPoint.y;
+//		float camMoveZ = _camera.position.z + (deltaZ * Time.deltaTime * 0.1f);
+//		float camMoveX = _camera.position.x + (deltaX * Time.deltaTime * 0.1f);
+//		camMoveZ = Mathf.Clamp (camMoveZ, -5f, 4f);
+//		camMoveX = Mathf.Clamp (camMoveX, -5f, 4f);
+//
+//		_camera.position = new Vector3(camMoveX, _camera.position.y, camMoveZ);
+//	}
 
 	// for mobile
 	void OnTouchDrag(){
@@ -50,11 +84,40 @@ public class Drag : MonoBehaviour {
 //		}
 	}
 
-	void MoveCamera(){
-		
-	}
-	
-
-
+//	public float Boundary : int = 50;
+//	public var speed : int = 5;
+//
+//	private var theScreenWidth : int;
+//	private var theScreenHeight : int;
+//
+//	function Start() 
+//	{
+//		theScreenWidth = Screen.width;
+//		theScreenHeight = Screen.height;
+//	}
+//
+//	function Update() 
+//	{
+//		if (Input.mousePosition.x > theScreenWidth - Boundary)
+//		{
+//			transform.position.x += speed * Time.deltaTime;
+//		}
+//
+//		if (Input.mousePosition.x < 0 + Boundary)
+//		{
+//			transform.position.x -= speed * Time.deltaTime;
+//		}
+//
+//		if (Input.mousePosition.y > theScreenHeight - Boundary)
+//		{
+//			transform.position.y += speed * Time.deltaTime;
+//		}
+//
+//		if (Input.mousePosition.y < 0 + Boundary)
+//		{
+//			transform.position.y -= speed * Time.deltaTime;
+//		}
+//
+//	}    
 
 }
