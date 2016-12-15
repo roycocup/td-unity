@@ -5,8 +5,12 @@ public class Drag : MonoBehaviour {
 
 	Transform _camera; 
 	Vector3 _mouseFirstPoint; 
-	int _layerMask = 9;
-	float movingSpeed = 0.1f;
+//	int _layerMask = 9;
+	float movingSpeed = 5f;
+	float maxLeft = -5f; 
+	float maxRight = 4f;
+	float maxTop = 4f;
+	float maxBottom = -5f;
 
 	void Start(){
 		_camera = GameObject.Find ("Main Camera").transform;
@@ -16,29 +20,31 @@ public class Drag : MonoBehaviour {
 	void FixedUpdate(){
 		if (Input.mousePosition.x > Screen.width - 50) {
 			//[move char right];
-			//MoveCamera("z")
+			MoveCamera('z', -movingSpeed);
 		}
 		if (Input.mousePosition.x < 0 + 50) {
-			//[move char left];
+			MoveCamera('z', movingSpeed);
 		}
 		if (Input.mousePosition.y > Screen.height - 50) {
-			//[move char down];
+			MoveCamera('x', movingSpeed);
 		}
 		if (Input.mousePosition.y < 0 + 50) {
-			//[move char up];
+			MoveCamera('x', -movingSpeed);
 		} 
 	}
 
-	void MoveCamera(char direction){
+	void MoveCamera(char direction, float movingSpeed){
+		print (movingSpeed); 
 		float camMove = 0;
-		if (direction.Equals("z")) {
+		if (direction.Equals('z')) {
 			camMove = _camera.position.z + (movingSpeed * Time.deltaTime);
-			camMove = Mathf.Clamp (camMove, -5f, 4f);
+			camMove = Mathf.Clamp (camMove, maxLeft, maxRight);
 			_camera.position = new Vector3(_camera.position.x, _camera.position.y, camMove);
 		} 
-		if (direction.Equals("x")) {
+		if (direction.Equals('x')) {
+			print (camMove); 
 			camMove = _camera.position.x + (movingSpeed * Time.deltaTime);
-			camMove = Mathf.Clamp (camMove, -5f, 4f);
+			camMove = Mathf.Clamp (camMove, maxBottom, maxTop);
 			_camera.position = new Vector3(camMove, _camera.position.y, _camera.position.z);
 		}
 			
