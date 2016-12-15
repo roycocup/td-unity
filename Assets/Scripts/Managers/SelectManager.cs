@@ -58,26 +58,20 @@ public class SelectManager : MonoBehaviour {
 	}
 
 	string GetTagForGO (GameObject _go){
-
 		if (_go.tag != "Untagged") {
 			return _go.tag;
-		} else {
-			if (null != _go.transform.parent) {
-
-				//FIXME: This is so terrible I cannot begin.... but I cant find an answer and have to move on.
-				return _go.transform.parent.tag;
-				//return GetTagForGO (_go.transform.parent.gameObject);
-			} 
-			return null;
-		}
+		} 
+		return null;
 	}
 
 	void Highlight(GameObject go, string tag){
-		
 		switch (tag) {
 		case "Tower":
 			GameObject select = go.transform.Find ("select").gameObject;
 			select.SetActive (true);
+			if (Input.GetMouseButton(0)) {
+				BroadcastMessage ("TowerUpgrade");
+			}
 			break;
 		case "Spots":
 			MeshRenderer mr = go.GetComponent<MeshRenderer> ();

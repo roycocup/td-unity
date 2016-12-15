@@ -98,6 +98,7 @@
      <Compile Include="Assets\Scripts\Managers\SelectManager.cs" />
      <Compile Include="Assets\Scripts\Managers\Splash.cs" />
      <Compile Include="Assets\Scripts\Managers\UIManager.cs" />
+     <Compile Include="Assets\Scripts\Managers\UpgradeManager.cs" />
      <Compile Include="Assets\Scripts\Projectile.cs" />
      <Compile Include="Assets\Scripts\Projectile\Bullet.cs" />
      <Compile Include="Assets\Scripts\Projectile\Missile.cs" />

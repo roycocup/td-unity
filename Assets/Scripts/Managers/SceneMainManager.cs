@@ -10,10 +10,6 @@ public class SceneMainManager : MonoBehaviour {
 	//objects
 	public GameObject normalEnemyPrefab; 
 	public GameObject eliteEnemyPrefab; 
-	public GameObject sniperTowerPrefab; 
-	public GameObject missileTowerPrefab; 
-	public GameObject dualTurretPrefab; 
-	public GameObject towerSpotConstructionSmoke; 
 	public float spawnRate = 5f; // time between elements in a wave
 	public float waveRate = 10f; // time to wait between waves
 	public int health = 10; 
@@ -29,13 +25,6 @@ public class SceneMainManager : MonoBehaviour {
 	UIManager _uiManager; 
 	Transform _enemySpawn; 
 	int numWaves = 0;
-
-
-
-
-
-	// persisting the towerSpot for the new tower to be bought
-	GameObject towerSpot; 
 
 	void Start(){
 		_enemySpawn = GameObject.Find ("EnemySpawn").transform;
@@ -137,57 +126,6 @@ public class SceneMainManager : MonoBehaviour {
 		}
 		this.money -= money; 
 		return true;
-	}
-
-
-	// FIXME: Need to have 2 different prefabs which the scripts are extentions from Tower. 
-	// There should be a factory for each one
-	public void BuyTower (int towerType){
-		GameObject tower = sniperTowerPrefab;
-
-		switch (towerType) {
-		case Tower.TYPE_SNIPER:
-			tower = sniperTowerPrefab; 
-			break;
-		case Tower.TYPE_MISSILE:
-			tower = missileTowerPrefab; 
-			break;
-		case Tower.TYPE_DUAL:
-			tower = dualTurretPrefab; 
-			break;
-		}
-
-		Tower towerScript = tower.GetComponent<Tower> (); 
-		if (SubMoney (towerScript.cost) == true) {
-			GameObject newTower = Instantiate (tower, towerSpot.transform.position, towerSpot.transform.rotation) as GameObject;
-			newTower.transform.Translate (Vector3.zero); // This is so that the physics engine can update the existance of this tower and we get hovering on it.
-			towerScript.towerType = towerType;
-			PlayConstructTower ();
-			GameObject animation = (GameObject)Instantiate (towerSpotConstructionSmoke, towerSpot.transform.position, Quaternion.Euler (new Vector3 (-90f, 0, 0)));
-			Destroy (towerSpot);
-			Destroy (animation, 5);
-		} else {
-			FlashMessages f = gameObject.GetComponent<FlashMessages> ();
-			f.Message = "Not enough money!"; 
-		}
-
-		HideTowerMenu (); 
-	}
-
-	public void DisplayTowerMenu(GameObject spot){
-		_uiManager.DisplayTowerMenu ();
-		towerSpot = spot; 
-	}
-
-	void HideTowerMenu(){
-		_uiManager.HideTowerMenu ();
-	}
-
-
-	void PlayConstructTower (){
-//		AudioSource constructionSound = GameObject.Find("AudioManager").GetComponent<AudioManager>().GetAudio("construction-01");
-//		if (constructionSound != null && !constructionSound.isPlaying)
-//			constructionSound.Play ();
 	}
 		
 

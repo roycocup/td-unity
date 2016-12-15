@@ -4,15 +4,13 @@ using System.Collections;
 public class TowerSpot : MonoBehaviour {
 
 	public GameObject sniperTower; 
-	SceneMainManager _smm; 
+	UpgradeManager _manager; 
 
 	void Start(){
-		//UI.GetComponent<Canvas> ().enabled = false;
-		_smm = GameObject.Find("GameManager").GetComponent<SceneMainManager>();
+		_manager = GameObject.Find("GameManager").GetComponent<UpgradeManager>();
 	}
 
 	void OnMouseUp(){
-		_smm.DisplayTowerMenu(gameObject);
-		//gm.BuyTower (gameObject, sniperTower, sniperTower.GetComponent<Tower>().cost); 
+		_manager.DisplayTowerMenu(gameObject);
 	}
 }

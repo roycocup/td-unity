@@ -11,6 +11,7 @@ public class Drag : MonoBehaviour {
 	float maxRight = 4f;
 	float maxTop = 4f;
 	float maxBottom = -5f;
+	float sensibleBounds = 0;
 
 	void Start(){
 		_camera = GameObject.Find ("Main Camera").transform;
@@ -18,17 +19,17 @@ public class Drag : MonoBehaviour {
 
 
 	void FixedUpdate(){
-		if (Input.mousePosition.x > Screen.width - 50) {
+		if (Input.mousePosition.x > Screen.width - sensibleBounds) {
 			//[move char right];
 			MoveCamera('z', -movingSpeed);
 		}
-		if (Input.mousePosition.x < 0 + 50) {
+		if (Input.mousePosition.x < 0 + sensibleBounds) {
 			MoveCamera('z', movingSpeed);
 		}
-		if (Input.mousePosition.y > Screen.height - 50) {
+		if (Input.mousePosition.y > Screen.height - sensibleBounds) {
 			MoveCamera('x', movingSpeed);
 		}
-		if (Input.mousePosition.y < 0 + 50) {
+		if (Input.mousePosition.y < 0 + sensibleBounds) {
 			MoveCamera('x', -movingSpeed);
 		} 
 	}
