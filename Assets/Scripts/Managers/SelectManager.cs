@@ -13,9 +13,14 @@ public class SelectManager : MonoBehaviour {
 	GameObject _previousObject; 
 	Material _goOriginalMaterial; 
 	int _layerMask = 8;
+	UpgradeManager _upgradeManager;
 
 	struct MaterialRegistry{
 		public Material material; 
+	}
+
+	void Start(){
+		_upgradeManager = GameObject.Find ("GameManager").GetComponent<UpgradeManager> ();
 	}
 
 	void FixedUpdate () {
@@ -70,7 +75,7 @@ public class SelectManager : MonoBehaviour {
 			GameObject select = go.transform.Find ("select").gameObject;
 			select.SetActive (true);
 			if (Input.GetMouseButton(0)) {
-				BroadcastMessage ("TowerUpgrade");
+				_upgradeManager.DisplayUpgradeTowerMenu (go);
 			}
 			break;
 		case "Spots":

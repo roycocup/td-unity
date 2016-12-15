@@ -11,6 +11,7 @@ public class UpgradeManager : MonoBehaviour {
 	UIManager _uiManager;
 	SceneMainManager _sceneManager; 
 	GameObject towerSpot; // persisting the towerSpot for the new tower to be bought
+	GameObject tower;
 
 
 	void Start(){
@@ -62,20 +63,14 @@ public class UpgradeManager : MonoBehaviour {
 		_uiManager.HideTowerMenu ();
 	}
 
-	public void DisplayUpgradeTowerMenu(GameObject spot){
+	public void DisplayUpgradeTowerMenu(GameObject go){
 		_uiManager.DisplayTowerMenu ();
-		towerSpot = spot; 
+		tower = go; 
 	}
 
 	void HideUpgradeTowerMenu(){
 		_uiManager.HideTowerMenu ();
 	}
-
-
-	void TowerUpgrade(){
-		print ("Heard it!"); 
-	}
-
 
 
 }

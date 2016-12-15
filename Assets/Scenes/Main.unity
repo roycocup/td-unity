@@ -1668,7 +1668,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1415532985}
+      - m_Target: {fileID: 1415532991}
         m_MethodName: BuyTower
         m_Mode: 3
         m_Arguments:
@@ -3637,15 +3637,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   normalEnemyPrefab: {fileID: 165674, guid: ebcbf0a78a044764db5fff00a0f21741, type: 2}
   eliteEnemyPrefab: {fileID: 132824, guid: 0d2672fd4b8baea4ea3bfc09f4194349, type: 2}
-  sniperTowerPrefab: {fileID: 1000010887640250, guid: e61d97f28b2c2418b958e7f8224b4485,
-    type: 2}
-  missileTowerPrefab: {fileID: 1000011951670016, guid: 8eb04e6b5a9804f57956edc4ddbdb810,
-    type: 2}
-  dualTurretPrefab: {fileID: 1000010650590298, guid: f827cd158403b41b49ba8f2e749ef9fe,
-    type: 2}
-  towerSpotConstructionSmoke: {fileID: 1000012727772142, guid: 95934d7e99e6449619d1817e17c9a00a,
-    type: 2}
-  spawnRate: 5
+  spawnRate: 3
   waveRate: 10
   health: 10
   money: 10
@@ -3720,6 +3712,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5484130b4384c42618a792cea41aafd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sniperTowerPrefab: {fileID: 1000010887640250, guid: e61d97f28b2c2418b958e7f8224b4485,
+    type: 2}
+  missileTowerPrefab: {fileID: 1000011951670016, guid: 8eb04e6b5a9804f57956edc4ddbdb810,
+    type: 2}
+  dualTurretPrefab: {fileID: 1000010650590298, guid: f827cd158403b41b49ba8f2e749ef9fe,
+    type: 2}
+  towerSpotConstructionSmoke: {fileID: 1000011715996692, guid: 814c4b3c291cf4c88b3b33bc3d08a9c6,
+    type: 2}
 --- !u!1 &1431356822
 GameObject:
   m_ObjectHideFlags: 0
@@ -3945,7 +3945,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1415532985}
+      - m_Target: {fileID: 1415532991}
         m_MethodName: BuyTower
         m_Mode: 3
         m_Arguments:
