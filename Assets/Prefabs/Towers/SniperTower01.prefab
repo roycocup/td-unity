@@ -23,7 +23,7 @@ GameObject:
   - 82: {fileID: 82000011086945498}
   - 65: {fileID: 65000011576030168}
   m_Layer: 8
-  m_Name: SniperTower
+  m_Name: SniperTower01
   m_TagString: Tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -102,7 +102,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010887640250}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.062044, y: 0.47, z: -2.48}
+  m_LocalPosition: {x: -5.6835437, y: 0.5163086, z: 1.8208272}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -267,8 +267,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.4, y: 1.16, z: 1.8}
-  m_Center: {x: 0, y: 0.58, z: 0}
+  m_Size: {x: 1.091174, y: 1.0369825, z: 1.3618445}
+  m_Center: {x: 0.0379591, y: 0.5184912, z: -0.07620168}
 --- !u!65 &65000012541520276
 BoxCollider:
   m_ObjectHideFlags: 1
