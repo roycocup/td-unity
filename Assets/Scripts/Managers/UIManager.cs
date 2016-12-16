@@ -41,8 +41,6 @@ public class UIManager : MonoBehaviour {
 	}
 
 	public void DisplayUpgradeTowerMenu(GameObject selectedTower){
-		int towerType = selectedTower.GetComponent<SniperTower> ().towerType;
-		Debug.Log (towerType); 
 		GameObject towerMenuUI  = GameObject.Find ("UI/Canvas/TowerUpgradeUI");
 		towerMenuUI.SetActive (true); 
 	}

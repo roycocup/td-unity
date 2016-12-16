@@ -12,6 +12,7 @@ public class Tower : MonoBehaviour {
 	// public
 	public int cost = 5;
 	public int towerType = 0;
+	public int upgradeLevel = 0;
 	public float range = 50f;
 	public float rotationSpeed = 90f;
 	public float fireCooldown = 2f;

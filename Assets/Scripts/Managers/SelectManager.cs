@@ -75,6 +75,8 @@ public class SelectManager : MonoBehaviour {
 			GameObject select = go.transform.Find ("select").gameObject;
 			select.SetActive (true);
 			if (Input.GetMouseButton(0)) {
+				// the reason why we are calling the upgrade manager instead of the UIManager just to display the menu
+				// is because we need to persist the tower that requires upgrade
 				_upgradeManager.DisplayUpgradeTowerMenu (go);
 			}
 			break;
