@@ -11,6 +11,7 @@ public class Tower : MonoBehaviour {
 
 	// public
 	public int cost = 5;
+	[HideInInspector]
 	public int towerType = 0;
 	public int upgradeLevel = 0;
 	public float range = 50f;

@@ -618,7 +618,7 @@ Animator:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010498369804}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: d148bd46a5a4c4e4d96a7c02442100fc, type: 3}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
@@ -639,9 +639,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65429b19fbbb84bc7846f41ac5a816e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cost: 5
-  towerType: 0
-  upgradeLevel: 0
+  cost: 20
+  towerType: 2
+  upgradeLevel: 1
   range: 50
   rotationSpeed: 90
   fireCooldown: 2
