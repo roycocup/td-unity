@@ -26,14 +26,11 @@ public class UpgradeManager : MonoBehaviour {
 		GameObject tower = sniperTowerPrefab;
 
 		switch (towerType) {
-		case Tower.TYPE_SNIPER:
+		case (int) Tower.TowerType.Sniper:
 			tower = sniperTowerPrefab; 
 			break;
-		case Tower.TYPE_MISSILE:
+		case (int) Tower.TowerType.Missile:
 			tower = missileTowerPrefab; 
-			break;
-		case Tower.TYPE_DUAL:
-			tower = dualTurretPrefab; 
 			break;
 		}
 
@@ -64,7 +61,7 @@ public class UpgradeManager : MonoBehaviour {
 	}
 
 	public void DisplayUpgradeTowerMenu(GameObject go){
-		_uiManager.DisplayTowerMenu ();
+		_uiManager.DisplayUpgradeTowerMenu (go);
 		tower = go; 
 	}
 

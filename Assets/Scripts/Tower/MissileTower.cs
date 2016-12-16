@@ -2,12 +2,12 @@
 using System.Collections;
 
 public class MissileTower : Tower {
-
 	protected Transform spawn_2;
 	byte lastShotFrom = 2;
 
 	override public void Start(){
 		base.Start ();
+		towerType = (int) Tower.TowerType.Missile;
 		cost = 5; 
 		turret = transform;
 		spawn_1 = turret.Find ("SpawnLeft");

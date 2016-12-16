@@ -3,9 +3,11 @@ using System.Collections;
 
 public class Tower : MonoBehaviour {
 
-	public const int TYPE_SNIPER = 0;  
-	public const int TYPE_MISSILE = 1; 
-	public const int TYPE_DUAL = 2; 
+	public enum TowerType{
+		Sniper, 
+		Missile,
+		Ray
+	}
 
 	// public
 	public int cost = 5;
@@ -15,7 +17,7 @@ public class Tower : MonoBehaviour {
 	public float fireCooldown = 2f;
 	public GameObject projectilePrefab; 
 	public GameObject smoke; 
-	public AudioClip shot; 
+	public AudioClip shot;
 
 
 	// private 

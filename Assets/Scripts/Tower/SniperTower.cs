@@ -3,8 +3,11 @@ using System.Collections;
 
 public class SniperTower : Tower {
 
+
+
 	public override void Start(){
 		base.Start ();
+		towerType = (int)Tower.TowerType.Sniper; 
 		range = 10f;
 		fireCooldown = 0.1f;
 		turret = transform;

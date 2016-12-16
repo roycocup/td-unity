@@ -58,6 +58,7 @@ public class SceneMainManager : MonoBehaviour {
 		info.Add("health", health.ToString());
 		info.Add ("money", money.ToString ());
 		info.Add("displayTime", displayTime.ToString("F2"));
+		info.Add ("waveCount", numWaves.ToString ());
 		_uiManager.MainUIUpdate (info);
 	}
 
