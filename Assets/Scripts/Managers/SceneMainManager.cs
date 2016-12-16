@@ -23,11 +23,13 @@ public class SceneMainManager : MonoBehaviour {
 	int _numElementsInWaveLeft = 0; 
 	bool _spawning = false;
 	UIManager _uiManager; 
-	Transform _enemySpawn; 
+	Transform _enemySpawn01; 
+	Transform _enemySpawn02; 
 	int numWaves = 0;
 
 	void Start(){
-		_enemySpawn = GameObject.Find ("EnemySpawn").transform;
+		_enemySpawn01 = GameObject.Find ("EnemySpawn01").transform;
+		_enemySpawn02 = GameObject.Find ("EnemySpawn02").transform;
 		_uiManager = gameObject.GetComponent<UIManager> ();
 	}
 
@@ -37,7 +39,7 @@ public class SceneMainManager : MonoBehaviour {
 		// dont start another wave if the spawn is not over
 		if (_spawning == false) {
 			if (_waveTimeLeft <= 0) {
-				_numElementsInWave = UnityEngine.Random.Range (10, 20); 
+				_numElementsInWave = UnityEngine.Random.Range (20, 40); 
 				_numElementsInWaveLeft = _numElementsInWave;
 				numWaves++;
 				StartCoroutine (SpawnWave ());
@@ -96,8 +98,17 @@ public class SceneMainManager : MonoBehaviour {
 		 
 		if (go != null) {
 			float randomZ = UnityEngine.Random.Range (-5, 5);
-			Vector3 rdmSpawnPoint = new Vector3(_enemySpawn.position.x, _enemySpawn.position.y,  _enemySpawn.position.z + randomZ); 
-			GameObject enemy = (GameObject) GameObject.Instantiate (go, rdmSpawnPoint, _enemySpawn.rotation);
+
+			// just randomizing the spoinpoints
+			Transform spawnPoint = _enemySpawn01; 
+			go.GetComponent<Enemy>().pathNumber = 1;
+			if (randomZ > 0) {
+				spawnPoint = _enemySpawn02; 
+				go.GetComponent<Enemy>().pathNumber = 2;
+			} 
+				
+			Vector3 rdmSpawnPoint = new Vector3(spawnPoint.position.x, spawnPoint.position.y,  spawnPoint.position.z + randomZ); 
+			GameObject enemy = (GameObject) GameObject.Instantiate (go, rdmSpawnPoint, spawnPoint.rotation);
 			int enemyHealth = enemy.GetComponent<Enemy> ().health;
 			// adding strength to the wave
 			enemy.GetComponent<Enemy> ().health = enemyHealth + (numWaves * 2);

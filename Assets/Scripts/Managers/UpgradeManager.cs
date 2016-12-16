@@ -38,8 +38,7 @@ public class UpgradeManager : MonoBehaviour {
 
 		Tower towerScript = tower.GetComponent<Tower> (); 
 		if (_sceneManager.SubMoney (towerScript.cost) == true) {
-			GameObject newTower = Instantiate (tower, towerSpot.transform.position, towerSpot.transform.rotation) as GameObject;
-			newTower.transform.Translate (Vector3.zero); // This is so that the physics engine can update the existance of this tower and we get hovering on it.
+			Instantiate (tower, towerSpot.transform.position, towerSpot.transform.rotation);
 			towerScript.towerType = towerType;
 			GameObject animation = (GameObject)Instantiate (towerSpotConstructionSmoke, towerSpot.transform.position, Quaternion.Euler (new Vector3 (-90f, 0, 0)));
 			Destroy (towerSpot);
@@ -88,12 +87,12 @@ public class UpgradeManager : MonoBehaviour {
 			newTower = missileTower01; 
 			break;
 		}
-
+			
 		if (!newTower.Equals(null)) {
 			Tower towerScript = newTower.GetComponent<Tower> (); 
 			if (_sceneManager.SubMoney (towerScript.cost) == true) {
 				GameObject newTowerInstance = Instantiate (newTower, tower.transform.position, tower.transform.rotation) as GameObject;
-				newTowerInstance.transform.Translate (Vector3.zero); // This is so that the physics engine can update the existance of this tower and we get hovering on it.
+				newTowerInstance.transform.Translate (Vector3.zero);
 				towerScript.towerType = this.upgradableTowerType;
 				towerScript.upgradeLevel++;
 				GameObject animation = (GameObject)Instantiate (towerSpotConstructionSmoke, tower.transform.position, Quaternion.Euler (new Vector3 (-90f, 0, 0)));

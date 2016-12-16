@@ -13,11 +13,12 @@ public class Enemy : MonoBehaviour {
 	public const int TYPE_ELITE = 1; 
 	public Animator animator; 
 	public Image healthUI;
+	public int pathNumber = 1;
 
 	//private
 	protected float _maxHealth;
 	protected Statuses _status;
-	protected GameObject _path; 
+	protected GameObject _path;
 	protected Transform _pathNode;
 	protected float _rotation_speed; 
 	protected int _nodeIndex = 0; 
@@ -38,7 +39,10 @@ public class Enemy : MonoBehaviour {
 		_maxHealth = health;
 		animator = gameObject.GetComponent<Animator> ();
 		animator.SetInteger ("Health", health);
-		_path = GameObject.Find ("Path");
+		_path = GameObject.Find ("Path01");
+		if (pathNumber == 2) {
+			_path = GameObject.Find ("Path02");
+		}
 		_pathNode = _path.transform.GetChild (_nodeIndex); 
 		_rotation_speed = speed * 2f;
 		_sceneMainManager = GameObject.Find ("GameManager").GetComponent<SceneMainManager>();
