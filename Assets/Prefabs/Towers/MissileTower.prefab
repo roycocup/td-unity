@@ -490,7 +490,7 @@ MonoBehaviour:
   range: 50
   rotationSpeed: 90
   fireCooldown: 2
-  projectilePrefab: {fileID: 1000012851875956, guid: 0ab425339e9b84dd78a45fcc5a8d383b,
+  projectilePrefab: {fileID: 1000012217802598, guid: 74a4c64d0f2cb45c282aee2adc359c89,
     type: 2}
   smoke: {fileID: 1000013226627560, guid: 96e344388834940bcac1c1d17a1fa1df, type: 2}
   shot: {fileID: 8300000, guid: 881b7132c6e924345b5b3910217f1cb1, type: 3}

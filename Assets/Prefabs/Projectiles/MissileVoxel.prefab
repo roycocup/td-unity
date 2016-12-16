@@ -58,7 +58,7 @@ GameObject:
   - 114: {fileID: 114000010757864698}
   - 82: {fileID: 82000012848276170}
   m_Layer: 0
-  m_Name: Missile
+  m_Name: MissileVoxel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
