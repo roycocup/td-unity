@@ -48,6 +48,7 @@ public class GameManager: MonoBehaviour {
 	public void UnpauseGame(){
 		Time.timeScale = 1f;
 		gamePaused = false;
+		HideIMenu ();
 	}
 
 	public void GameOver(){
