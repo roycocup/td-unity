@@ -108,7 +108,7 @@ public class Tower : MonoBehaviour {
 		foreach (Enemy e in enemies) {
 			float d = Vector3.Distance (e.transform.position, transform.position);
 
-			if (d <= range) {
+			if (d <= range && e.transform.position.y > -0.5f) {
 				// if there is no other enemy OR the distance of this one is smaller than the previous one
 				if (nearestEnemy == null || d < distance) {
 					distance = d;
