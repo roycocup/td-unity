@@ -519,11 +519,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 1500
-  towerType: 0
+  towerType: 1
   upgradeLevel: 2
   range: 50
   rotationSpeed: 90
   fireCooldown: 2
-  projectilePrefab: {fileID: 100006, guid: 18e6997b0cea7f249bf0e687ba9da449, type: 2}
+  projectilePrefab: {fileID: 100002, guid: 5233ad8031c8bcc40a4ec895c2c8e74e, type: 2}
   smoke: {fileID: 0}
   shot: {fileID: 0}

@@ -603,7 +603,7 @@ MonoBehaviour:
   upgradeLevel: 1
   range: 50
   rotationSpeed: 90
-  fireCooldown: 2
+  fireCooldown: 1
   projectilePrefab: {fileID: 1000012851875956, guid: 0ab425339e9b84dd78a45fcc5a8d383b,
     type: 2}
   smoke: {fileID: 1000013226627560, guid: 96e344388834940bcac1c1d17a1fa1df, type: 2}
