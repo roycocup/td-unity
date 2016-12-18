@@ -60,7 +60,7 @@ GameObject:
   - 82: {fileID: 82000010892064652}
   - 65: {fileID: 65000011189312380}
   m_Layer: 8
-  m_Name: MissileTower
+  m_Name: MissileTower01
   m_TagString: Tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

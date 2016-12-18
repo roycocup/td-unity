@@ -6,7 +6,11 @@ public class UpgradeManager : MonoBehaviour {
 
 	public GameObject sniperTower01;
 	public GameObject sniperTower02;
+	public GameObject sniperTower03;
 	public GameObject missileTower01;
+	public GameObject missileTower02;
+	public GameObject missileTower03;
+
 	public GameObject towerSpotConstructionSmoke; 
 
 	UIManager _uiManager;
@@ -82,9 +86,14 @@ public class UpgradeManager : MonoBehaviour {
 			if(tower.GetComponent<Tower>().upgradeLevel == 0){
 				newTower = sniperTower02;
 			}
+			if(tower.GetComponent<Tower>().upgradeLevel == 1){
+				newTower = sniperTower03;
+			}
 			break;
 		case (int) Tower.TowerType.Missile:
-			newTower = missileTower01; 
+			if(tower.GetComponent<Tower>().upgradeLevel == 0){
+				newTower = missileTower01;
+			}
 			break;
 		}
 			
@@ -104,6 +113,10 @@ public class UpgradeManager : MonoBehaviour {
 			}
 		}
 		_uiManager.HideUpgradeTowerMenu (); 
+	}
+
+	public void SellTower(){
+		
 	}
 
 

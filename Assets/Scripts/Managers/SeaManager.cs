@@ -3,7 +3,7 @@ using System.Collections;
 
 public class SeaManager : MonoBehaviour {
 
-	public float scrollSpeed = 0.5F;
+	public float scrollSpeed = 0.05F;
 	public Renderer rend;
 	void Start() {
 		rend = GetComponent<Renderer>();

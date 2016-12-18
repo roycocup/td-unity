@@ -220,8 +220,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011226343246}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.76, y: 0.34, z: 1.58}
-  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_LocalPosition: {x: -3.82, y: 0.3, z: -0.78}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 4000010117534868}
@@ -482,8 +482,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.8871329, z: 1}
-  m_Center: {x: 0, y: 0.4435662, z: 0}
+  m_Size: {x: 1, y: 1.2384433, z: 1}
+  m_Center: {x: 0, y: 0.6192214, z: 0}
 --- !u!65 &65000011509218418
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -598,9 +598,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8451b04a7cae047f2988d64a738ddf34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cost: 150
+  cost: 500
   towerType: 1
-  upgradeLevel: 0
+  upgradeLevel: 2
   range: 50
   rotationSpeed: 90
   fireCooldown: 2

@@ -46,9 +46,9 @@ public class GameManager: MonoBehaviour {
 	}
 
 	public void UnpauseGame(){
-		Time.timeScale = 1f;
 		gamePaused = false;
-		HideIMenu ();
+		Time.timeScale = 1f;
+		IMenu.SetActive (false);
 	}
 
 	public void GameOver(){

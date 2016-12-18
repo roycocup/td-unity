@@ -600,7 +600,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cost: 150
   towerType: 1
-  upgradeLevel: 0
+  upgradeLevel: 1
   range: 50
   rotationSpeed: 90
   fireCooldown: 2
