@@ -10,7 +10,7 @@ public class BeamTower: Tower {
 		base.Start ();
 		towerType = (int)Tower.TowerType.Sniper; 
 		range = 10f;
-		fireCooldown = 0.1f;
+		fireCooldown = 10f;
 		turret = transform;
 		spawn_1 = turret.transform.Find ("spawn_point"); 
 	}

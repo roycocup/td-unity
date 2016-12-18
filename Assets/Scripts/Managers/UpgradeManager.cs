@@ -103,7 +103,6 @@ public class UpgradeManager : MonoBehaviour {
 				GameObject newTowerInstance = Instantiate (newTower, tower.transform.position, tower.transform.rotation) as GameObject;
 				newTowerInstance.transform.Translate (Vector3.zero);
 				towerScript.towerType = this.upgradableTowerType;
-				towerScript.upgradeLevel++;
 				GameObject animation = (GameObject)Instantiate (towerSpotConstructionSmoke, tower.transform.position, Quaternion.Euler (new Vector3 (-90f, 0, 0)));
 				Destroy (tower);
 				Destroy (animation, 5);
