@@ -4881,7 +4881,7 @@ MonoBehaviour:
   spawnRate: 3
   waveRate: 10
   health: 10
-  money: 5
+  money: 3000
 --- !u!4 &1415532986
 Transform:
   m_ObjectHideFlags: 0
