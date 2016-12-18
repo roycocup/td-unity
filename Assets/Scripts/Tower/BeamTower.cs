@@ -13,6 +13,7 @@ public class BeamTower: Tower {
 		fireCooldown = 10f;
 		turret = transform;
 		spawn_1 = turret.transform.Find ("spawn_point"); 
+		print (range);
 	}
 
 	public override void Shoot(){

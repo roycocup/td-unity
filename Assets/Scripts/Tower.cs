@@ -56,7 +56,7 @@ public class Tower : MonoBehaviour {
 
 		if (nearestEnemy != null && turret != null) {
 			Vector3 enemyPos = nearestEnemy.transform.position;
-			Vector3 adjustedEnemyPos = new Vector3 (enemyPos.x, enemyPos.y, enemyPos.z);
+			Vector3 adjustedEnemyPos = new Vector3 (enemyPos.x, enemyPos.y + 1f, enemyPos.z);
 			Vector3 dir = adjustedEnemyPos - turret.transform.position;
 			Quaternion rotation = Quaternion.LookRotation (dir);
 
