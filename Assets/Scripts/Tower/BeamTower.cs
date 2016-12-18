@@ -17,14 +17,12 @@ public class BeamTower: Tower {
 
 	public override void Shoot(){
 		GameObject s = (GameObject) Instantiate(projectilePrefab, spawn_1.transform.position, spawningRotation);
-		GameObject wav = (GameObject) Instantiate(wave, spawn_1.transform.position, spawningRotation);
 		s.transform.LookAt (nearestEnemy.transform.position);
-		wav.transform.LookAt (nearestEnemy.transform.position);
-		wav.transform.localScale *= 0.25f;
-//		wav.transform.Rotate(Vector3.left, 90.0f);
-		wav.GetComponent<BeamWave>().col = Color.blue;
-		Destroy (s, .5f); 
-		Destroy (wav, .5f); 
+//		GameObject wav = (GameObject) Instantiate(wave, spawn_1.transform.position, spawningRotation);
+//		wav.transform.LookAt (nearestEnemy.transform.position);
+//		wav.transform.localScale *= 0.25f;
+//		wav.GetComponent<BeamWave>().col = Color.blue;
+//		Destroy (wav, .5f); 
 	}
 
 

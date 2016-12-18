@@ -329,7 +329,7 @@ GameObject:
   - 114: {fileID: 114000013674222328}
   m_Layer: 0
   m_Name: EliteMonsterEnemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1979,6 +1979,7 @@ MonoBehaviour:
   health: 10
   animator: {fileID: 0}
   healthUI: {fileID: 114000011731159628}
+  pathNumber: 1
 --- !u!114 &114000014066137394
 MonoBehaviour:
   m_ObjectHideFlags: 1

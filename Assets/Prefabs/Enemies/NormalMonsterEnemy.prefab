@@ -614,7 +614,7 @@ GameObject:
   - 114: {fileID: 114000011538917858}
   m_Layer: 0
   m_Name: NormalMonsterEnemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1925,6 +1925,7 @@ MonoBehaviour:
   health: 2
   animator: {fileID: 0}
   healthUI: {fileID: 114000011725071592}
+  pathNumber: 1
 --- !u!114 &114000011725071592
 MonoBehaviour:
   m_ObjectHideFlags: 1

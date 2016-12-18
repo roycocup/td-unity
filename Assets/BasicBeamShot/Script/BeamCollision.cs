@@ -23,9 +23,15 @@ public class BeamCollision : MonoBehaviour {
 		//RayCollision
 		RaycastHit hit;
         int layerMask = ~(1 << LayerMask.NameToLayer("NoBeamHit") | 1 << 2);
+		//int layerMask = 10;
         if (HitEffect != null && !bHit && Physics.Raycast(transform.position, transform.forward, out hit, Mathf.Infinity, layerMask))
         {
             GameObject hitobj = hit.collider.gameObject;
+			if (hitobj.tag == "Enemy") {
+				Debug.Log ("here");
+				hitobj.GetComponent<Enemy> ().TakeDamage (100);
+			}
+
 			if(hit.distance < BL.GetNowLength())
 		    {
 				BL.StopLength(hit.distance);
