@@ -442,7 +442,7 @@ MonoBehaviour:
   towerType: 0
   upgradeLevel: 2
   range: 100
-  rotationSpeed: 90
+  rotationSpeed: 120
   fireCooldown: 2
   projectilePrefab: {fileID: 100002, guid: 5233ad8031c8bcc40a4ec895c2c8e74e, type: 2}
   smoke: {fileID: 0}

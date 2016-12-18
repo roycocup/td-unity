@@ -111,7 +111,7 @@ public class SceneMainManager : MonoBehaviour {
 			GameObject enemy = (GameObject) GameObject.Instantiate (go, rdmSpawnPoint, spawnPoint.rotation);
 			int enemyHealth = enemy.GetComponent<Enemy> ().health;
 			// adding strength to the wave
-			enemy.GetComponent<Enemy> ().health = enemyHealth + (numWaves * 2);
+			enemy.GetComponent<Enemy> ().health = enemyHealth + (numWaves * 4);
 		}
 			
 	}

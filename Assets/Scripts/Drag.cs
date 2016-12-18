@@ -11,7 +11,7 @@ public class Drag : MonoBehaviour {
 	float maxRight = 4f;
 	float maxTop = 4f;
 	float maxBottom = -5f;
-	float sensibleBounds = 0;
+	float sensibleBounds = 1f;
 
 	void Start(){
 		_camera = GameObject.Find ("Main Camera").transform;

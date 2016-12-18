@@ -49,4 +49,9 @@ public class UIManager : MonoBehaviour {
 		GameObject towerMenuUI  = GameObject.Find ("UI/Canvas/TowerUpgradeUI");
 		towerMenuUI.SetActive (false); 
 	}
+
+	public void HideInstructions(){
+		GameObject menu  = GameObject.Find ("UI/Canvas/Instructions");
+		menu.SetActive (false); 
+	}
 }
