@@ -4596,7 +4596,7 @@ MonoBehaviour:
   spawnRate: 3
   waveRate: 10
   health: 10
-  money: 500
+  money: 5000000
 --- !u!4 &1415532986
 Transform:
   m_ObjectHideFlags: 0
@@ -4676,8 +4676,10 @@ MonoBehaviour:
     type: 2}
   missileTower01: {fileID: 1000011951670016, guid: 8eb04e6b5a9804f57956edc4ddbdb810,
     type: 2}
-  missileTower02: {fileID: 0}
-  missileTower03: {fileID: 0}
+  missileTower02: {fileID: 1000012450396660, guid: 84e2510cd22bf4ad4a646ec0e5e80b5b,
+    type: 2}
+  missileTower03: {fileID: 1000011226343246, guid: f6aef87026f634717bd901dcac1dc74f,
+    type: 2}
   towerSpotConstructionSmoke: {fileID: 1000011715996692, guid: 814c4b3c291cf4c88b3b33bc3d08a9c6,
     type: 2}
 --- !u!1 &1431356822

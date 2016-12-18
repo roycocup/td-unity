@@ -13,17 +13,17 @@ public class DualTurret : Tower {
 		base.Start ();
 		range = 10f;
 		fireCooldown = 0.1f;
-		turret = gameObject.transform.Find("Head");
-		spawn_1 = turret.transform.Find ("Cannon_1/BulletSpawn_1"); 
-		spawn_2 = turret.transform.Find ("Cannon_2/BulletSpawn_2"); 
-		CreateBulletPool ();
+		turret = transform;
+		spawn_1 = turret.Find ("SpawnLeft");
+		spawn_2 = turret.Find ("SpawnRight"); 
+		//CreateBulletPool ();
 	}
 
 
 	void CreateBulletPool (){
 		bulletPool = new List<GameObject> ();
 		for (int i = 0; i <= 20; i++) {
-			GameObject projectile = (GameObject)Instantiate (projectilePrefab, spawn_1.transform.position, spawningRotation);
+			GameObject projectile = (GameObject) Instantiate (projectilePrefab, spawn_1.transform.position, spawningRotation);
 			projectile.SetActive (false);
 			bulletPool.Add(projectile);
 		}	
@@ -40,7 +40,7 @@ public class DualTurret : Tower {
 			lastShotFrom = 2;
 		}
 			
-		GameObject projectile = (GameObject)Instantiate (projectilePrefab, pipe, spawningRotation);
+		GameObject projectile = (GameObject) Instantiate (projectilePrefab, pipe, spawningRotation);
 
 		projectile.GetComponent<Projectile> ().target = nearestEnemy.transform;
 		PlayShot ();

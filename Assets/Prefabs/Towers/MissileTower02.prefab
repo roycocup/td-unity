@@ -598,7 +598,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8451b04a7cae047f2988d64a738ddf34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cost: 150
+  cost: 600
   towerType: 1
   upgradeLevel: 1
   range: 50

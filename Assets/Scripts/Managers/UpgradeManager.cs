@@ -92,8 +92,12 @@ public class UpgradeManager : MonoBehaviour {
 			break;
 		case (int) Tower.TowerType.Missile:
 			if(tower.GetComponent<Tower>().upgradeLevel == 0){
-				newTower = missileTower01;
+				newTower = missileTower02;
 			}
+			if(tower.GetComponent<Tower>().upgradeLevel == 1){
+				newTower = missileTower03;
+			}
+
 			break;
 		}
 			
