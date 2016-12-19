@@ -112,7 +112,7 @@ public class UpgradeManager : MonoBehaviour {
 				Destroy (animation, 5);
 			} else {
 				FlashMessages f = gameObject.GetComponent<FlashMessages> ();
-				f.Message = "Not enough money!"; 
+				f.Message = "Not enough money! That costs $"+ towerScript.cost.ToString() + ".";  
 			}
 		}
 		_uiManager.HideUpgradeTowerMenu (); 
