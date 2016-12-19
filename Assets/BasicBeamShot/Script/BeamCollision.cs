@@ -28,7 +28,7 @@ public class BeamCollision : MonoBehaviour {
         {
             GameObject hitobj = hit.collider.gameObject;
 			if (hitobj.tag == "Enemy") {
-				hitobj.GetComponent<Enemy> ().TakeDamage (100);
+				hitobj.GetComponent<Enemy> ().TakeDamage (1);
 			}
 
 			if(hit.distance < BL.GetNowLength())
